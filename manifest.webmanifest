@@ -10,12 +10,12 @@
   "theme_color": "#1c6547",
   "icons": [
     {
-      "src": "ikon.png",
+      "src": "ikon-nap.png",
       "sizes": "180x180",
       "type": "image/png"
     },
     {
-      "src": "ikon-512.png",
+      "src": "ikon-nap-512.png",
       "sizes": "512x512",
       "type": "image/png"
     }
