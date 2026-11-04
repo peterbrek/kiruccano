@@ -286,7 +286,7 @@ main { display: grid; gap: 26px; padding-top: 16px; }
 }
 .musor a span { color: var(--kek); }
 
-.frissites { display: grid; gap: 8px; justify-items: start; padding-top: 4px; font-size: 15px; }
+.frissites { padding-top: 4px; font-size: 15px; }
 .frissites p { margin: 0; }
 
 /* Összes */
@@ -1580,7 +1580,6 @@ function kartya(p, d, valaszthato = true) {
 }
 
 const DARAB = 3;
-const FRISSITO_OLDAL = 'https://claude.ai/code/routines';
 function szakaszRajz(s, d) {
   const sor = rangsor(s.lista, d);
   if (s.esem && !sor.length) {
@@ -1625,8 +1624,6 @@ function musorRajz() {
     <div class="musor">${MUSOROK.map(m => `<a href="${esc(m.link)}" target="_blank" rel="noopener">${esc(m.nev)}<span aria-hidden="true">↗</span></a>`).join('')}</div>
     <div class="frissites">
       <p>${mikor}</p>
-      <a class="gomb" href="${FRISSITO_OLDAL}" target="_blank" rel="noopener">Frissítés most</a>
-      <p class="apro">A Claude-ban megnyílik az ütemezett feladatok listája. Ott válaszd a Kiruccanó feladatot, majd a Run now gombot. A kész lista pár perc múlva jelenik meg itt.</p>
     </div>
   </section>`;
 }
