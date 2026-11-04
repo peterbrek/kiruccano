@@ -2,330 +2,902 @@
   "frissitve": "2026-11-04",
   "esemenyek": [
     {
-      "id": "gombtanc", "cim": "Gömbtánc", "tipus": "cirkusz", "hely": "Fővárosi Nagycirkusz",
+      "id": "gombtanc",
+      "cim": "Gömbtánc",
+      "tipus": "cirkusz",
+      "hely": "Fővárosi Nagycirkusz",
       "terkep": "1146 Budapest, Állatkerti körút 12/a",
       "rovid": "Karácsonyi cirkuszi előadás az egyensúlyról, ahol egy gömb labdából bolygóvá válik.",
       "ar": "Kb. 2 600–8 210 Ft",
-      "tol": "2026-11-07", "ig": "2027-01-10",
+      "tol": "2026-11-07",
+      "ig": "2027-01-10",
       "megj": "Nem minden nap van előadás, az időpontokat a jegy.hu mutatja.",
       "link": "https://www.jegy.hu/program/gombtanc-globe-dance-195114"
     },
     {
-      "id": "kristaly", "cim": "Recirquel: Kristály", "tipus": "cirkusz", "hely": "Millenáris, Üvegcsarnok",
+      "id": "kristaly",
+      "cim": "Recirquel: Kristály",
+      "tipus": "cirkusz",
+      "hely": "Millenáris, Üvegcsarnok",
       "terkep": "1024 Budapest, Kis Rókus utca 16–20.",
       "rovid": "Téli újcirkusz-mese a Millenárison, a Müpa szervezésében.",
       "ar": "Többnyire 4 500–7 500 Ft",
-      "tol": "2026-12-04", "ig": "2026-12-31",
+      "tol": "2026-12-04",
+      "ig": "2026-12-31",
       "megj": "11, 13, 15, 17 vagy 19 órakor, naptól függően.",
       "link": "https://www.jegy.hu/program/recirquel-kristaly-a-millenarison-teli-ujcirkusz-mese-140660"
     },
     {
-      "id": "janos-vitez", "cim": "János vitéz", "tipus": "zene", "hely": "Müpa, Fesztivál Színház",
+      "id": "janos-vitez",
+      "cim": "János vitéz",
+      "tipus": "zene",
+      "hely": "Müpa, Fesztivál Színház",
       "terkep": "1095 Budapest, Komor Marcell utca 1.",
       "rovid": "Zenés színjáték, Müpa-matiné.",
       "ar": "3 000–5 000 Ft",
-      "idopontok": ["2026-11-07 11:00", "2026-11-07 15:00", "2026-11-08 11:00", "2026-11-08 15:00", "2027-02-27 15:00", "2027-02-28 11:00"],
+      "idopontok": [
+        "2026-11-07 11:00",
+        "2026-11-07 15:00",
+        "2026-11-08 11:00",
+        "2026-11-08 15:00",
+        "2027-02-27 15:00",
+        "2027-02-28 11:00"
+      ],
       "link": "https://mupa.hu/program/csaladi-es-ifjusagi-programok/janos-vitez-zenes-szinjatek-2026-11-07_11-00-fesztivalszinhaz"
     },
     {
-      "id": "zenebona", "cim": "Zenebona: Ne csak hallgasd!", "tipus": "zene", "hely": "Müpa, Lépcsőterem",
+      "id": "zenebona",
+      "cim": "Zenebona: Ne csak hallgasd!",
+      "tipus": "zene",
+      "hely": "Müpa, Lépcsőterem",
       "terkep": "1095 Budapest, Komor Marcell utca 1.",
       "rovid": "Kreatív játék hangokkal, hangszert is készítenek. Zenei előképzettség nem kell.",
-      "kor": "5–9 év", "ar": "2 500 Ft",
-      "idopontok": ["2026-11-07 11:00", "2026-11-21 11:00", "2026-12-05 11:00", "2027-01-16"],
+      "kor": "5–9 év",
+      "ar": "2 500 Ft",
+      "idopontok": [
+        "2026-11-07 11:00",
+        "2026-11-21 11:00",
+        "2026-12-05 11:00",
+        "2027-01-16"
+      ],
       "link": "https://mupa.hu/en/program/family-and-youth-events/playtime-don-t-just-listen-2026-11-07_11-00-stairway-hall"
     },
     {
-      "id": "cifra-palota", "cim": "Cifra Palota családi délelőtt", "tipus": "zene", "hely": "Müpa, előcsarnok",
+      "id": "cifra-palota",
+      "cim": "Cifra Palota családi délelőtt",
+      "tipus": "zene",
+      "hely": "Müpa, előcsarnok",
       "terkep": "1095 Budapest, Komor Marcell utca 1.",
       "rovid": "Zenés, táncos és meseelőadások, alkotó foglalkozások vasárnap délelőtt.",
-      "kor": "0–12 év", "ar": "Ingyenes", "ing": true,
-      "idopontok": ["2026-11-08 10:00", "2026-11-15 10:00", "2026-11-22 10:00", "2026-11-29 10:00", "2026-12-06 10:00", "2026-12-13 10:00", "2026-12-20 10:00"],
+      "kor": "0–12 év",
+      "ar": "Ingyenes",
+      "ing": true,
+      "idopontok": [
+        "2026-11-08 10:00",
+        "2026-11-15 10:00",
+        "2026-11-22 10:00",
+        "2026-11-29 10:00",
+        "2026-12-06 10:00",
+        "2026-12-13 10:00",
+        "2026-12-20 10:00"
+      ],
       "link": "https://www.programturizmus.hu/ajanlat-cifra-palota-csaladi-programok-budapest.html"
     },
     {
-      "id": "mano-koncert", "cim": "Manó-koncert", "tipus": "zene", "hely": "Concerto Budapest",
+      "id": "mano-koncert",
+      "cim": "Manó-koncert",
+      "tipus": "zene",
+      "hely": "Concerto Budapest",
       "terkep": "1094 Budapest, Páva utca 10–12.",
       "rovid": "Interaktív, játékos koncert óvodásoknak és kisiskolásoknak.",
-      "kor": "Óvodás és kisiskolás", "ar": "3 700 Ft",
-      "idopontok": ["2026-11-08 11:00", "2026-11-08 15:00", "2027-02-21 11:00", "2027-02-21 15:00"],
+      "kor": "Óvodás és kisiskolás",
+      "ar": "3 700 Ft",
+      "idopontok": [
+        "2026-11-08 11:00",
+        "2026-11-08 15:00",
+        "2027-02-21 11:00",
+        "2027-02-21 15:00"
+      ],
       "link": "https://www.programturizmus.hu/ajanlat-concerto-budapest-koncertek.html"
     },
     {
-      "id": "ttm-ingyen", "cim": "Ingyenes nap a Természettudományi Múzeumban", "tipus": "kiallitas", "hely": "Magyar Természettudományi Múzeum",
+      "id": "ttm-ingyen",
+      "cim": "Ingyenes nap a Természettudományi Múzeumban",
+      "tipus": "kiallitas",
+      "hely": "Magyar Természettudományi Múzeum",
       "terkep": "1083 Budapest, Ludovika tér 2–6.",
       "rovid": "26 éves korig ingyenes a belépés, a 18 év alattiakat kísérő legfeljebb két közeli rokonnak is.",
-      "ar": "Ingyenes", "ing": true,
-      "idopontok": ["2026-11-08", "2026-12-06", "2027-01-03"],
+      "ar": "Ingyenes",
+      "ing": true,
+      "idopontok": [
+        "2026-11-08",
+        "2026-12-06",
+        "2027-01-03"
+      ],
       "link": "https://www.nhmus.hu/araink/"
     },
     {
-      "id": "marton-jokai", "cim": "Márton-napi lámpás séta", "tipus": "unnep", "hely": "Jókai-kert", "kint": true,
+      "id": "marton-jokai",
+      "cim": "Márton-napi lámpás séta",
+      "tipus": "unnep",
+      "hely": "Jókai-kert",
+      "kint": true,
       "terkep": "1121 Budapest, Költő utca 21.",
       "rovid": "Lámpásos felvonulás a Hegyvidéken.",
       "ar": "620–3 370 Ft",
-      "idopontok": ["2026-11-07"],
+      "idopontok": [
+        "2026-11-07"
+      ],
       "link": "https://programturizmus.jegy.hu/program/marton-napi-lampas-seta-168181"
     },
     {
-      "id": "marton-romai", "cim": "Márton-nap a Római-parton", "tipus": "unnep", "hely": "Római-part", "kint": true,
+      "id": "marton-romai",
+      "cim": "Márton-nap a Római-parton",
+      "tipus": "unnep",
+      "hely": "Római-part",
+      "kint": true,
       "terkep": "Római-part, Budapest",
       "rovid": "Márton-napi családi program a Duna-parton.",
-      "idopontok": ["2026-11-07"],
+      "idopontok": [
+        "2026-11-07"
+      ],
       "link": "https://www.programturizmus.hu/ajanlat-marton-nap-a-romai-parton.html"
     },
     {
-      "id": "marton-marczi", "cim": "Márton-napi kézműves felvonulás", "tipus": "unnep", "hely": "Marczibányi Téri Művelődési Központ",
+      "id": "marton-marczi",
+      "cim": "Márton-napi kézműves felvonulás",
+      "tipus": "unnep",
+      "hely": "Marczibányi Téri Művelődési Központ",
       "terkep": "1022 Budapest, Marczibányi tér 5/A",
       "rovid": "Lámpáskészítés, majd élőzenés felvonulás.",
       "ar": "3 700 Ft",
-      "idopontok": ["2026-11-14"],
+      "idopontok": [
+        "2026-11-14"
+      ],
       "link": "https://programturizmus.jegy.hu/program/marton-napi-kezmuves-es-elozenes-felvonulas-198567"
     },
     {
-      "id": "marton-sashegy", "cim": "Sas-hegyi Márton-napi lampionos felvonulás", "tipus": "unnep", "hely": "Sas-hegy", "kint": true,
+      "id": "marton-sashegy",
+      "cim": "Sas-hegyi Márton-napi lampionos felvonulás",
+      "tipus": "unnep",
+      "hely": "Sas-hegy",
+      "kint": true,
       "terkep": "Sas-hegy, Budapest",
       "rovid": "Lampionos felvonulás Újbudán.",
-      "idopontok": ["2026-11-15"],
+      "idopontok": [
+        "2026-11-15"
+      ],
       "link": "https://www.programturizmus.hu/ajanlat-marton-nap-sas-hegy.html"
     },
     {
-      "id": "kolibri-magikus", "cim": "Mágikus állatok iskolája", "tipus": "szinhaz", "hely": "Kolibri Színház",
+      "id": "kolibri-magikus",
+      "cim": "Mágikus állatok iskolája",
+      "tipus": "szinhaz",
+      "hely": "Kolibri Színház",
       "terkep": "1061 Budapest, Jókai tér 10.",
       "rovid": "Gyerekek és láthatatlan állat-társaik rejtélyt oldanak meg az iskolában. 130 perc, egy szünettel.",
-      "kor": "7–10 év", "ar": "4 300–5 000 Ft",
-      "idopontok": ["2026-11-22 10:00", "2026-11-22 15:00", "2026-12-12 10:00", "2026-12-12 15:00", "2026-12-20 15:00"],
+      "kor": "7–10 év",
+      "ar": "4 300–5 000 Ft",
+      "idopontok": [
+        "2026-11-22 10:00",
+        "2026-11-22 15:00",
+        "2026-12-12 10:00",
+        "2026-12-12 15:00",
+        "2026-12-20 15:00"
+      ],
       "link": "https://www.jegy.hu/program/magikus-allatok-iskolaja-76062"
     },
     {
-      "id": "kolibri-kisertet", "cim": "Mágikus állatok iskolája: A kísértetfolyosó", "tipus": "szinhaz", "hely": "Kolibri Színház",
+      "id": "kolibri-kisertet",
+      "cim": "Mágikus állatok iskolája: A kísértetfolyosó",
+      "tipus": "szinhaz",
+      "hely": "Kolibri Színház",
       "terkep": "1061 Budapest, Jókai tér 10.",
       "rovid": "A Mágikus állatok iskolája folytatása. Kb. 120 perc, egy szünettel.",
-      "kor": "7 éves kortól", "ar": "4 300–5 000 Ft",
-      "idopontok": ["2026-11-28 15:00", "2026-12-19 15:00"],
+      "kor": "7 éves kortól",
+      "ar": "4 300–5 000 Ft",
+      "idopontok": [
+        "2026-11-28 15:00",
+        "2026-12-19 15:00"
+      ],
       "link": "https://www.jegy.hu/program/magikus-allatok-iskolaja-a-kisertetfolyoso-165667"
     },
     {
-      "id": "kolibri-80nap", "cim": "80 nap alatt a Föld körül", "tipus": "szinhaz", "hely": "Kolibri Színház",
+      "id": "kolibri-80nap",
+      "cim": "80 nap alatt a Föld körül",
+      "tipus": "szinhaz",
+      "hely": "Kolibri Színház",
       "terkep": "1061 Budapest, Jókai tér 10.",
       "rovid": "Mesejáték Verne regényéből. 120 perc, egy szünettel.",
-      "kor": "9 éves kortól", "ar": "4 300–5 000 Ft",
-      "idopontok": ["2026-11-09 15:00", "2026-11-11 15:00", "2026-12-06 10:00", "2026-12-06 15:00"],
+      "kor": "9 éves kortól",
+      "ar": "4 300–5 000 Ft",
+      "idopontok": [
+        "2026-11-09 15:00",
+        "2026-11-11 15:00",
+        "2026-12-06 10:00",
+        "2026-12-06 15:00"
+      ],
       "link": "https://www.jegy.hu/program/80-nap-alatt-a-fold-korul-193734"
     },
     {
-      "id": "kolibri-micimacko", "cim": "Micimackó, avagy mi lesz a Százholdas Pagonnyal?", "tipus": "szinhaz", "hely": "Kolibri Színház",
+      "id": "kolibri-micimacko",
+      "cim": "Micimackó, avagy mi lesz a Százholdas Pagonnyal?",
+      "tipus": "szinhaz",
+      "hely": "Kolibri Színház",
       "terkep": "1061 Budapest, Jókai tér 10.",
       "rovid": "Zenés mesejáték.",
       "ar": "4 300–5 000 Ft",
-      "idopontok": ["2026-11-21 10:00", "2026-11-21 15:00", "2026-12-29 10:00", "2026-12-29 15:00"],
+      "idopontok": [
+        "2026-11-21 10:00",
+        "2026-11-21 15:00",
+        "2026-12-29 10:00",
+        "2026-12-29 15:00"
+      ],
       "link": "https://www.jegy.hu/program/micimacko-avagy-mi-lesz-a-szazholdas-pagonnyal-181855"
     },
     {
-      "id": "bab-hamupipoke", "cim": "Hamupipőke", "tipus": "szinhaz", "hely": "Budapest Bábszínház",
+      "id": "bab-hamupipoke",
+      "cim": "Hamupipőke",
+      "tipus": "szinhaz",
+      "hely": "Budapest Bábszínház",
       "terkep": "1062 Budapest, Andrássy út 69.",
       "rovid": "Bábelőadás a mese alapján.",
       "kor": "6 éves kortól",
-      "idopontok": ["2026-11-12 15:00", "2026-12-20 10:30", "2026-12-20 15:00", "2026-12-29 10:30"],
+      "idopontok": [
+        "2026-11-12 15:00",
+        "2026-12-20 10:30",
+        "2026-12-20 15:00",
+        "2026-12-29 10:30"
+      ],
       "link": "https://budapestbabszinhaz.hu/en/shows/13-cinderella"
     },
     {
-      "id": "bab-berzsian", "cim": "Berzsián és Dideki", "tipus": "szinhaz", "hely": "Budapest Bábszínház",
+      "id": "bab-berzsian",
+      "cim": "Berzsián és Dideki",
+      "tipus": "szinhaz",
+      "hely": "Budapest Bábszínház",
       "terkep": "1062 Budapest, Andrássy út 69.",
       "rovid": "Bábelőadás 6 éves kortól.",
       "kor": "6 éves kortól",
-      "idopontok": ["2026-11-17 14:00", "2026-12-01 14:00", "2026-12-21 10:30", "2026-12-22 10:30"],
+      "idopontok": [
+        "2026-11-17 14:00",
+        "2026-12-01 14:00",
+        "2026-12-21 10:30",
+        "2026-12-22 10:30"
+      ],
       "link": "https://budapestbabszinhaz.hu/en/shows/87-berzsian-es-dideki"
     },
     {
-      "id": "bab-gengszter", "cim": "Gengszter nagyi", "tipus": "szinhaz", "hely": "Budapest Bábszínház",
+      "id": "bab-gengszter",
+      "cim": "Gengszter nagyi",
+      "tipus": "szinhaz",
+      "hely": "Budapest Bábszínház",
       "terkep": "1062 Budapest, Andrássy út 69.",
       "rovid": "David Walliams regénye bábokkal: Ben rájön, hogy a nagyijának titkai vannak. 120 perc, egy szünettel.",
       "kor": "10 éves kortól",
-      "idopontok": ["2026-11-06 15:00", "2026-11-19 15:00", "2026-12-03 15:00", "2026-12-04 15:00", "2026-12-29 18:00"],
+      "idopontok": [
+        "2026-11-06 15:00",
+        "2026-11-19 15:00",
+        "2026-12-03 15:00",
+        "2026-12-04 15:00",
+        "2026-12-29 18:00"
+      ],
       "link": "https://babszinhaz.jegy.hu/program/gengszter-nagyi-72243"
     },
     {
-      "id": "kerekutca", "cim": "Kerekutca", "tipus": "szinhaz", "hely": "Hagyományok Háza",
+      "id": "kerekutca",
+      "cim": "Kerekutca",
+      "tipus": "szinhaz",
+      "hely": "Hagyományok Háza",
       "terkep": "1011 Budapest, Corvin tér 8.",
       "rovid": "Mesejáték Paár Julcsi és a Fitos Dezső Társulat előadásában.",
-      "idopontok": ["2026-11-22 11:00"],
+      "idopontok": [
+        "2026-11-22 11:00"
+      ],
       "link": "https://szelforgo.jegy.hu/program/paar-julcsi-es-a-fitos-dezso-tarsulat-kerekutca-mesejatek-144276/1503334"
     },
     {
-      "id": "biro-eszter", "cim": "Bíró Eszter: Adventi kalandok", "tipus": "zene", "hely": "Müpa, Üvegterem",
+      "id": "biro-eszter",
+      "cim": "Bíró Eszter: Adventi kalandok",
+      "tipus": "zene",
+      "hely": "Müpa, Üvegterem",
       "terkep": "1095 Budapest, Komor Marcell utca 1.",
       "rovid": "Interaktív családi műsor téli szokásokról, dalokkal és játékkal.",
-      "kor": "3–8 év", "ar": "2 900 Ft",
-      "idopontok": ["2026-11-21 11:00", "2026-11-21 12:30"],
+      "kor": "3–8 év",
+      "ar": "2 900 Ft",
+      "idopontok": [
+        "2026-11-21 11:00",
+        "2026-11-21 12:30"
+      ],
       "link": "https://mupa.hu/en/program/family-and-youth-events/eszter-biro-advent-adventures-2026-11-21_11-00-glass-hall"
     },
     {
-      "id": "elvarazsolt", "cim": "Az elvarázsolt menyasszony", "tipus": "zene", "hely": "Müpa, Bartók Béla Nemzeti Hangversenyterem",
+      "id": "elvarazsolt",
+      "cim": "Az elvarázsolt menyasszony",
+      "tipus": "zene",
+      "hely": "Müpa, Bartók Béla Nemzeti Hangversenyterem",
       "terkep": "1095 Budapest, Komor Marcell utca 1.",
       "rovid": "Müpa-matiné a hangversenyteremben.",
       "ar": "3 000–5 000 Ft",
-      "idopontok": ["2026-11-22 11:00"],
+      "idopontok": [
+        "2026-11-22 11:00"
+      ],
       "link": "https://www.jegy.hu/program/az-elvarazsolt-menyasszony-mupa-matine-192120"
     },
     {
-      "id": "orgona", "cim": "Családi OrgonaExpedíció", "tipus": "zene", "hely": "Müpa, Bartók Béla Nemzeti Hangversenyterem",
+      "id": "orgona",
+      "cim": "Családi OrgonaExpedíció",
+      "tipus": "zene",
+      "hely": "Müpa, Bartók Béla Nemzeti Hangversenyterem",
       "terkep": "1095 Budapest, Komor Marcell utca 1.",
       "rovid": "Barangolás a sípok birodalmában, a Müpa nagy orgonájánál.",
       "ar": "2 000 Ft",
-      "idopontok": ["2026-11-22 16:00", "2026-11-22 17:00"],
+      "idopontok": [
+        "2026-11-22 16:00",
+        "2026-11-22 17:00"
+      ],
       "link": "https://mupa.hu/programok/csaladi-es-ifjusagi-programok/aktualis-programok"
     },
     {
-      "id": "toldi", "cim": "Budapest Táncszínház: Toldi", "tipus": "szinhaz", "hely": "Müpa, Fesztivál Színház",
+      "id": "toldi",
+      "cim": "Budapest Táncszínház: Toldi",
+      "tipus": "szinhaz",
+      "hely": "Müpa, Fesztivál Színház",
       "terkep": "1095 Budapest, Komor Marcell utca 1.",
       "rovid": "Arany János műve táncban, prózában, zenében és filmmel.",
-      "kor": "10 éves kortól", "ar": "2 000–4 900 Ft",
-      "idopontok": ["2026-11-28 11:00", "2026-11-28 15:00", "2027-01-23 11:00"],
+      "kor": "10 éves kortól",
+      "ar": "2 000–4 900 Ft",
+      "idopontok": [
+        "2026-11-28 11:00",
+        "2026-11-28 15:00",
+        "2027-01-23 11:00"
+      ],
       "link": "https://www.jegy.hu/program/budapest-tancszinhaz-toldi-182963"
     },
     {
-      "id": "liszt-beavato", "cim": "Zenés beavató, Liszt-kukacok Akadémiája", "tipus": "zene", "hely": "Zeneakadémia",
+      "id": "liszt-beavato",
+      "cim": "Zenés beavató, Liszt-kukacok Akadémiája",
+      "tipus": "zene",
+      "hely": "Zeneakadémia",
       "terkep": "1061 Budapest, Liszt Ferenc tér 8.",
       "rovid": "Egy-egy hangszerrel ismerkednek a gyerekek. A szülők kb. 90 percig nincsenek bent.",
       "kor": "6–8 év",
-      "idopontok": ["2026-11-28 10:00", "2026-12-05 10:00", "2026-12-19 10:00"],
+      "idopontok": [
+        "2026-11-28 10:00",
+        "2026-12-05 10:00",
+        "2026-12-19 10:00"
+      ],
       "link": "https://www.jegy.hu/program/zenes-beavato-foglalkozas-6-8-eves-gyerekeknek-liszt-kukacok-akademiaja-192555"
     },
     {
-      "id": "notas-mikulas", "cim": "Nótás Mikulás: Gryllus Vilmos koncertje", "tipus": "zene", "hely": "MOM Kulturális Központ",
+      "id": "notas-mikulas",
+      "cim": "Nótás Mikulás: Gryllus Vilmos koncertje",
+      "tipus": "zene",
+      "hely": "MOM Kulturális Központ",
       "terkep": "1124 Budapest, Csörsz utca 18.",
       "rovid": "Egyórás mikulásnapi gyerekkoncert.",
-      "idopontok": ["2026-12-06 09:30", "2026-12-06 12:00"],
+      "idopontok": [
+        "2026-12-06 09:30",
+        "2026-12-06 12:00"
+      ],
       "link": "https://www.jegy.hu/program/notas-mikulas-gryllus-vilmos-koncertje-171235"
     },
     {
-      "id": "kazuka", "cim": "Kazuka Gyerekdalok: Titkos kis sziget", "tipus": "zene", "hely": "Müpa, Üvegterem",
+      "id": "kazuka",
+      "cim": "Kazuka Gyerekdalok: Titkos kis sziget",
+      "tipus": "zene",
+      "hely": "Müpa, Üvegterem",
       "terkep": "1095 Budapest, Komor Marcell utca 1.",
       "rovid": "Ünnepi gyerekdal-koncert.",
       "ar": "2 900 Ft",
-      "idopontok": ["2026-12-12 11:00"],
+      "idopontok": [
+        "2026-12-12 11:00"
+      ],
       "link": "https://mupa.hu/en/program/family-and-youth-events/kazuka-children-s-songs-secret-little-island-holiday-edition-2026-12-12_11-00-glass-hall"
     },
     {
-      "id": "hokiralyno", "cim": "Hókirálynő", "tipus": "szinhaz", "hely": "MOM Kulturális Központ",
+      "id": "hokiralyno",
+      "cim": "Hókirálynő",
+      "tipus": "szinhaz",
+      "hely": "MOM Kulturális Központ",
       "terkep": "1124 Budapest, Csörsz utca 18.",
       "rovid": "Egy lány elindul megmenteni legjobb barátját. Kb. 60 perc.",
-      "idopontok": ["2026-12-19 10:30"],
+      "idopontok": [
+        "2026-12-19 10:30"
+      ],
       "link": "https://www.jegy.hu/program/hokiralyno-191116"
     },
     {
-      "id": "csodavaro", "cim": "Csodaváró betlehemes", "tipus": "zene", "hely": "Müpa, Bartók Béla Nemzeti Hangversenyterem",
+      "id": "csodavaro",
+      "cim": "Csodaváró betlehemes",
+      "tipus": "zene",
+      "hely": "Müpa, Bartók Béla Nemzeti Hangversenyterem",
       "terkep": "1095 Budapest, Komor Marcell utca 1.",
       "rovid": "A Magyar Állami Népi Együttes karácsonyi műsora tánccal és népzenével.",
-      "kor": "4 éves kortól", "ar": "3 900–12 900 Ft",
-      "idopontok": ["2026-12-19 18:00", "2026-12-20 11:00", "2026-12-20 16:00", "2026-12-21 11:00", "2026-12-22 11:00", "2026-12-23 11:00"],
+      "kor": "4 éves kortól",
+      "ar": "3 900–12 900 Ft",
+      "idopontok": [
+        "2026-12-19 18:00",
+        "2026-12-20 11:00",
+        "2026-12-20 16:00",
+        "2026-12-21 11:00",
+        "2026-12-22 11:00",
+        "2026-12-23 11:00"
+      ],
       "link": "https://www.jegy.hu/program/magyar-allami-nepi-egyuttes-csodavaro-betlehemes-106640"
     },
     {
-      "id": "csillagfenyben", "cim": "Csillagfényben: népek karácsonya", "tipus": "zene", "hely": "Zeneakadémia",
+      "id": "csillagfenyben",
+      "cim": "Csillagfényben: népek karácsonya",
+      "tipus": "zene",
+      "hely": "Zeneakadémia",
       "terkep": "1061 Budapest, Liszt Ferenc tér 8.",
       "rovid": "Simon Izabella gyerekprogramja a Liszt-kukacok Akadémiája sorozatban.",
-      "kor": "8–10 év", "ar": "4 800 Ft-tól",
-      "idopontok": ["2026-12-20"],
+      "kor": "8–10 év",
+      "ar": "4 800 Ft-tól",
+      "idopontok": [
+        "2026-12-20"
+      ],
       "link": "https://www.programturizmus.hu/ajanlat-karacsonyi-koncert-zeneakademia.html"
     },
     {
-      "id": "ujevi-koncert", "cim": "Újévi koncert fiataloknak", "tipus": "zene", "hely": "Müpa, Bartók Béla Nemzeti Hangversenyterem",
+      "id": "ujevi-koncert",
+      "cim": "Újévi koncert fiataloknak",
+      "tipus": "zene",
+      "hely": "Müpa, Bartók Béla Nemzeti Hangversenyterem",
       "terkep": "1095 Budapest, Komor Marcell utca 1.",
       "rovid": "Részletek Haydn A teremtés című művéből.",
       "ar": "3 000–5 000 Ft",
-      "idopontok": ["2027-01-01 16:00"],
+      "idopontok": [
+        "2027-01-01 16:00"
+      ],
       "link": "https://mupa.hu/programok/csaladi-es-ifjusagi-programok/aktualis-programok"
     },
     {
-      "id": "kolibri-bors", "cim": "Bors néni", "tipus": "szinhaz", "hely": "Kolibri Színház",
+      "id": "kolibri-bors",
+      "cim": "Bors néni",
+      "tipus": "szinhaz",
+      "hely": "Kolibri Színház",
       "terkep": "1061 Budapest, Jókai tér 10.",
       "rovid": "Meglepetéseket készítenek Bors néninek Lackóval, Titillával, Vízimolnárral és a Játékmesterrel. Kb. 100 perc, szünet nélkül.",
       "kor": "4–8 év",
-      "idopontok": ["2026-11-14 10:00", "2026-11-14 15:00", "2026-12-05 10:00", "2026-12-05 15:00"],
+      "idopontok": [
+        "2026-11-14 10:00",
+        "2026-11-14 15:00",
+        "2026-12-05 10:00",
+        "2026-12-05 15:00"
+      ],
       "link": "https://www.jegy.hu/program/bors-neni-72262"
     },
     {
-      "id": "kolibri-macska", "cim": "Macska voltam Londonban", "tipus": "szinhaz", "hely": "Kolibri Színház",
+      "id": "kolibri-macska",
+      "cim": "Macska voltam Londonban",
+      "tipus": "szinhaz",
+      "hely": "Kolibri Színház",
       "terkep": "1061 Budapest, Jókai tér 10.",
       "rovid": "Péter magányos kisfiú, aki nem tarthat otthon macskát, Jennie pedig kóbor macskalány. 105 perc, egy szünettel.",
       "kor": "7–10 év",
-      "idopontok": ["2026-11-29 15:00", "2026-12-13 15:00"],
+      "idopontok": [
+        "2026-11-29 15:00",
+        "2026-12-13 15:00"
+      ],
       "link": "https://www.jegy.hu/program/macska-voltam-londonban-72265"
     },
     {
-      "id": "kolibri-vilag", "cim": "A világ születése", "tipus": "szinhaz", "hely": "Kolibri Színház",
+      "id": "kolibri-vilag",
+      "cim": "A világ születése",
+      "tipus": "szinhaz",
+      "hely": "Kolibri Színház",
       "terkep": "1061 Budapest, Jókai tér 10.",
       "rovid": "Fény, hang, mozgás és vetítés idézi meg a kezdetek kezdetét. 60 perc.",
       "kor": "9 éves kortól",
-      "idopontok": ["2026-11-15 15:00", "2026-12-28 15:00"],
+      "idopontok": [
+        "2026-11-15 15:00",
+        "2026-12-28 15:00"
+      ],
       "link": "https://www.jegy.hu/program/a-vilag-szuletese-193733"
     },
     {
-      "id": "bab-troll", "cim": "A szomjas troll", "tipus": "szinhaz", "hely": "Budapest Bábszínház",
+      "id": "bab-troll",
+      "cim": "A szomjas troll",
+      "tipus": "szinhaz",
+      "hely": "Budapest Bábszínház",
       "terkep": "1062 Budapest, Andrássy út 69.",
       "rovid": "Bábelőadás egy Kalle nevű trollról a fjordok vidékén. 55 perc, szünet nélkül.",
       "kor": "6 éves kortól",
-      "idopontok": ["2026-12-11 14:00"],
+      "idopontok": [
+        "2026-12-11 14:00"
+      ],
       "link": "https://budapestbabszinhaz.hu/en/shows/72-the-thirsty-troll"
     },
     {
-      "id": "bab-sarkanyfuto", "cim": "A sárkányfutó átka", "tipus": "szinhaz", "hely": "Budapest Bábszínház",
+      "id": "bab-sarkanyfuto",
+      "cim": "A sárkányfutó átka",
+      "tipus": "szinhaz",
+      "hely": "Budapest Bábszínház",
       "terkep": "1062 Budapest, Andrássy út 69.",
       "rovid": "A 12 éves Szofi élete teljesen kaotikus, a szülei elváltak. 140 perc, egy szünettel.",
       "kor": "10 éves kortól",
-      "idopontok": ["2026-12-10 15:00", "2026-12-12 10:30"],
+      "idopontok": [
+        "2026-12-10 15:00",
+        "2026-12-12 10:30"
+      ],
       "link": "https://budapestbabszinhaz.hu/en/shows/85-the-curse-of-the-dragon-bishop"
     },
     {
-      "id": "bab-ejszaka", "cim": "Éjszaka a bábszínházban", "tipus": "szinhaz", "hely": "Budapest Bábszínház",
+      "id": "bab-ejszaka",
+      "cim": "Éjszaka a bábszínházban",
+      "tipus": "szinhaz",
+      "hely": "Budapest Bábszínház",
       "terkep": "1062 Budapest, Andrássy út 69.",
       "rovid": "Születésnapi zsúr a Gengszter nagyi főhősével, Bennel, legfeljebb 20 fővel.",
       "kor": "10 éves kortól",
-      "idopontok": ["2026-12-29 17:00"],
+      "idopontok": [
+        "2026-12-29 17:00"
+      ],
       "link": "https://budapestbabszinhaz.hu/en/shows/51-night-in-the-puppet-theatre"
     },
     {
-      "id": "hetedhet", "cim": "Hetedhét táncház", "tipus": "zene", "hely": "Müpa, Üvegterem",
+      "id": "hetedhet",
+      "cim": "Hetedhét táncház",
+      "tipus": "zene",
+      "hely": "Müpa, Üvegterem",
       "terkep": "1095 Budapest, Komor Marcell utca 1.",
       "rovid": "Zenés, táncos, énekes foglalkozás mesével gyerekeknek.",
-      "ar": "Ingyenes", "ing": true,
-      "idopontok": ["2026-11-22 12:00", "2026-12-20 12:00"],
+      "ar": "Ingyenes",
+      "ing": true,
+      "idopontok": [
+        "2026-11-22 12:00",
+        "2026-12-20 12:00"
+      ],
       "link": "https://mupa.hu/programok/csaladi-es-ifjusagi-programok/programtipusok/hetedhet-tanchaz"
     },
     {
-      "id": "mus-e", "cim": "MUS-E: Zenén innen, zenén túl", "tipus": "zene", "hely": "Müpa, Lépcsőterem",
+      "id": "mus-e",
+      "cim": "MUS-E: Zenén innen, zenén túl",
+      "tipus": "zene",
+      "hely": "Müpa, Lépcsőterem",
       "terkep": "1095 Budapest, Komor Marcell utca 1.",
       "rovid": "Interaktív művészeti foglalkozás gyerekeknek.",
       "ar": "2 500 Ft",
-      "idopontok": ["2026-11-14 11:00", "2026-11-28 11:00", "2026-12-19 11:00"],
+      "idopontok": [
+        "2026-11-14 11:00",
+        "2026-11-28 11:00",
+        "2026-12-19 11:00"
+      ],
       "link": "https://mupa.hu/programok/csaladi-es-ifjusagi-programok/programtipusok/mus-e"
     },
     {
-      "id": "mikulas-ajandeka", "cim": "A Mikulás ajándéka", "tipus": "unnep", "hely": "Megyeri Klub",
+      "id": "mikulas-ajandeka",
+      "cim": "A Mikulás ajándéka",
+      "tipus": "unnep",
+      "hely": "Megyeri Klub",
       "terkep": "1048 Budapest, Megyeri út 207/D.",
       "rovid": "A Fabula Bábszínház ünnepváró bábjátéka, a végén a Mikulás szaloncukrot oszt.",
-      "kor": "Óvodás és kisiskolás", "ar": "2 820–3 700 Ft",
-      "idopontok": ["2026-12-03 17:00"],
+      "kor": "Óvodás és kisiskolás",
+      "ar": "2 820–3 700 Ft",
+      "idopontok": [
+        "2026-12-03 17:00"
+      ],
       "link": "https://www.programturizmus.hu/ajanlat-mikulas-babszinhaz.html"
     },
     {
-      "id": "advent-obuda", "cim": "Advent Óbudán", "tipus": "unnep", "hely": "Fő tér és Szentlélek tér", "kint": true,
+      "id": "advent-obuda",
+      "cim": "Advent Óbudán",
+      "tipus": "unnep",
+      "hely": "Fő tér és Szentlélek tér",
+      "kint": true,
       "terkep": "Fő tér, Óbuda, Budapest",
       "rovid": "Korcsolyapálya, Mikulásház, koncertek, kézműves vásár és gyerekprogramok.",
-      "tol": "2026-11-27", "ig": "2026-12-23",
+      "tol": "2026-11-27",
+      "ig": "2026-12-23",
       "megj": "A napi programot a szervező oldala mutatja.",
       "link": "https://www.programturizmus.hu/ajanlat-advent-obudan.html"
     },
     {
-      "id": "illuzio-mesterei", "cim": "Az Illúzió Mesterei", "tipus": "buvesz", "hely": "MOM Kulturális Központ",
+      "id": "illuzio-mesterei",
+      "cim": "Az Illúzió Mesterei",
+      "tipus": "buvesz",
+      "hely": "MOM Kulturális Központ",
       "terkep": "1124 Budapest, Csörsz utca 18.",
       "rovid": "Családi bűvészshow két 50 perces felvonásban. A jegyek hamar elfogynak.",
       "kor": "8 éves kortól",
-      "tol": "2027-03-17", "ig": "2027-03-30",
+      "tol": "2027-03-17",
+      "ig": "2027-03-30",
       "megj": "Nem minden nap van előadás, az időpontokat a jegyvásárlásnál látod.",
       "link": "https://azilluziomesterei.hu/budapest-2026/"
+    },
+    {
+      "id": "kincsem-szerb-magyar",
+      "cim": "Szerb–Magyar Ügetőtalálkozó",
+      "tipus": "lovas",
+      "ag": "Ügető, agár",
+      "hely": "Kincsem Park",
+      "terkep": "1101 Budapest, Albertirsai út 2-4.",
+      "rovid": "Nemzetközi ügetőnap agárfutamokkal a Kincsem Parkban.",
+      "idopontok": [
+        "2026-11-07"
+      ],
+      "link": "https://kincsempark.hu/versenynaptar/",
+      "kep": "https://cdn.programturizmus.hu/media/image/show/ajanlat/19007-kincsem-park-program-jegy.jpg",
+      "kepForras": "programturizmus.hu",
+      "kint": true
+    },
+    {
+      "id": "kincsem-galopp",
+      "cim": "Galoppverseny a Kincsem Parkban",
+      "tipus": "lovas",
+      "ag": "Galopp",
+      "hely": "Kincsem Park",
+      "terkep": "1101 Budapest, Albertirsai út 2-4.",
+      "rovid": "Versenynap galoppfutamokkal.",
+      "idopontok": [
+        "2026-11-08",
+        "2026-11-15",
+        "2026-11-22"
+      ],
+      "link": "https://kincsempark.hu/versenynaptar/",
+      "kep": "https://cdn.programturizmus.hu/media/image/show/ajanlat/19007-kincsem-park-program-jegy.jpg",
+      "kepForras": "programturizmus.hu",
+      "kint": true
+    },
+    {
+      "id": "kincsem-ugeto",
+      "cim": "Ügetőverseny a Kincsem Parkban",
+      "tipus": "lovas",
+      "ag": "Ügető",
+      "hely": "Kincsem Park",
+      "terkep": "1101 Budapest, Albertirsai út 2-4.",
+      "rovid": "Versenynap ügetőfutamokkal.",
+      "idopontok": [
+        "2026-11-14",
+        "2026-12-05",
+        "2026-12-12",
+        "2026-12-19"
+      ],
+      "link": "https://kincsempark.hu/versenynaptar/",
+      "kep": "https://cdn.programturizmus.hu/media/image/show/ajanlat/19007-kincsem-park-program-jegy.jpg",
+      "kepForras": "programturizmus.hu",
+      "kint": true
+    },
+    {
+      "id": "kincsem-agar-ugeto",
+      "cim": "Agár- és ügetőverseny",
+      "tipus": "lovas",
+      "ag": "Ügető, agár",
+      "hely": "Kincsem Park",
+      "terkep": "1101 Budapest, Albertirsai út 2-4.",
+      "rovid": "Egy napon agárfutamok és ügetőversenyek.",
+      "idopontok": [
+        "2026-11-21"
+      ],
+      "link": "https://kincsempark.hu/versenynaptar/",
+      "kep": "https://cdn.programturizmus.hu/media/image/show/ajanlat/19007-kincsem-park-program-jegy.jpg",
+      "kepForras": "programturizmus.hu",
+      "kint": true
+    },
+    {
+      "id": "ugetoszilveszter",
+      "cim": "Ügetőszilveszter",
+      "tipus": "lovas",
+      "ag": "Ügető",
+      "hely": "Kincsem Park",
+      "terkep": "1101 Budapest, Albertirsai út 2-4.",
+      "rovid": "Egész délutános szilveszter ügetőfutamokkal, pónikkal és tűzijátékkal.",
+      "leiras": "A 2025-ös programban 13 órakor volt a kapunyitás, 14 és 17:30 között ügetőfutamok, emellett póni, díjlovaglás, agárfutam, Kincsem Kalandösvény kincskereséssel, 21 órakor tűzijáték. A 2026-os részleteket nézd meg a honlapon.",
+      "ar": "2025-ben 8–9 ezer Ft, 14 év alatt ingyenes volt",
+      "idopontok": [
+        "2026-12-31"
+      ],
+      "link": "https://www.programturizmus.hu/ajanlat-ugetoszilveszter-kincsem-park-budapesten.html",
+      "kep": "https://cdn.programturizmus.hu/media/image/show/ajanlat/19007-kincsem-park-program-jegy.jpg",
+      "kepForras": "programturizmus.hu",
+      "kint": true
+    },
+    {
+      "id": "nl-dijugrato-nov1",
+      "cim": "Fedettpályás Nemzeti Díjugrató Verseny",
+      "tipus": "lovas",
+      "ag": "Díjugratás",
+      "hely": "Nemzeti Lovarda",
+      "terkep": "1087 Budapest, Kerepesi út 7.",
+      "rovid": "Háromnapos díjugrató verseny fedett pályán, a város közepén.",
+      "tol": "2026-11-13",
+      "ig": "2026-11-15",
+      "megj": "A nézői belépésről az esemény oldalán tájékozódj.",
+      "link": "https://nemzetilovarda.hu/esemenyek/fedettpalyas-nemzeti-dijugrato-verseny/",
+      "kep": "https://nemzetilovarda.hu/wp-content/uploads/2021/11/dijszalagok900-2.jpg",
+      "kepForras": "Nemzeti Lovarda"
+    },
+    {
+      "id": "nl-dijugrato-nov2",
+      "cim": "Fedettpályás Nemzeti Díjugrató Verseny",
+      "tipus": "lovas",
+      "ag": "Díjugratás",
+      "hely": "Nemzeti Lovarda",
+      "terkep": "1087 Budapest, Kerepesi út 7.",
+      "rovid": "Újabb háromnapos díjugrató hétvége fedett pályán.",
+      "tol": "2026-11-27",
+      "ig": "2026-11-29",
+      "megj": "A nézői belépésről az esemény oldalán tájékozódj.",
+      "link": "https://nemzetilovarda.hu/esemenyek/fedettpalyas-nemzeti-dijugrato-verseny-2/",
+      "kep": "https://nemzetilovarda.hu/wp-content/uploads/2022/02/NL-akadlay-illusztracio-og.jpg",
+      "kepForras": "Nemzeti Lovarda"
+    },
+    {
+      "id": "tapioszentmarton-fogat",
+      "cim": "Fedettpályás fogathajtó verseny",
+      "tipus": "lovas",
+      "ag": "Fogathajtás",
+      "hely": "Tápiószentmárton",
+      "terkep": "Tápiószentmárton",
+      "megye": true,
+      "rovid": "Kétnapos fogathajtó verseny fedett pályán, Pest megyében.",
+      "tol": "2026-11-07",
+      "ig": "2026-11-08",
+      "megj": "A pontos helyszínt nézd meg a szervezőknél.",
+      "link": "https://www.programturizmus.hu/ajanlat-fogathajto-versenyek.html"
+    },
+    {
+      "id": "garden-of-lights",
+      "cim": "Garden of Lights: A Szépség és a Szörnyeteg",
+      "tipus": "kiallitas",
+      "hely": "ELTE Füvészkert",
+      "terkep": "1083 Budapest, Illés utca 25.",
+      "rovid": "Esti fénykert a Füvészkertben, a mese világában.",
+      "tol": "2026-11-05",
+      "ig": "2027-01-03",
+      "megj": "16 és 21 óra között, idősávos jeggyel.",
+      "link": "https://www.jegy.hu/program/garden-of-lights-1600-1700-195657",
+      "kep": "https://pb2.programinfo.hu/imgs/system-4/program/000/195/658/garden-of-lights-1700-1800-474-279-293484.webp",
+      "kepForras": "jegy.hu",
+      "kint": true
+    },
+    {
+      "id": "story-of-lights-godollo",
+      "cim": "Fénykiállítás Gödöllőn",
+      "tipus": "kiallitas",
+      "hely": "Grassalkovich-kastély, Gödöllő",
+      "terkep": "2100 Gödöllő, Grassalkovich-kastély",
+      "megye": true,
+      "rovid": "Esti séta Erzsébet királyné fénykertjében, a kastély történetével.",
+      "tol": "2026-10-24",
+      "ig": "2027-01-31",
+      "link": "https://www.programturizmus.hu/ajanlat-fenykiallitas-godollo.html",
+      "kep": "https://cdn.programturizmus.hu/media/image/plakat/ajanlat/39381-fenykiallitas-godollo.jpg",
+      "kepForras": "programturizmus.hu",
+      "kint": true
+    },
+    {
+      "id": "szepseg-ritusai",
+      "cim": "A szépség rítusai: tolldísz és testfestés Amazóniában",
+      "tipus": "kiallitas",
+      "hely": "Néprajzi Múzeum",
+      "terkep": "1146 Budapest, Dózsa György út 35.",
+      "rovid": "Fotókiállítás egy amazóniai nép színes testfestéséről és tolldíszeiről.",
+      "tol": "2026-11-04",
+      "ig": "2026-11-29",
+      "megj": "A jegy.hu szerint november 29. után is van még időpont.",
+      "link": "https://jegymost.jegy.hu/program/a-szepseg-ritusai-tolldisz-es-testfestes-amazoniaban-192058",
+      "kep": "https://pb2.programinfo.hu/imgs/system-4/program/000/192/058/a-szepseg-ritusai-tolldisz-es-testfestes-amazoniaban-474-279-285876.webp",
+      "kepForras": "jegy.hu"
+    },
+    {
+      "id": "katonadolog",
+      "cim": "Katonadolog: a sorkatonaság emlékezete",
+      "tipus": "kiallitas",
+      "hely": "Néprajzi Múzeum",
+      "terkep": "1146 Budapest, Dózsa György út 35.",
+      "rovid": "Milyen volt katonának lenni? Kiállítás a sorkatonaság emlékeiből.",
+      "tol": "2026-09-30",
+      "ig": "2027-08-29",
+      "link": "https://www.jegy.hu/program/katonadolog-a-sorkatonasag-emlekezete-195511"
+    },
+    {
+      "id": "kockafeszt",
+      "cim": "KockaFeszt",
+      "tipus": "kiallitas",
+      "ikon": "lego",
+      "hely": "Békásmegyeri Közösségi Ház",
+      "terkep": "1039 Budapest, Csobánka tér 5.",
+      "rovid": "LEGO-kiállítás, több százezer kockával szabad építéshez.",
+      "ar": "2 050–5 900 Ft",
+      "idopontok": [
+        "2026-11-21",
+        "2026-11-22"
+      ],
+      "link": "https://www.programturizmus.hu/ajanlat-kockafeszt.html",
+      "kep": "https://cdn.programturizmus.hu/media/image/show/ajanlat/21701-kockafeszt.png",
+      "kepForras": "programturizmus.hu"
+    },
+    {
+      "id": "polaris-bemutato",
+      "cim": "Csillagászati bemutató a Polarisban",
+      "tipus": "hobbi",
+      "ag": "Csillagászat",
+      "ikon": "telescope",
+      "hely": "Polaris Csillagvizsgáló",
+      "terkep": "Polaris Csillagvizsgáló, Budapest",
+      "rovid": "Távcsöves bemutató egy óbudai csillagvizsgálóban.",
+      "idopontok": [
+        "2026-11-05",
+        "2026-11-10",
+        "2026-11-12",
+        "2026-11-17",
+        "2026-11-19",
+        "2026-11-24",
+        "2026-11-26"
+      ],
+      "link": "https://www.programturizmus.hu/partner-polaris-csillagvizsgalo.html",
+      "kep": "https://cdn.programturizmus.hu/media/image/show/partner/latnivalo/csillagda/28/7192-polaris-csillagvizsgalo.jpg",
+      "kepForras": "programturizmus.hu"
+    },
+    {
+      "id": "godollo-erzsebet-nap",
+      "cim": "Erzsébet-nap a Gödöllői Királyi Kastélyban",
+      "tipus": "unnep",
+      "hely": "Gödöllői Királyi Kastély",
+      "terkep": "Gödöllői Királyi Kastély",
+      "megye": true,
+      "rovid": "Sisi névnapi ünnepe a kastélyban.",
+      "idopontok": [
+        "2026-11-21"
+      ],
+      "link": "https://kiralyikastely.hu/jegyar.html"
+    },
+    {
+      "id": "godollo-szoszmotolo",
+      "cim": "Múzeumi szöszmötölő",
+      "tipus": "hobbi",
+      "ag": "Kézművesség",
+      "hely": "Gödöllői Királyi Kastély",
+      "terkep": "Gödöllői Királyi Kastély",
+      "megye": true,
+      "rovid": "Téli múzeumi foglalkozás a kastélyban.",
+      "tol": "2026-12-21",
+      "ig": "2026-12-22",
+      "link": "https://kiralyikastely.hu/jegyar.html"
+    },
+    {
+      "id": "godollo-mesedelutan",
+      "cim": "Mesedélután a kastélyban",
+      "tipus": "unnep",
+      "hely": "Gödöllői Királyi Kastély",
+      "terkep": "Gödöllői Királyi Kastély",
+      "megye": true,
+      "rovid": "Téli mesedélután a Gödöllői Királyi Kastélyban.",
+      "idopontok": [
+        "2026-12-28"
+      ],
+      "link": "https://kiralyikastely.hu/jegyar.html"
+    },
+    {
+      "id": "skanzen-setajegy",
+      "cim": "Sétajegyes hétvége a Skanzenben",
+      "tipus": "unnep",
+      "hely": "Szentendrei Skanzen",
+      "terkep": "2000 Szentendre, Sztaravodai út 75.",
+      "megye": true,
+      "rovid": "A múzeum a téli zárás alatt erre a hétvégére kinyit.",
+      "tol": "2026-11-07",
+      "ig": "2026-11-08",
+      "megj": "9 és 16 óra között.",
+      "link": "https://skanzen.hu/hu/jo-tudni/altalanos-informaciok/nyitva-tartas",
+      "kint": true
+    },
+    {
+      "id": "skanzen-marton",
+      "cim": "Szent Márton-napi borünnep és Libator",
+      "tipus": "unnep",
+      "hely": "Szentendrei Skanzen",
+      "terkep": "2000 Szentendre, Sztaravodai út 75.",
+      "megye": true,
+      "rovid": "Márton-napi hétvége a Skanzenben, libaételekkel.",
+      "tol": "2026-11-14",
+      "ig": "2026-11-15",
+      "megj": "9 és 18 óra között.",
+      "link": "https://skanzen.hu/hu/jo-tudni/altalanos-informaciok/nyitva-tartas",
+      "kint": true
     }
   ]
 }

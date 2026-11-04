@@ -2,7 +2,7 @@
   "name": "Kiruccanó",
   "short_name": "Kiruccanó",
   "lang": "hu",
-  "description": "Budapesti gyerekprogramok az időjáráshoz igazítva",
+  "description": "Budapesti és Pest megyei családi programok az időjáráshoz igazítva",
   "start_url": "./",
   "scope": "./",
   "display": "standalone",
