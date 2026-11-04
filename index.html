@@ -16,7 +16,7 @@
 <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,600;12..96,700&family=Figtree:wght@400;550;600;650&display=swap">
 <style>
 /* Elrendezés: telefonra szabott egyoszlopos app. Fent az időjárás mint döntés,
-   alatta a hét napjai, majd az ajánlások turistajelzésekkel. */
+   alatta a hét napjai, majd az ajánlások ikonokkal. */
 :root {
   --bg: #e9efe8;
   --lap: #fbfdfa;
@@ -34,7 +34,14 @@
   --sav-rossz: #2f4d6c;
   --sav-semleges: #3f5850;
   --sav-szoveg: #f6faf6;
-  --jelfeher: #f8f9f5;
+  --j-kint: #d9efdf;
+  --j-kint-t: #17693f;
+  --j-jatek: #fde3d3;
+  --j-jatek-t: #b1431a;
+  --j-bent: #dbe7f8;
+  --j-bent-t: #1d549f;
+  --j-esem: #f0e0f4;
+  --j-esem-t: #7c2c8c;
   --disp: "Bricolage Grotesque", "Avenir Next", system-ui, sans-serif;
   --szov: "Figtree", -apple-system, system-ui, "Segoe UI", sans-serif;
   padding-top: env(safe-area-inset-top, 0px);
@@ -57,6 +64,14 @@
     --sav-valtozo: #66500c;
     --sav-rossz: #284259;
     --sav-semleges: #2a3f39;
+    --j-kint: #1b4231;
+    --j-kint-t: #8fe0b4;
+    --j-jatek: #4d2d1b;
+    --j-jatek-t: #ffb48c;
+    --j-bent: #1d3556;
+    --j-bent-t: #a3c6ff;
+    --j-esem: #40254a;
+    --j-esem-t: #e6b2f2;
     color-scheme: dark;
   }
 }
@@ -76,6 +91,14 @@
   --sav-valtozo: #66500c;
   --sav-rossz: #284259;
   --sav-semleges: #2a3f39;
+  --j-kint: #1b4231;
+  --j-kint-t: #8fe0b4;
+  --j-jatek: #4d2d1b;
+  --j-jatek-t: #ffb48c;
+  --j-bent: #1d3556;
+  --j-bent-t: #a3c6ff;
+  --j-esem: #40254a;
+  --j-esem-t: #e6b2f2;
   color-scheme: dark;
 }
 
@@ -166,24 +189,30 @@ main { display: grid; gap: 26px; padding-top: 16px; }
 
 .kartya { background: var(--lap); border: 1px solid var(--vonal); border-radius: 14px; overflow: hidden; }
 .kartya.valasztott { border-color: var(--kek); box-shadow: 0 0 0 1px var(--kek); }
-.kartya.voltunk .k-nev { color: var(--halk); }
 .k-fo {
   display: grid;
-  grid-template-columns: 34px minmax(0, 1fr);
+  grid-template-columns: 42px minmax(0, 1fr);
   gap: 11px;
   width: 100%;
   text-align: left;
   padding: 13px 13px 10px;
 }
-.jel { width: 34px; height: 34px; }
+.jel { width: 42px; height: 42px; border-radius: 12px; display: grid; place-items: center; flex: none; }
+.jel svg { width: 26px; height: 26px; }
+.j-kint { background: var(--j-kint); color: var(--j-kint-t); }
+.j-jatek { background: var(--j-jatek); color: var(--j-jatek-t); }
+.j-bent { background: var(--j-bent); color: var(--j-bent-t); }
+.j-esem { background: var(--j-esem); color: var(--j-esem-t); }
 .k-nev { display: block; font-size: 17px; font-weight: 650; line-height: 1.25; }
 .k-rov { display: block; font-size: 15px; color: var(--halk); margin-top: 2px; }
 .k-meta { display: flex; flex-wrap: wrap; gap: 3px 10px; font-size: 13px; color: var(--halk); margin-top: 6px; }
 .cimke { font-weight: 650; }
 .cimke.ing { color: var(--zold); }
-.cimke.volt { color: var(--kek); }
 .cimke.zart { color: var(--piros); }
-.k-gombok { display: flex; align-items: center; gap: 4px; padding: 0 8px 9px 58px; }
+.k-gombok { display: flex; align-items: center; gap: 4px; padding: 0 8px 9px 66px; }
+.kartya.sorban { display: grid; grid-template-columns: minmax(0, 1fr) 46px; align-items: start; }
+.kartya.sorban .k-fo { padding-bottom: 13px; }
+.kartya.sorban .ikon { margin-top: 8px; }
 .valaszt {
   margin-right: auto;
   padding: 7px 13px;
@@ -197,7 +226,6 @@ main { display: grid; gap: 26px; padding-top: 16px; }
 .ikon { width: 40px; height: 40px; display: grid; place-items: center; border-radius: 10px; color: var(--halk); }
 .ikon svg { width: 22px; height: 22px; }
 .ikon[aria-pressed="true"].sziv { color: var(--piros); }
-.ikon[aria-pressed="true"].pipa { color: var(--zold); }
 
 .terv {
   background: var(--lap);
@@ -238,6 +266,9 @@ main { display: grid; gap: 26px; padding-top: 16px; }
 }
 .musor a span { color: var(--kek); }
 
+.frissites { display: grid; gap: 8px; justify-items: start; padding-top: 4px; font-size: 15px; }
+.frissites p { margin: 0; }
+
 /* Összes */
 .kereso {
   width: 100%;
@@ -261,13 +292,11 @@ main { display: grid; gap: 26px; padding-top: 16px; }
   font-size: 14.5px;
   font-weight: 600;
 }
-.szuro .jel { width: 20px; height: 20px; }
+.szuro .jel { width: 24px; height: 24px; border-radius: 7px; }
+.szuro .jel svg { width: 16px; height: 16px; }
 .szuro.sima { padding-left: 12px; }
 .szuro[aria-pressed="true"] { background: var(--tinta); color: var(--bg); border-color: var(--tinta); }
-.szegmens { display: grid; grid-template-columns: 1fr 1fr; background: var(--lap2); border-radius: 11px; padding: 3px; }
-.szegmens button { padding: 8px; border-radius: 9px; font-weight: 650; font-size: 15px; }
-.szegmens button[aria-pressed="true"] { background: var(--lap); }
-.oldalcim { font-size: 26px; font-weight: 700; padding-top: 16px; }
+.oldalcim { font-size: 26px; font-weight: 700; }
 
 .mentes { display: grid; gap: 8px; font-size: 14.5px; color: var(--halk); border-top: 1px solid var(--vonal); padding-top: 14px; }
 .mentes h3 { font-size: 16px; color: var(--tinta); }
@@ -319,8 +348,7 @@ dialog.lap::backdrop { background: rgba(7, 18, 15, .55); }
   display: grid;
   gap: 12px;
 }
-.lap-fej { display: grid; grid-template-columns: 38px minmax(0, 1fr) 36px; gap: 10px; align-items: start; }
-.lap-fej .jel { width: 38px; height: 38px; }
+.lap-fej { display: grid; grid-template-columns: 42px minmax(0, 1fr) 36px; gap: 11px; align-items: start; }
 .lap-fej h2 { font-size: 23px; font-weight: 700; line-height: 1.12; }
 .lap-fej small { display: block; font-size: 13.5px; color: var(--halk); margin-bottom: 2px; }
 .bezar { width: 36px; height: 36px; border-radius: 50%; background: var(--lap2); display: grid; place-items: center; }
@@ -368,9 +396,12 @@ dialog.lap::backdrop { background: rgba(7, 18, 15, .55); }
 </div></nav>
 <dialog id="lap" class="lap" aria-label="Program részletei"></dialog>
 <div id="uzenet" class="uzenet" role="status" aria-live="polite" hidden></div>
+<!-- Ikonok: Tabler Icons, MIT licenc, (c) Pawel Kuna -->
 <script>
+const IKONOK = {"trekking": "<path d=\"M12 4m-1 0a1 1 0 1 0 2 0a1 1 0 1 0 -2 0\" /> <path d=\"M7 21l2 -4\" /> <path d=\"M13 21v-4l-3 -3l1 -6l3 4l3 2\" /> <path d=\"M10 14l-1.827 -1.218a2 2 0 0 1 -.831 -2.15l.28 -1.117a2 2 0 0 1 1.939 -1.515h1.439l4 1l3 -2\" /> <path d=\"M17 12v9\" /> <path d=\"M16 20h2\" />", "trees": "<path d=\"M16 5l3 3l-2 1l4 4l-3 1l4 4h-9\" /> <path d=\"M15 21l0 -3\" /> <path d=\"M8 13l-2 -2\" /> <path d=\"M8 12l2 -2\" /> <path d=\"M8 21v-13\" /> <path d=\"M5.824 16a3 3 0 0 1 -2.743 -3.69a3 3 0 0 1 .304 -4.833a3 3 0 0 1 4.615 -3.707a3 3 0 0 1 4.614 3.707a3 3 0 0 1 .305 4.833a3 3 0 0 1 -2.919 3.695h-4z\" />", "tree": "<path d=\"M12 13l-2 -2\" /> <path d=\"M12 12l2 -2\" /> <path d=\"M12 21v-13\" /> <path d=\"M9.824 16a3 3 0 0 1 -2.743 -3.69a3 3 0 0 1 .304 -4.833a3 3 0 0 1 4.615 -3.707a3 3 0 0 1 4.614 3.707a3 3 0 0 1 .305 4.833a3 3 0 0 1 -2.919 3.695h-4z\" />", "mountain": "<path d=\"M3 20h18l-6.921 -14.612a2.3 2.3 0 0 0 -4.158 0l-6.921 14.612z\" /> <path d=\"M7.5 11l2 2.5l2.5 -2.5l2 3l2.5 -2\" />", "map-route": "<path d=\"M3 7l6 -3l6 3l6 -3v13l-6 3l-6 -3l-6 3v-13\" /> <path d=\"M9 12v.01\" /> <path d=\"M6 13v.01\" /> <path d=\"M17 15l-4 -4\" /> <path d=\"M13 15l4 -4\" />", "aerial-lift": "<path d=\"M4 5l16 -2m-8 1v10m-5.106 -6h10.306c2.45 3 2.45 9 -.2 12h-10.106c-2.544 -3 -2.544 -9 0 -12zm-1.894 6h14\" />", "train": "<path d=\"M21 13c0 -3.87 -3.37 -7 -10 -7h-8\" /> <path d=\"M3 15h16a2 2 0 0 0 2 -2\" /> <path d=\"M3 6v5h17.5\" /> <path d=\"M3 11v4\" /> <path d=\"M8 11v-5\" /> <path d=\"M13 11v-4.5\" /> <path d=\"M3 19h18\" />", "deer": "<path d=\"M3 3c0 2 1 3 4 3c2 0 3 1 3 3\" /> <path d=\"M21 3c0 2 -1 3 -4 3c-2 0 -3 .333 -3 3\" /> <path d=\"M12 18c-1 0 -4 -3 -4 -6c0 -2 1.333 -3 4 -3s4 1 4 3c0 3 -3 6 -4 6\" /> <path d=\"M15.185 14.889l.095 -.18a4 4 0 1 1 -6.56 0\" /> <path d=\"M17 3c0 1.333 -.333 2.333 -1 3\" /> <path d=\"M7 3c0 1.333 .333 2.333 1 3\" /> <path d=\"M7 6c-2.667 .667 -4.333 1.667 -5 3\" /> <path d=\"M17 6c2.667 .667 4.333 1.667 5 3\" /> <path d=\"M8.5 10l-1.5 -1\" /> <path d=\"M15.5 10l1.5 -1\" /> <path d=\"M12 15h.01\" />", "paw": "<path d=\"M14.7 13.5c-1.1 -2 -1.441 -2.5 -2.7 -2.5c-1.259 0 -1.736 .755 -2.836 2.747c-.942 1.703 -2.846 1.845 -3.321 3.291c-.097 .265 -.145 .677 -.143 .962c0 1.176 .787 2 1.8 2c1.259 0 3 -1 4.5 -1s3.241 1 4.5 1c1.013 0 1.8 -.823 1.8 -2c0 -.285 -.049 -.697 -.146 -.962c-.475 -1.451 -2.512 -1.835 -3.454 -3.538z\" /> <path d=\"M20.188 8.082a1.039 1.039 0 0 0 -.406 -.082h-.015c-.735 .012 -1.56 .75 -1.993 1.866c-.519 1.335 -.28 2.7 .538 3.052c.129 .055 .267 .082 .406 .082c.739 0 1.575 -.742 2.011 -1.866c.516 -1.335 .273 -2.7 -.54 -3.052z\" /> <path d=\"M9.474 9c.055 0 .109 0 .163 -.011c.944 -.128 1.533 -1.346 1.32 -2.722c-.203 -1.297 -1.047 -2.267 -1.932 -2.267c-.055 0 -.109 0 -.163 .011c-.944 .128 -1.533 1.346 -1.32 2.722c.204 1.293 1.048 2.267 1.933 2.267z\" /> <path d=\"M16.456 6.733c.214 -1.376 -.375 -2.594 -1.32 -2.722a1.164 1.164 0 0 0 -.162 -.011c-.885 0 -1.728 .97 -1.93 2.267c-.214 1.376 .375 2.594 1.32 2.722c.054 .007 .108 .011 .162 .011c.885 0 1.73 -.974 1.93 -2.267z\" /> <path d=\"M5.69 12.918c.816 -.352 1.054 -1.719 .536 -3.052c-.436 -1.124 -1.271 -1.866 -2.009 -1.866c-.14 0 -.277 .027 -.407 .082c-.816 .352 -1.054 1.719 -.536 3.052c.436 1.124 1.271 1.866 2.009 1.866c.14 0 .277 -.027 .407 -.082z\" />", "bike": "<path d=\"M5 18m-3 0a3 3 0 1 0 6 0a3 3 0 1 0 -6 0\" /> <path d=\"M19 18m-3 0a3 3 0 1 0 6 0a3 3 0 1 0 -6 0\" /> <path d=\"M12 19l0 -4l-3 -3l5 -4l2 3l3 0\" /> <path d=\"M17 5m-1 0a1 1 0 1 0 2 0a1 1 0 1 0 -2 0\" />", "horse-toy": "<path d=\"M3.5 17.5c5.667 4.667 11.333 4.667 17 0\" /> <path d=\"M19 18.5l-2 -8.5l1 -2l2 1l1.5 -1.5l-2.5 -4.5c-5.052 .218 -5.99 3.133 -7 6h-6a3 3 0 0 0 -3 3\" /> <path d=\"M5 18.5l2 -9.5\" /> <path d=\"M8 20l2 -5h4l2 5\" />", "lego": "<path d=\"M9.5 11l.01 0\" /> <path d=\"M14.5 11l.01 0\" /> <path d=\"M9.5 15a3.5 3.5 0 0 0 5 0\" /> <path d=\"M7 5h1v-2h8v2h1a3 3 0 0 1 3 3v9a3 3 0 0 1 -3 3v1h-10v-1a3 3 0 0 1 -3 -3v-9a3 3 0 0 1 3 -3\" />", "device-gamepad-2": "<path d=\"M12 5h3.5a5 5 0 0 1 0 10h-5.5l-4.015 4.227a2.3 2.3 0 0 1 -3.923 -2.035l1.634 -8.173a5 5 0 0 1 4.904 -4.019h3.4z\" /> <path d=\"M14 15l4.07 4.284a2.3 2.3 0 0 0 3.925 -2.023l-1.6 -8.232\" /> <path d=\"M8 9v2\" /> <path d=\"M7 10h2\" /> <path d=\"M14 10h2\" />", "device-gamepad": "<path d=\"M2 6m0 2a2 2 0 0 1 2 -2h16a2 2 0 0 1 2 2v8a2 2 0 0 1 -2 2h-16a2 2 0 0 1 -2 -2z\" /> <path d=\"M6 12h4m-2 -2v4\" /> <path d=\"M15 11l0 .01\" /> <path d=\"M18 13l0 .01\" />", "building-bank": "<path d=\"M3 21l18 0\" /> <path d=\"M3 10l18 0\" /> <path d=\"M5 6l7 -3l7 3\" /> <path d=\"M4 10l0 11\" /> <path d=\"M20 10l0 11\" /> <path d=\"M8 14l0 3\" /> <path d=\"M12 14l0 3\" /> <path d=\"M16 14l0 3\" />", "atom-2": "<path d=\"M12 12m-3 0a3 3 0 1 0 6 0a3 3 0 1 0 -6 0\" /> <path d=\"M12 21l0 .01\" /> <path d=\"M3 9l0 .01\" /> <path d=\"M21 9l0 .01\" /> <path d=\"M8 20.1a9 9 0 0 1 -5 -7.1\" /> <path d=\"M16 20.1a9 9 0 0 0 5 -7.1\" /> <path d=\"M6.2 5a9 9 0 0 1 11.4 0\" />", "fish": "<path d=\"M16.69 7.44a6.973 6.973 0 0 0 -1.69 4.56c0 1.747 .64 3.345 1.699 4.571\" /> <path d=\"M2 9.504c7.715 8.647 14.75 10.265 20 2.498c-5.25 -7.761 -12.285 -6.142 -20 2.504\" /> <path d=\"M18 11v.01\" /> <path d=\"M11.5 10.5c-.667 1 -.667 2 0 3\" />", "building-community": "<path d=\"M8 9l5 5v7h-5v-4m0 4h-5v-7l5 -5m1 1v-6a1 1 0 0 1 1 -1h10a1 1 0 0 1 1 1v17h-8\" /> <path d=\"M13 7l0 .01\" /> <path d=\"M17 7l0 .01\" /> <path d=\"M17 11l0 .01\" /> <path d=\"M17 15l0 .01\" />", "bone": "<path d=\"M15 3a3 3 0 0 1 3 3a3 3 0 1 1 -2.12 5.122l-4.758 4.758a3 3 0 1 1 -5.117 2.297l0 -.177l-.176 0a3 3 0 1 1 2.298 -5.115l4.758 -4.758a3 3 0 0 1 2.12 -5.122z\" />", "book": "<path d=\"M3 19a9 9 0 0 1 9 0a9 9 0 0 1 9 0\" /> <path d=\"M3 6a9 9 0 0 1 9 0a9 9 0 0 1 9 0\" /> <path d=\"M3 6l0 13\" /> <path d=\"M12 6l0 13\" /> <path d=\"M21 6l0 13\" />", "coins": "<path d=\"M9 14c0 1.657 2.686 3 6 3s6 -1.343 6 -3s-2.686 -3 -6 -3s-6 1.343 -6 3z\" /> <path d=\"M9 14v4c0 1.656 2.686 3 6 3s6 -1.344 6 -3v-4\" /> <path d=\"M3 6c0 1.072 1.144 2.062 3 2.598s4.144 .536 6 0c1.856 -.536 3 -1.526 3 -2.598c0 -1.072 -1.144 -2.062 -3 -2.598s-4.144 -.536 -6 0c-1.856 .536 -3 1.526 -3 2.598z\" /> <path d=\"M3 6v10c0 .888 .772 1.45 2 2\" /> <path d=\"M3 11c0 .888 .772 1.45 2 2\" />", "music": "<path d=\"M3 17a3 3 0 1 0 6 0a3 3 0 0 0 -6 0\" /> <path d=\"M13 17a3 3 0 1 0 6 0a3 3 0 0 0 -6 0\" /> <path d=\"M9 17v-13h10v13\" /> <path d=\"M9 8h10\" />", "butterfly": "<path d=\"M12 18.176a3 3 0 1 1 -4.953 -2.449l-.025 .023a4.502 4.502 0 0 1 1.483 -8.75c1.414 0 2.675 .652 3.5 1.671a4.5 4.5 0 1 1 4.983 7.079a3 3 0 1 1 -4.983 2.25z\" /> <path d=\"M12 19v-10\" /> <path d=\"M9 3l3 2l3 -2\" />", "calendar-event": "<path d=\"M4 5m0 2a2 2 0 0 1 2 -2h12a2 2 0 0 1 2 2v12a2 2 0 0 1 -2 2h-12a2 2 0 0 1 -2 -2z\" /> <path d=\"M16 3l0 4\" /> <path d=\"M8 3l0 4\" /> <path d=\"M4 11l16 0\" /> <path d=\"M8 15h2v2h-2z\" />", "masks-theater": "<path d=\"M13.192 9h6.616a2 2 0 0 1 1.992 2.183l-.567 6.182a4 4 0 0 1 -3.983 3.635h-1.5a4 4 0 0 1 -3.983 -3.635l-.567 -6.182a2 2 0 0 1 1.992 -2.183z\" /> <path d=\"M15 13h.01\" /> <path d=\"M18 13h.01\" /> <path d=\"M15 16.5c1 .667 2 .667 3 0\" /> <path d=\"M8.632 15.982a4.037 4.037 0 0 1 -.382 .018h-1.5a4 4 0 0 1 -3.983 -3.635l-.567 -6.182a2 2 0 0 1 1.992 -2.183h6.616a2 2 0 0 1 2 2\" /> <path d=\"M6 8h.01\" /> <path d=\"M9 8h.01\" /> <path d=\"M6 12c.764 -.51 1.528 -.63 2.291 -.36\" />", "building-circus": "<path d=\"M4 11h16\" /> <path d=\"M12 6.5c0 1 -5 4.5 -8 4.5\" /> <path d=\"M12 6.5c0 1 5 4.5 8 4.5\" /> <path d=\"M6 11c-.333 5.333 -1 8.667 -2 10h4c1 0 4 -4 4 -9v-1\" /> <path d=\"M18 11c.333 5.333 1 8.667 2 10h-4c-1 0 -4 -4 -4 -9v-1\" /> <path d=\"M12 7v-4l2 1h-2\" />", "wand": "<path d=\"M6 21l15 -15l-3 -3l-15 15l3 3\" /> <path d=\"M15 6l3 3\" /> <path d=\"M9 3a2 2 0 0 0 2 2a2 2 0 0 0 -2 2a2 2 0 0 0 -2 -2a2 2 0 0 0 2 -2\" /> <path d=\"M19 13a2 2 0 0 0 2 2a2 2 0 0 0 -2 2a2 2 0 0 0 -2 -2a2 2 0 0 0 2 -2\" />", "sparkles": "<path d=\"M16 18a2 2 0 0 1 2 2a2 2 0 0 1 2 -2a2 2 0 0 1 -2 -2a2 2 0 0 1 -2 2zm0 -12a2 2 0 0 1 2 2a2 2 0 0 1 2 -2a2 2 0 0 1 -2 -2a2 2 0 0 1 -2 2zm-7 12a6 6 0 0 1 6 -6a6 6 0 0 1 -6 -6a6 6 0 0 1 -6 6a6 6 0 0 1 6 6z\" />", "photo": "<path d=\"M15 8h.01\" /> <path d=\"M3 6a3 3 0 0 1 3 -3h12a3 3 0 0 1 3 3v12a3 3 0 0 1 -3 3h-12a3 3 0 0 1 -3 -3v-12z\" /> <path d=\"M3 16l5 -5c.928 -.893 2.072 -.893 3 0l5 5\" /> <path d=\"M14 14l1 -1c.928 -.893 2.072 -.893 3 0l3 3\" />", "csuszda": "<path d=\"M5 21V6h4v15\"/><path d=\"M5 11h4M5 16h4\"/><path d=\"M9 6c3.5 0 4.5 2.500 6 6 1.200 2.800 2.500 5 6 5\"/><path d=\"M9 11c2 .500 2.800 2.800 3.800 5 1 2 2.200 4 5.200 4h3\"/>", "trambulin": "<circle cx=\"12\" cy=\"4.500\" r=\"1.700\"/><path d=\"M12 6.500v4.500\"/><path d=\"M7.500 5.500 12 8l4.500-2.500\"/><path d=\"M12 11l-2.500 2.500M12 11l2.500 2.500\"/><path d=\"M2.500 16.500c4 2.500 15 2.500 19 0\"/><path d=\"M5 18l-1 3.500M19 18l1 3.500\"/>", "barlang": "<path d=\"M3 21c0-9.500 3.500-16 9-16s9 6.500 9 16\"/><path d=\"M2 21h20\"/><path d=\"M8 21c0-4.500 1.500-7.500 4-7.500s4 3 4 7.500\"/><path d=\"M9.500 6.500v3M12 5v4.500M14.500 6.500v2.500\"/>"};
 /* Állandó helyszínek. A dátumos programok a programok.json fájlban vannak.
    hely: kint | bent | vegyes (a vegyes esőben nem kerül az ajánlatba)
+   ikon: a típus ikonja helyett egyedi ikon
    zarva: a hét napjai, amikor zárva van (0 = vasárnap, 1 = hétfő ...)
    zarvaTel: mint a zarva, de csak szeptember és április között
    zarvaNapok: konkrét dátumok; zarvaEvente: minden évben (HH-NN)
@@ -380,7 +411,7 @@ const UNNEP = ['12-24', '12-25', '12-26', '12-31', '01-01'];
 const PROGRAMOK = [
   /* ---------- Túrák ---------- */
   {
-    id: 'harmashatar', nev: 'Hármashatár-hegy, Guckler sétány', kat: 'tura', hely: 'kint', buda: 1, ing: 1, ker: 'II–III. kerület',
+    id: 'harmashatar', ikon: 'mountain', nev: 'Hármashatár-hegy, Guckler sétány', kat: 'tura', hely: 'kint', buda: 1, ing: 1, ker: 'II–III. kerület',
     rovid: 'Szinte sík erdei sétány kilátópontokkal, fent a Guckler-kilátó.',
     leiras: 'A Fenyőgyöngyétől a kék, majd a zöld kereszt jelzésen jutsz a sétányra. Az út nagyjából egy szinten fut, közben helytörténeti táblák, QR-kódos játékok és kilátás a Dunára és az Árpád hídra. Aki még bírja, felmászhat a 495 méteres csúcs nyolcszögletű Guckler Károly-kilátójához.',
     hossz: 'Kb. 7 km oda-vissza, de bárhol megfordulhattok',
@@ -390,7 +421,7 @@ const PROGRAMOK = [
     link: 'https://welovebudapest.com/toplista/2021/10/13/szabadido-5-izgalmas-rovid-kirandulas-gyerekekkel-budapesten/'
   },
   {
-    id: 'normafa', nev: 'Normafa és Anna-rét', kat: 'tura', hely: 'kint', buda: 1, ing: 1, ker: 'XII. kerület',
+    id: 'normafa', ikon: 'trees', nev: 'Normafa és Anna-rét', kat: 'tura', hely: 'kint', buda: 1, ing: 1, ker: 'XII. kerület',
     rovid: 'Rét, játszótér, büfék és rövid séta a Tündér-szikláig.',
     leiras: 'Az Anna-réten játszótér, piknikhely és büfék várnak, a közelben a Szent Anna-kápolna és a Tündér-szikla. Innen kb. 20 perc séta a János-hegy. Az Erzsébet-kilátót 2026 februárjában életveszély miatt lezárták, és várhatóan évekig zárva marad, ezért ne ígérjétek a gyerekeknek.',
     hossz: 'Rövid séta, vagy a 6,6 km-es Normafa-kör (kb. 2 óra)',
@@ -419,7 +450,7 @@ const PROGRAMOK = [
     link: 'https://welovebudapest.com/toplista/2021/10/13/szabadido-5-izgalmas-rovid-kirandulas-gyerekekkel-budapesten/'
   },
   {
-    id: 'libego', nev: 'Libegő és János-hegy', kat: 'tura', hely: 'kint', buda: 1, ker: 'XII. kerület',
+    id: 'libego', ikon: 'aerial-lift', nev: 'Libegő és János-hegy', kat: 'tura', hely: 'kint', buda: 1, ker: 'XII. kerület',
     rovid: 'Kb. 12 perc a levegőben, fent erdei séta.',
     leiras: 'A Zugligetből a Hármaskút-tetőre visz fel a libegő. A hegyállomástól 20–30 perc séta a Normafa. Lefelé újra libegőzhettek, vagy gyalog is lejöhettek.',
     ido: 'Naponta, de páros heti hétfőkön és karbantartáskor nem jár (2026. november 9. és 23.). Viharban leáll.',
@@ -429,7 +460,7 @@ const PROGRAMOK = [
     zarvaNapok: ['2026-11-09', '2026-11-23'], link: 'https://bkk.hu/libego'
   },
   {
-    id: 'gyermekvasut', nev: 'Gyermekvasút', kat: 'tura', hely: 'kint', buda: 1, ker: 'II. és XII. kerület',
+    id: 'gyermekvasut', ikon: 'train', nev: 'Gyermekvasút', kat: 'tura', hely: 'kint', buda: 1, ker: 'II. és XII. kerület',
     rovid: 'Gyerekek kezelik a jegyet, 40–50 perc erdőn át.',
     leiras: 'A Széchenyi-hegy és Hűvösvölgy közötti keskeny nyomközű vasúton iskolások adják a jegyet és intézik a forgalmat. Bármelyik megállónál leszállhattok sétálni, például a Normafánál vagy a Szépjuhásznénál.',
     ido: 'Minden nap jár, kivéve a hétfőket szeptember elejétől április végéig. Hétköznap óránként, hétvégén 40–50 percenként.',
@@ -439,7 +470,7 @@ const PROGRAMOK = [
     zarvaTel: [1], link: 'https://gyermekvasut.hu/en/home/'
   },
   {
-    id: 'csajko', nev: 'Nagyfejű csajkó tanösvény', kat: 'tura', hely: 'kint', buda: 1, ing: 1, ker: 'II–III. kerület, Szépvölgy',
+    id: 'csajko', ikon: 'map-route', nev: 'Nagyfejű csajkó tanösvény', kat: 'tura', hely: 'kint', buda: 1, ing: 1, ker: 'II–III. kerület, Szépvölgy',
     rovid: 'Rövid, sík tanösvény, a tisztáson fából készült állatokkal.',
     leiras: 'Tizenegy állomás mutatja be a környék múltját és a természetvédelmi munkát. A Csajkó-tisztáson esőbeálló, kút és egy kis játszótér van fából készült állatokkal. Az út több irányba is hosszabbítható.',
     hossz: '1,5 km, szinte szintemelkedés nélkül',
@@ -449,7 +480,7 @@ const PROGRAMOK = [
     link: 'https://welovebudapest.com/toplista/2021/10/13/szabadido-5-izgalmas-rovid-kirandulas-gyerekekkel-budapesten/'
   },
   {
-    id: 'kiscell', nev: 'Kiscelli meseösvény', kat: 'tura', hely: 'kint', buda: 1, ing: 1, ker: 'III. kerület',
+    id: 'kiscell', ikon: 'map-route', nev: 'Kiscelli meseösvény', kat: 'tura', hely: 'kint', buda: 1, ing: 1, ker: 'III. kerület',
     rovid: 'Feladványos ösvény a parkerdőben, kb. 40 perc.',
     leiras: 'Feladványokkal és kiszínezhető rajzokkal mutatja be a parkerdő élővilágát, például a rét és az erdő határát vagy a kidőlt fák szerepét.',
     hossz: 'Kb. 40 perc',
@@ -458,7 +489,7 @@ const PROGRAMOK = [
     link: 'https://welovebudapest.com/toplista/szabadido-meseosvenyek-tanosvenyek-szunidore-gyerekbarat-kirandulas-budapest-kornyeken/'
   },
   {
-    id: 'kamaraerdo', nev: 'Kamaraerdő', kat: 'tura', hely: 'kint', buda: 1, ing: 1, ker: 'XI. kerület',
+    id: 'kamaraerdo', ikon: 'trees', nev: 'Kamaraerdő', kat: 'tura', hely: 'kint', buda: 1, ing: 1, ker: 'XI. kerület',
     rovid: 'Tanösvény a 200 hektáros erdőben, piknikrét a Nagyréten.',
     leiras: 'A T jelzésű tanösvény a 41-es villamos végállomásától indul, és a 224 méteres Vadász-hegyet is érinti. A Nagyrét jó hely a pihenőhöz és a piknikhez.',
     hossz: '4 km',
@@ -467,7 +498,7 @@ const PROGRAMOK = [
     link: 'https://welovebudapest.com/toplista/2022/12/15/10-konnyen-megkozelitheto-budapesti-kirandulohely/'
   },
   {
-    id: 'remete', nev: 'Remete-szurdok', kat: 'tura', hely: 'kint', buda: 1, ing: 1, ker: 'II. kerület',
+    id: 'remete', ikon: 'trees', nev: 'Remete-szurdok', kat: 'tura', hely: 'kint', buda: 1, ing: 1, ker: 'II. kerület',
     rovid: 'Húszperces erdei szurdok a Remete-barlanggal.',
     leiras: 'Az Ördög-árok erdős szurdoka rövid és egyszerű út, közben megnézhetitek a nyitott Remete-barlangot. A közelben van a máriaremetei templom és parkja. Az út biciklivel és babakocsival is járható.',
     hossz: 'Kb. 20 perc a szurdokban',
@@ -476,7 +507,7 @@ const PROGRAMOK = [
     link: 'https://welovebudapest.com/toplista/2022/12/15/10-konnyen-megkozelitheto-budapesti-kirandulohely/'
   },
   {
-    id: 'apathy', nev: 'Apáthy-szikla és Árpád-kilátó', kat: 'tura', hely: 'kint', buda: 1, ing: 1, ker: 'II. kerület',
+    id: 'apathy', ikon: 'mountain', nev: 'Apáthy-szikla és Árpád-kilátó', kat: 'tura', hely: 'kint', buda: 1, ing: 1, ker: 'II. kerület',
     rovid: 'Sziklás kilátópont és egy 1929-es fa kilátó.',
     leiras: 'Az Apáthy-szikla a Látó-hegyen áll, a közelben a Kőkapu sziklaalakzat. Az Árpád-kilátó könnyű erdei úton érhető el, innen látszanak a hidak és a Gellért-hegy.',
     hossz: 'Könnyű erdei út a zöld, majd a kék jelzésen',
@@ -485,7 +516,7 @@ const PROGRAMOK = [
     link: 'https://welovebudapest.com/toplista/2022/12/15/10-konnyen-megkozelitheto-budapesti-kirandulohely/'
   },
   {
-    id: 'rokahegy', nev: 'Róka-hegy', kat: 'tura', hely: 'kint', ing: 1, ker: 'III. kerület',
+    id: 'rokahegy', ikon: 'mountain', nev: 'Róka-hegy', kat: 'tura', hely: 'kint', ing: 1, ker: 'III. kerület',
     rovid: 'Régi kőfejtő sziklafalakkal, a helyiek mini Grand Canyonja.',
     leiras: 'Az egykori mészkőbánya sziklafalai és barlangjai látványosak, a tanösvény a ritka növényeket és állatokat mutatja be. Felfelé meredek, a nagyobb gyerekeknek való. Csillaghegyen van a Csodák Palotája is, ha később beborul.',
     hossz: 'Rövid, de meredek',
@@ -494,7 +525,7 @@ const PROGRAMOK = [
     link: 'https://welovebudapest.com/toplista/2022/12/15/10-konnyen-megkozelitheto-budapesti-kirandulohely/'
   },
   {
-    id: 'ferenchegy', nev: 'Ferenc-hegy meseösvényei', kat: 'tura', hely: 'kint', buda: 1, ing: 1, ker: 'II. kerület',
+    id: 'ferenchegy', ikon: 'map-route', nev: 'Ferenc-hegy meseösvényei', kat: 'tura', hely: 'kint', buda: 1, ing: 1, ker: 'II. kerület',
     rovid: 'Húszperces erdei ösvény QR-kódokkal, Mimó és Csipek társaságában.',
     leiras: 'Az Érzékek ösvénye az érzékelésre épül, az állomásokon QR-kódokkal. A Tükörben az élővilág ösvényen Mimó és Csipek vezet végig interaktív játékokkal. Jó választás, ha csak egy délutánotok van.',
     hossz: '400 m, kb. 20 perc',
@@ -503,7 +534,7 @@ const PROGRAMOK = [
     link: 'https://welovebudapest.com/toplista/szabadido-meseosvenyek-tanosvenyek-szunidore-gyerekbarat-kirandulas-budapest-kornyeken/'
   },
   {
-    id: 'svabhegy', nev: 'Kis-Sváb-hegyi meseösvény', kat: 'tura', hely: 'kint', buda: 1, ing: 1, ker: 'XII. kerület',
+    id: 'svabhegy', ikon: 'map-route', nev: 'Kis-Sváb-hegyi meseösvény', kat: 'tura', hely: 'kint', buda: 1, ing: 1, ker: 'XII. kerület',
     rovid: 'Távcső, zeneláda és illatfa egy rövid körön.',
     leiras: 'Az Élmény a természetben ösvényen Kormos, a holló vezet. Az állomásokon távcső, zeneláda és illatfa segíti az érzékszervi felfedezést.',
     hossz: '700 m',
@@ -514,7 +545,7 @@ const PROGRAMOK = [
 
   /* ---------- Parkok, kültéri helyek ---------- */
   {
-    id: 'arboretum', nev: 'Budai Arborétum', kat: 'park', hely: 'kint', buda: 1, ing: 1, ker: 'XI. kerület',
+    id: 'arboretum', ikon: 'tree', nev: 'Budai Arborétum', kat: 'park', hely: 'kint', buda: 1, ing: 1, ker: 'XI. kerület',
     rovid: 'Ingyenes történeti kert a Gellért-hegy déli oldalán.',
     leiras: 'Zöld sziget a Villányi úton, nyugodt sétautakkal és öreg fákkal. Rövid, könnyű séta, közel a Feneketlen-tóhoz.',
     ido: 'Nyáron 8–18, télen 8–16 óráig, minden nap',
@@ -524,7 +555,7 @@ const PROGRAMOK = [
     link: 'https://welovebudapest.com/cikk/2025/11/22/budai-arboretum-torteneti-kert/'
   },
   {
-    id: 'vadaspark', nev: 'Budakeszi Vadaspark', kat: 'park', hely: 'kint', buda: 1, ker: 'Budakeszi',
+    id: 'vadaspark', ikon: 'deer', nev: 'Budakeszi Vadaspark', kat: 'park', hely: 'kint', buda: 1, ker: 'Budakeszi',
     rovid: 'Állatok az erdőben, simogató, minivasút és dínópark.',
     leiras: 'A 34 hektáros erdei parkban a tanyasi állatoktól a szarvasokig sok mindent láttok. Van állatsimogató, két játszótér, minivasút, dínópark, a nagyobbaknak pedig kalandpark.',
     ido: '9-től télen 16, nyáron 17 óráig, szinte minden nap',
@@ -534,7 +565,7 @@ const PROGRAMOK = [
     zarvaEvente: ['12-24', '12-25'], link: 'https://budakeszivadaspark.hu/'
   },
   {
-    id: 'allatkert', nev: 'Fővárosi Állatkert', kat: 'park', hely: 'vegyes', ker: 'XIV. kerület',
+    id: 'allatkert', ikon: 'paw', nev: 'Fővárosi Állatkert', kat: 'park', hely: 'vegyes', ker: 'XIV. kerület',
     rovid: 'Állatházak, a Varázshegy és az új Biodóm.',
     leiras: 'A nagy részét kint járjátok be, de sok a fedett állatház, és 2026 júliusától a Biodóm is látogatható. A Varázshegy interaktív kiállítás, a Holnemvolt Vár pedig a kisebbek kedvence.',
     ido: 'Novembertől januárig 9–16 óráig, utolsó belépés 15 óra, minden nap',
@@ -545,7 +576,7 @@ const PROGRAMOK = [
     link: 'https://zoobudapest.com/en/for-visitors/opening-hours/'
   },
   {
-    id: 'margitsziget', nev: 'Margitsziget', kat: 'park', hely: 'kint', ing: 1, ker: 'XIII. kerület',
+    id: 'margitsziget', ikon: 'bike', nev: 'Margitsziget', kat: 'park', hely: 'kint', ing: 1, ker: 'XIII. kerület',
     rovid: 'Kisállatkert, bringóhintó és játszótér a Duna közepén.',
     leiras: 'A sziget nagyrészt autómentes. Van kisállatkert, bicikli- és bringóhintó-kölcsönző, és a Hajós Alfréd uszoda mellett játszótér.',
     ido: 'Egész nap nyitva, a kölcsönzők szezonálisak',
@@ -564,7 +595,7 @@ const PROGRAMOK = [
     link: 'https://welovebudapest.com/toplista/szabadido-budapesti-gyerekprogramok-varosliget-allatkert-margitsziget-normafa-csodak-palotaja-tropicarium/'
   },
   {
-    id: 'vasutpark', nev: 'Vasúttörténeti Park', kat: 'park', hely: 'kint', ker: 'XIV. kerület',
+    id: 'vasutpark', ikon: 'train', nev: 'Vasúttörténeti Park', kat: 'park', hely: 'kint', ker: 'XIV. kerület',
     rovid: 'Több mint száz vasúti jármű, hajtány és kerti vasút.',
     leiras: 'A szabadtéri múzeumban gőzmozdonyok és királyi kocsik között sétálhattok, a gyerekek pedig hajtányt és fordítókorongot is kipróbálhatnak. Esőben az interaktív programok nem mennek.',
     ido: 'Tavasztól őszig, kedd–vasárnap',
@@ -573,7 +604,7 @@ const PROGRAMOK = [
     honapok: [4, 5, 6, 7, 8, 9, 10], zarva: [1], link: 'https://vasuttortenetipark.hu/en/prices/'
   },
   {
-    id: 'tarzan', nev: 'Tarzan Park', kat: 'park', hely: 'kint', ker: 'IV. kerület',
+    id: 'tarzan', ikon: 'csuszda', nev: 'Tarzan Park', kat: 'park', hely: 'kint', ker: 'IV. kerület',
     rovid: 'A főváros legnagyobb szabadtéri játszóparkja.',
     leiras: 'Több mint 13 tematikus játszósziget, óriáscsúszdák és nagy homokozó. Tavasztól őszig van nyitva.',
     ido: 'Tavasztól őszig, 9–19 óráig',
@@ -677,7 +708,7 @@ const PROGRAMOK = [
     zarva: [1], link: 'https://www.superflybudapest.hu/'
   },
   {
-    id: 'elevenpark', nev: 'Elevenpark', kat: 'jatek', hely: 'bent', buda: 1, ker: 'XI. kerület',
+    id: 'elevenpark', ikon: 'horse-toy', nev: 'Elevenpark', kat: 'jatek', hely: 'bent', buda: 1, ker: 'XI. kerület',
     rovid: 'Óriási játszóház az Újbuda Centerben, kisebbeknek külön résszel.',
     leiras: 'Az egész családnak szól, a legkisebbeknek külön területtel. A Cyberjump ugyanitt van, 4–14 éves kor között kombinált jeggyel.',
     ido: 'Hétfő–péntek 13–20, szombat 10–20, vasárnap 10–19 (2024-es adat)',
@@ -686,7 +717,7 @@ const PROGRAMOK = [
     link: 'https://www.elevenpark.hu/'
   },
   {
-    id: 'kolyokpark', nev: 'Kölyökpark, Mammut vagy Etele', kat: 'jatek', hely: 'bent', ker: 'II. és XI. kerület',
+    id: 'kolyokpark', ikon: 'horse-toy', nev: 'Kölyökpark, Mammut vagy Etele', kat: 'jatek', hely: 'bent', ker: 'II. és XI. kerület',
     rovid: 'Játszóház két budai bevásárlóközpontban, 10 éves korig.',
     leiras: 'Mászóvárak és csúszdák, a Mammutban 10, az Etele Plazában 9 éves korig. Inkább a kisebbek helye, a zokni kötelező.',
     ido: 'Hétfő–péntek 10–20:30, szombat 9–21, vasárnap 9–18:45 (Etele: vasárnap 19-ig)',
@@ -696,7 +727,7 @@ const PROGRAMOK = [
     link: 'https://www.kolyokpark.hu/'
   },
   {
-    id: 'kockapark', nev: 'Campona KockaPark', kat: 'jatek', hely: 'bent', ker: 'XXII. kerület',
+    id: 'kockapark', ikon: 'lego', nev: 'Campona KockaPark', kat: 'jatek', hely: 'bent', ker: 'XXII. kerület',
     rovid: 'LEGO-kiállítás és több ezer kocka szabad építéshez.',
     leiras: 'Meseszerű világok a kicsiknek, fantasy, film és történelmi modellek a nagyoknak. Az animátorok építőfeladatokat tartanak, amit a gyerek haza is vihet. Ugyanott van, mint a Tropicarium, a két program összeköthető.',
     ido: 'Hétfő–csütörtök és vasárnap 10–19, péntek–szombat 10–20',
@@ -706,7 +737,7 @@ const PROGRAMOK = [
     link: 'https://kockapark.com/'
   },
   {
-    id: 'pixity', nev: 'Pixity', kat: 'jatek', hely: 'bent', ker: 'XIII. kerület',
+    id: 'pixity', ikon: 'device-gamepad-2', nev: 'Pixity', kat: 'jatek', hely: 'bent', ker: 'XIII. kerület',
     rovid: 'Interaktív játékközpont, amit együtt játszhat a család.',
     leiras: 'Interaktív játékközpont minden korosztálynak, például egy 2–6 fős játékszőnyeggel. Jó választás, ha a szülő sem akar a padon ülni.',
     ido: 'Hétfő–péntek 13–22, szombat–vasárnap 10–22',
@@ -715,7 +746,7 @@ const PROGRAMOK = [
     link: 'https://pixity.hu/en'
   },
   {
-    id: 'flipper', nev: 'Flippermúzeum', kat: 'jatek', hely: 'bent', ker: 'XIII. kerület',
+    id: 'flipper', ikon: 'device-gamepad', nev: 'Flippermúzeum', kat: 'jatek', hely: 'bent', ker: 'XIII. kerület',
     rovid: 'Egy belépővel korlátlanul játszható flippergépek.',
     leiras: 'Az Újlipótvárosban régi és új flipperek sorakoznak, mind ingyenes játékra állítva, így a belépővel annyit játszotok, amennyit szeretnétek. Inkább a nagyobb gyerekeknek való.',
     ido: 'Szerda–péntek 16–24, szombat 13–24, vasárnap 11–22',
@@ -727,7 +758,7 @@ const PROGRAMOK = [
 
   /* ---------- Múzeum, kiállítás, barlang ---------- */
   {
-    id: 'csopa', nev: 'Csodák Palotája', kat: 'muzeum', hely: 'bent', ker: 'III. kerület',
+    id: 'csopa', ikon: 'atom-2', nev: 'Csodák Palotája', kat: 'muzeum', hely: 'bent', ker: 'III. kerület',
     rovid: 'Kipróbálható fizika, kémia, űr és emberi test.',
     leiras: 'Interaktív tudományos élményközpont, ahol mindent meg lehet fogni. Vannak látványos bemutatók és családi programok is.',
     ido: 'Minden nap 10–19',
@@ -737,7 +768,7 @@ const PROGRAMOK = [
     link: 'https://www.csopa.hu/'
   },
   {
-    id: 'tropicarium', nev: 'Tropicarium', kat: 'muzeum', hely: 'bent', ker: 'XXII. kerület',
+    id: 'tropicarium', ikon: 'fish', nev: 'Tropicarium', kat: 'muzeum', hely: 'bent', ker: 'XXII. kerület',
     rovid: 'Cápák a fejetek fölött, üvegalagúttal.',
     leiras: 'Édes- és tengeri halak, ráják és cápák, kígyók és majmok. A cápákat csütörtökön etetik, a többi etetést a honlapon nézzétek meg.',
     ido: 'Minden nap 10–20, utolsó belépés 19 óra',
@@ -747,7 +778,7 @@ const PROGRAMOK = [
     link: 'https://tropicarium.hu/en/tickets-and-prices/'
   },
   {
-    id: 'minipolisz', nev: 'Minipolisz', kat: 'muzeum', hely: 'bent', ker: 'VI. kerület',
+    id: 'minipolisz', ikon: 'building-community', nev: 'Minipolisz', kat: 'muzeum', hely: 'bent', ker: 'VI. kerület',
     rovid: 'Gyerekváros, ahol kipróbálhatják a felnőtt szakmákat.',
     leiras: 'A gyerekek fodrászok, bankárok, boltosok vagy állatorvosok lehetnek egy saját kisvárosban.',
     ido: 'Szerda–vasárnap 10–19, hétfőn és kedden zárva',
@@ -757,7 +788,7 @@ const PROGRAMOK = [
     zarva: [1, 2], link: 'https://www.programturizmus.hu/ajanlat-minipolisz-budapest.html'
   },
   {
-    id: 'ttm', nev: 'Magyar Természettudományi Múzeum', kat: 'muzeum', hely: 'bent', ker: 'VIII. kerület',
+    id: 'ttm', ikon: 'bone', nev: 'Magyar Természettudományi Múzeum', kat: 'muzeum', hely: 'bent', ker: 'VIII. kerület',
     rovid: 'Dinoszauruszok, csontvázak és kristályok.',
     leiras: 'Az Eltűnt világok kiállításon a magyarországi dinoszauruszok korát ismerhetitek meg, eredeti leletekkel. A többi tárlaton meteoritok és hatalmas kristályok is vannak, a kicsiknek játszósarok.',
     ido: 'Kedd–vasárnap 9–17, utolsó belépés 16:30, hétfőn zárva',
@@ -767,7 +798,7 @@ const PROGRAMOK = [
     zarva: [1], link: 'https://www.nhmus.hu/araink/'
   },
   {
-    id: 'mesemuzeum', nev: 'Mesemúzeum', kat: 'muzeum', hely: 'bent', buda: 1, ker: 'I. kerület',
+    id: 'mesemuzeum', ikon: 'book', nev: 'Mesemúzeum', kat: 'muzeum', hely: 'bent', buda: 1, ker: 'I. kerület',
     rovid: 'Hét próbatétel a magyar népmesék világában.',
     leiras: 'A vár alatt egy kis múzeum, ahol a gyerekek vezetőfüzettel járják be a mesevilágot, és hét próbát teljesítenek. Néha bábelőadás és kreatív műhely is van.',
     ido: 'Csütörtök és szombat 10–17, vasárnap 10–13. Szünetekben változhat.',
@@ -777,7 +808,7 @@ const PROGRAMOK = [
     zarva: [1, 2, 3, 5], zarvaEvente: ['12-25', '12-26', '01-01'], link: 'https://mesemuzeum.hu/en/opening-hours'
   },
   {
-    id: 'penzmuzeum', nev: 'Pénzmúzeum', kat: 'muzeum', hely: 'bent', buda: 1, ing: 1, ker: 'XII. kerület',
+    id: 'penzmuzeum', ikon: 'coins', nev: 'Pénzmúzeum', kat: 'muzeum', hely: 'bent', buda: 1, ing: 1, ker: 'XII. kerület',
     rovid: 'Ingyenes, interaktív múzeum aranyrúd-emeléssel.',
     leiras: 'A földalatti aranybányától a tőzsdéig tart az út. A gyerekek kipróbálhatják, milyen nehéz egy aranyrúd, megtervezhetnek egy saját bankjegyet, és robotok is segítik őket. Iskolásoknak ideális.',
     ido: 'Hétvégén 10–18. Hétköznap egyéni látogatóknak 14–17, csütörtökön 14–19, kedden zárva.',
@@ -788,7 +819,7 @@ const PROGRAMOK = [
     zarva: [2], link: 'https://www.programturizmus.hu/partner-magyar-penzmuzeum-es-latogatokozpont-budapest.html'
   },
   {
-    id: 'zenehaza', nev: 'Magyar Zene Háza', kat: 'muzeum', hely: 'bent', ker: 'XIV. kerület',
+    id: 'zenehaza', ikon: 'music', nev: 'Magyar Zene Háza', kat: 'muzeum', hely: 'bent', ker: 'XIV. kerület',
     rovid: 'Vezényelhetsz, ritmust írhatsz, mellette zenélő játszótér.',
     leiras: 'A Hangdimenziók kiállítás a zene történetét mutatja be fejhallgatóval, a Kreatív Hangtérben a gyerekek vezényelhetnek és ritmust írhatnak. Az épület mellett zenés játszótér van.',
     ido: 'Hétfőn zárva. A Hangdóm kedd–vasárnap 10–18, pénteken 20 óráig tart nyitva.',
@@ -798,7 +829,7 @@ const PROGRAMOK = [
     zarva: [1], link: 'https://zenehaza.hu/en/frequently-asked-questions'
   },
   {
-    id: 'papilonia', nev: 'Papilonia pillangóház', kat: 'muzeum', hely: 'bent', ker: 'V. kerület',
+    id: 'papilonia', ikon: 'butterfly', nev: 'Papilonia pillangóház', kat: 'muzeum', hely: 'bent', ker: 'V. kerület',
     rovid: 'Trópusi pillangók a Duna-parton, egész évben.',
     leiras: 'Egy télen is meleg helyiségben szabadon repkednek a trópusi pillangók. A gyerekeknek a kínai fürjek is nagy kedvencek.',
     ido: 'Egész évben, minden nap 10–20 óráig',
@@ -808,7 +839,7 @@ const PROGRAMOK = [
     link: 'https://welovebudapest.com/cikk/2025/03/31/papilonia-pillangohaz-belgrad-rakpart-lepkehaz/'
   },
   {
-    id: 'palvolgy', nev: 'Pál-völgyi-barlang', kat: 'muzeum', hely: 'bent', jel: 'omega', buda: 1, ker: 'II. kerület',
+    id: 'palvolgy', nev: 'Pál-völgyi-barlang', kat: 'muzeum', hely: 'bent', ikon: 'barlang', buda: 1, ker: 'II. kerület',
     rovid: 'Egyórás barlangtúra 500 méteren, esőben is.',
     leiras: 'Kb. 500 méteres, egyórás vezetett túra a föld alatt. Odalent állandóan 11 °C van, kell a pulóver. Sok a lépcső.',
     ido: 'Kedd–vasárnap 10:15–16:15, óránként indul',
@@ -819,7 +850,7 @@ const PROGRAMOK = [
     zarva: [1], zarvaEvente: UNNEP, link: 'https://www.dunaipoly.hu/en/places/interpretation-sites/pal-volgyi-cave'
   },
   {
-    id: 'szemlo', nev: 'Szemlő-hegyi-barlang', kat: 'muzeum', hely: 'bent', jel: 'omega', buda: 1, ker: 'II. kerület',
+    id: 'szemlo', nev: 'Szemlő-hegyi-barlang', kat: 'muzeum', hely: 'bent', ikon: 'barlang', buda: 1, ker: 'II. kerület',
     rovid: 'Föld alatti virágoskert, kényelmes sétával.',
     leiras: 'A falakat ásványkiválások borítják, a túra sima úton halad, így a kisebbeknek is jó. Az állandó hőmérséklet 12 °C.',
     ido: 'Kedd kivételével naponta 10–16, óránként indul',
@@ -860,37 +891,28 @@ function napNeve(s) {
 const szam = (x, t = 0) => x == null ? '–' : x.toFixed(t).replace('.', ',');
 
 const KAT = {
-  tura: { nev: 'Túra', cim: 'Könnyű kirándulás', szin: '#1858b8', alak: 'sav' },
-  park: { nev: 'Park', cim: 'Park, kert', szin: '#1f8a52', alak: 'kor' },
-  jatszoter: { nev: 'Játszótér', cim: 'Játszótér', szin: '#e0ab00', alak: 'haromszog' },
-  jatek: { nev: 'Trambulin, játszóház', cim: 'Trambulin, játszóház', szin: '#c8342a', alak: 'kereszt' },
-  muzeum: { nev: 'Múzeum', cim: 'Múzeum, kiállítás, barlang', szin: '#1858b8', alak: 'negyzet' },
-  esemeny: { nev: 'Aktuális', cim: 'Aktuális programok', szin: '#c8342a', alak: 'kor' }
+  tura: { nev: 'Túra', cim: 'Könnyű kirándulás', ikon: 'trekking', csop: 'kint' },
+  park: { nev: 'Park', cim: 'Park, kert', ikon: 'trees', csop: 'kint' },
+  jatszoter: { nev: 'Játszótér', cim: 'Játszótér', ikon: 'csuszda', csop: 'kint' },
+  jatek: { nev: 'Trambulin, játszóház', cim: 'Trambulin, játszóház', ikon: 'trambulin', csop: 'jatek' },
+  muzeum: { nev: 'Múzeum', cim: 'Múzeum, kiállítás, barlang', ikon: 'building-bank', csop: 'bent' },
+  esemeny: { nev: 'Aktuális', cim: 'Aktuális programok', ikon: 'calendar-event', csop: 'esem' }
 };
 const TIPUS = { zene: 'Zene', szinhaz: 'Színház', cirkusz: 'Cirkusz', buvesz: 'Bűvész', unnep: 'Ünnepi', kiallitas: 'Kiállítás' };
+const TIPUS_IKON = { zene: 'music', szinhaz: 'masks-theater', cirkusz: 'building-circus', buvesz: 'wand', unnep: 'sparkles', kiallitas: 'photo' };
 
-/* A valódi turistajelzések mintájára: fehér mező, színes jel. Ω = barlang. */
-function jelSvg(kat, alak) {
-  const k = KAT[kat] || KAT.tura;
-  const a = alak || k.alak, c = k.szin;
-  const b = {
-    sav: `<rect x="2" y="12.5" width="32" height="11" fill="${c}"/>`,
-    kor: `<circle cx="18" cy="18" r="9.5" fill="${c}"/>`,
-    haromszog: `<path d="M18 7.5 29 27H7z" fill="${c}"/>`,
-    kereszt: `<path d="M14 7h8v7h7v8h-7v7h-8v-7H7v-8h7z" fill="${c}"/>`,
-    negyzet: `<rect x="9" y="9" width="18" height="18" fill="${c}"/>`,
-    omega: `<path d="M9.5 28v-3h4.2c-3-1.9-4.7-4.7-4.7-8 0-5.2 4-9 9-9s9 3.8 9 9c0 3.3-1.7 6.1-4.7 8h4.2v3h-8.4v-3.4c2.8-1.1 5-3.8 5-7.3 0-3.3-2.5-5.8-5.1-5.8s-5.1 2.5-5.1 5.8c0 3.5 2.2 6.2 5 7.3V28z" fill="${c}"/>`
-  }[a];
-  return `<svg class="jel" viewBox="0 0 36 36" aria-hidden="true"><rect x=".75" y=".75" width="34.5" height="34.5" rx="3" fill="#f8f9f5" stroke="#9fb0a6" stroke-width="1"/>${b}</svg>`;
+/* A szín azt mutatja, milyen fajta a program: kint, mozgás, múzeum vagy dátumos. */
+function ikonNev(p) {
+  return p.ikon || (p.kat === 'esemeny' && TIPUS_IKON[p.tipus]) || (KAT[p.kat] || KAT.tura).ikon;
+}
+function jelSvg(p) {
+  const k = KAT[p.kat] || KAT.tura;
+  return `<span class="jel j-${k.csop}"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">${IKONOK[ikonNev(p)]}</svg></span>`;
 }
 
 const IKON = {
   sziv: '<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 20.5s-7.8-4.7-9.4-9.3C1.5 7.9 3.6 4.8 7 4.8c2 0 3.6 1 5 2.9 1.4-1.9 3-2.9 5-2.9 3.4 0 5.5 3.1 4.4 6.4-1.6 4.6-9.4 9.3-9.4 9.3z" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/></svg>',
   szivTele: '<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 20.5s-7.8-4.7-9.4-9.3C1.5 7.9 3.6 4.8 7 4.8c2 0 3.6 1 5 2.9 1.4-1.9 3-2.9 5-2.9 3.4 0 5.5 3.1 4.4 6.4-1.6 4.6-9.4 9.3-9.4 9.3z" fill="currentColor"/></svg>',
-  pipa: '<svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9.2" fill="none" stroke="currentColor" stroke-width="2"/><path d="m7.8 12.4 3 3 5.4-6" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>',
-  pipaTele: '<svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="10" fill="currentColor"/><path d="m7.8 12.4 3 3 5.4-6" fill="none" stroke="#fff" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/></svg>',
-  ajanlat: '<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3 20 9.5 7l4 7.5 2.5-4L21 20z" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/></svg>',
-  osszes: '<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 6.5h16M4 12h16M4 17.5h16" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>',
   x: '<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6 6l12 12M18 6 6 18" stroke="currentColor" stroke-width="2.4" stroke-linecap="round"/></svg>'
 };
 
@@ -911,11 +933,13 @@ function idoIkon(kod) {
 const KULCS = 'kiruccano.v1';
 function olvas(k, ures) { try { const v = localStorage.getItem(k); return v ? JSON.parse(v) : ures; } catch { return ures; } }
 function ir(k, v) { try { localStorage.setItem(k, JSON.stringify(v)); return true; } catch { return false; } }
-const jelol = Object.assign({ kedvenc: {}, voltunk: {}, terv: {} }, olvas(KULCS, {}));
+const jelol = Object.assign({ kedvenc: {}, terv: {} }, olvas(KULCS, {}));
+delete jelol.voltunk;
+for (const d of Object.keys(jelol.terv)) if (d < ymd(new Date())) delete jelol.terv[d];
 const ment = () => ir(KULCS, jelol);
 
 /* ---------- Állapot ---------- */
-const A = { ful: 'ajanlat', nap: null, napok: [], idoHiba: false, idoTolt: true, kezi: {}, keziNyit: false, eltol: {}, szuro: 'mind', keres: '', listaMod: 'kedvenc', esemenyek: [], frissitve: null, nyitott: null };
+const A = { ful: 'ajanlat', nap: null, napok: [], idoHiba: false, idoTolt: true, kezi: {}, keziNyit: false, eltol: {}, szuro: 'mind', keres: '', esemenyek: [], frissitve: null, nyitott: null };
 
 function vazNapok() {
   const t = [];
@@ -1054,17 +1078,14 @@ function nyitva(p, d) {
 }
 
 function hash(s) { let h = 2166136261; for (let i = 0; i < s.length; i++) { h ^= s.charCodeAt(i); h = Math.imul(h, 16777619); } return (h >>> 0) / 4294967295; }
-function utolsoAlkalom(id) { const v = jelol.voltunk[id]; return v && v.datumok.length ? v.datumok[v.datumok.length - 1] : null; }
 
-/* Elöl a kedvencek és a budai helyek, hátul ahol nemrég jártatok. */
+/* Elöl a kedvencek és a budai helyek. */
 function rangsor(lista, d) {
   return lista.map(p => {
     let s = hash(p.id + d);
     if (jelol.kedvenc[p.id]) s += 2;
     if (p.buda) s += .5;
     s += p.elore || 0;
-    const u = utolsoAlkalom(p.id);
-    if (u) s -= (dt(d) - dt(u)) / 864e5 < 120 ? 4 : 1.5;
     return [s, p];
   }).sort((a, b) => b[0] - a[0]).map(x => x[1]);
 }
@@ -1158,39 +1179,42 @@ function metaSor(p, d) {
     if (p.kor) t.push(`<span>${esc(p.kor)}</span>`);
   } else {
     if (p.ker) t.push(`<span>${esc(p.ker)}</span>`);
-    if (p.hossz) t.push(`<span>${esc(p.hossz.split(',')[0])}</span>`);
+    const tav = p.hossz && p.hossz.split(', ')[0];
+    if (tav && tav.length <= 20) t.push(`<span>${esc(tav)}</span>`);
   }
   if (p.ing) t.push('<span class="cimke ing">Ingyenes</span>');
-  const u = utolsoAlkalom(p.id);
-  if (u) t.push(`<span class="cimke volt">Voltatok: ${esc(rovDatum(u))}</span>`);
   if (d && !nyitva(p, d)) t.push('<span class="cimke zart">Ezen a napon zárva</span>');
   return t.join('');
 }
 
-function gombok(p, valaszthato) {
-  const kedv = !!jelol.kedvenc[p.id], volt = !!jelol.voltunk[p.id];
+function szivGomb(p) {
+  const kedv = !!jelol.kedvenc[p.id];
+  return `<button class="ikon sziv" data-kedv="${esc(p.id)}" aria-pressed="${kedv}" aria-label="Kedvenc: ${esc(p.nev)}">${kedv ? IKON.szivTele : IKON.sziv}</button>`;
+}
+
+function gombok(p) {
   const terv = jelol.terv[A.nap];
   const ez = terv && terv.id === p.id;
   return `<div class="k-gombok">
-    ${valaszthato ? `<button class="valaszt" data-valaszt="${esc(p.id)}" aria-pressed="${!!ez}">${ez ? 'Ezt választottátok' : 'Ezt választjuk'}</button>` : '<span style="margin-right:auto"></span>'}
-    <button class="ikon sziv" data-kedv="${esc(p.id)}" aria-pressed="${kedv}" aria-label="Kedvenc: ${esc(p.nev)}">${kedv ? IKON.szivTele : IKON.sziv}</button>
-    <button class="ikon pipa" data-volt="${esc(p.id)}" aria-pressed="${volt}" aria-label="Voltunk itt: ${esc(p.nev)}">${volt ? IKON.pipaTele : IKON.pipa}</button>
+    <button class="valaszt" data-valaszt="${esc(p.id)}" aria-pressed="${!!ez}">${ez ? 'Ezt választottátok' : 'Ezt választjuk'}</button>
+    ${szivGomb(p)}
   </div>`;
 }
 
 function kartya(p, d, valaszthato = true) {
   const terv = jelol.terv[A.nap];
-  const cl = (terv && terv.id === p.id && valaszthato ? ' valasztott' : '') + (jelol.voltunk[p.id] ? ' voltunk' : '');
+  const cl = (terv && terv.id === p.id && valaszthato ? ' valasztott' : '') + (valaszthato ? '' : ' sorban');
   return `<article class="kartya${cl}">
     <button class="k-fo" data-nyit="${esc(p.id)}">
-      ${jelSvg(p.kat, p.jel)}
+      ${jelSvg(p)}
       <span><span class="k-nev">${esc(p.nev)}</span><span class="k-rov">${esc(p.rovid)}</span><span class="k-meta">${metaSor(p, d)}</span></span>
     </button>
-    ${gombok(p, valaszthato)}
+    ${valaszthato ? gombok(p) : szivGomb(p)}
   </article>`;
 }
 
 const DARAB = 3;
+const FRISSITO_OLDAL = 'https://claude.ai/code/routines';
 function szakaszRajz(s, d) {
   const sor = rangsor(s.lista, d);
   if (s.esem && !sor.length) {
@@ -1215,18 +1239,11 @@ function keresId(id) {
     const e = A.esemenyek.find(x => eid(x) === id);
     if (e) return esemenyElem(e);
   }
-  return PROGRAMOK.find(p => p.id === id) || jelol.kedvenc[id] || jelol.voltunk[id] || null;
+  return PROGRAMOK.find(p => p.id === id) || jelol.kedvenc[id] || null;
 }
 
 function tervRajz() {
-  const ma = ymd(new Date());
-  const regi = Object.entries(jelol.terv).filter(([d]) => d < ma).sort()[0];
   let h = '';
-  if (regi) {
-    const [d, t] = regi;
-    h += `<section class="terv"><div class="cim">${esc(nagy(hosszuDatum(d)))}</div><div class="nev">Elmentetek ide: ${esc(t.nev)}?</div>
-      <div class="sor"><button class="gomb fo" data-regiigen="${d}">Igen, voltunk</button><button class="gomb" data-reginem="${d}">Nem</button></div></section>`;
-  }
   const t = jelol.terv[A.nap];
   if (t) {
     h += `<section class="terv"><div class="cim">${esc(nagy(napNeve(A.nap)))} ezt választottátok</div><div class="nev">${esc(t.nev)}</div>
@@ -1236,8 +1253,14 @@ function tervRajz() {
 }
 
 function musorRajz() {
+  const mikor = A.frissitve ? `Az aktuális programok listája frissítve: ${esc(hosszuDatum(A.frissitve))}` : 'Az aktuális programok listája minden csütörtök reggel frissül.';
   return `<section class="szakasz"><h2>Friss műsorok</h2>
     <div class="musor">${MUSOROK.map(m => `<a href="${esc(m.link)}" target="_blank" rel="noopener">${esc(m.nev)}<span aria-hidden="true">↗</span></a>`).join('')}</div>
+    <div class="frissites">
+      <p>${mikor}</p>
+      <a class="gomb" href="${FRISSITO_OLDAL}" target="_blank" rel="noopener">Frissítés most</a>
+      <p class="apro">A Claude-ban megnyílik az ütemezett feladatok listája. Ott válaszd a Kiruccanó feladatot, majd a Run now gombot. A kész lista pár perc múlva jelenik meg itt.</p>
+    </div>
   </section>`;
 }
 
@@ -1260,31 +1283,21 @@ function osszesRajz() {
     lista = A.szuro === 'mind' ? pr.concat(lista) : pr;
   }
   if (q) lista = lista.filter(p => (p.nev + ' ' + p.rovid + ' ' + (p.ker || '')).toLowerCase().includes(q));
-  const frissit = A.frissitve ? `<p class="apro">A dátumos programok frissítve: ${esc(hosszuDatum(A.frissitve))}.</p>` : '';
   $('#fo').innerHTML = `
     <section class="szakasz">
       <input id="kereso" class="kereso" type="search" placeholder="Keresés" aria-label="Keresés a programok között" value="${esc(A.keres)}">
-      <div class="szurok">${szur.map(([k, t]) => `<button class="szuro${KAT[k] ? '' : ' sima'}" data-szuro="${k}" aria-pressed="${A.szuro === k}">${KAT[k] ? jelSvg(k) : ''}${esc(t)}</button>`).join('')}</div>
+      <div class="szurok">${szur.map(([k, t]) => `<button class="szuro${KAT[k] ? '' : ' sima'}" data-szuro="${k}" aria-pressed="${A.szuro === k}">${KAT[k] ? jelSvg({ kat: k }) : ''}${esc(t)}</button>`).join('')}</div>
       <p class="apro">${lista.length} program${A.szuro === 'esemeny' ? ', dátum szerint' : ''}</p>
       <div class="lista">${lista.map(p => kartya(p, null, false)).join('') || '<p class="ures">Nincs találat.</p>'}</div>
-      ${frissit}
     </section>${musorRajz()}`;
 }
 
 function sajatRajz() {
-  const mod = A.listaMod;
-  const lista = mod === 'kedvenc'
-    ? Object.keys(jelol.kedvenc).map(keresId).filter(Boolean)
-    : Object.keys(jelol.voltunk).sort((a, b) => (utolsoAlkalom(b) || '').localeCompare(utolsoAlkalom(a) || '')).map(keresId).filter(Boolean);
-  const ures = mod === 'kedvenc'
-    ? 'Még nincs kedvenc. A szív ikonnal jelölhetsz egy programot, és ezek kerülnek az ajánlatok elejére.'
-    : 'Még nincs itt semmi. A pipa ikonnal jelöld, ahol már voltatok, és az ajánlat a lista végére teszi.';
+  const lista = Object.keys(jelol.kedvenc).map(keresId).filter(Boolean);
+  const ures = 'Még nincs kedvenc. A szív ikonnal jelölhetsz egy programot, és ezek kerülnek az ajánlatok elejére.';
   $('#fo').innerHTML = `
     <section class="szakasz">
-      <div class="szegmens" role="group">
-        <button data-lista="kedvenc" aria-pressed="${mod === 'kedvenc'}">Kedvencek (${Object.keys(jelol.kedvenc).length})</button>
-        <button data-lista="voltunk" aria-pressed="${mod === 'voltunk'}">Voltunk (${Object.keys(jelol.voltunk).length})</button>
-      </div>
+      <h2 class="oldalcim">Kedvencek</h2>
       <div class="lista">${lista.map(p => kartya(p, null, false)).join('') || `<p class="ures">${ures}</p>`}</div>
     </section>
     <section class="mentes">
@@ -1335,24 +1348,22 @@ function esemenyDatumok(p) {
 function lapRajz(id) {
   const p = keresId(id);
   if (!p) return;
-  const kedv = !!jelol.kedvenc[id], volt = jelol.voltunk[id];
+  const kedv = !!jelol.kedvenc[id];
   const terv = jelol.terv[A.nap];
   const ez = terv && terv.id === id;
   const q = encodeURIComponent(p.cim && p.kat !== 'esemeny' ? p.cim : (p.terkep || p.nev));
   const zart = A.ful === 'ajanlat' && !nyitva(p, A.nap);
   $('#lap').innerHTML = `<div class="lap-bel">
-    <div class="lap-fej">${jelSvg(p.kat, p.jel)}<div><small>${esc(p.kat === 'esemeny' ? (TIPUS[p.tipus] || 'Program') : KAT[p.kat].nev)}</small><h2>${esc(p.nev)}</h2></div>
+    <div class="lap-fej">${jelSvg(p)}<div><small>${esc(p.kat === 'esemeny' ? (TIPUS[p.tipus] || 'Program') : KAT[p.kat].nev)}</small><h2>${esc(p.nev)}</h2></div>
       <button class="bezar" data-bezar="1" aria-label="Bezárás">${IKON.x}</button></div>
     ${zart ? '<p class="figy">Ezen a napon zárva.</p>' : ''}
     <p class="lap-szov">${esc(p.leiras || p.rovid)}</p>
     ${p.kat === 'esemeny' ? esemenyDatumok(p) : ''}
     <dl class="tenyek">${tenyek(p)}</dl>
     ${p.tip ? `<p class="tipp">${esc(p.tip)}</p>` : ''}
-    ${volt ? `<p class="apro">Voltatok itt: ${volt.datumok.map(rovDatum).join(', ')}.</p>` : ''}
     <div class="lap-gombok">
       ${A.ful === 'ajanlat' ? `<button class="gomb fo teljes" data-valaszt="${esc(id)}">${ez ? 'Mégsem ezt választjuk' : 'Ezt választjuk'}</button>` : ''}
-      <button class="gomb" data-kedv="${esc(id)}" aria-pressed="${kedv}">${kedv ? 'Kedvenc' : 'Kedvencekhez'}</button>
-      <button class="gomb" data-volt="${esc(id)}" aria-pressed="${!!volt}">${volt ? 'Voltunk' : 'Voltunk itt'}</button>
+      <button class="gomb teljes" data-kedv="${esc(id)}" aria-pressed="${kedv}">${kedv ? 'Kedvenc' : 'Kedvencekhez'}</button>
       <a class="gomb" href="https://www.google.com/maps/search/?api=1&query=${q}" target="_blank" rel="noopener">Térkép</a>
       ${p.link ? `<a class="gomb" href="${esc(p.link)}" target="_blank" rel="noopener">${p.kat === 'esemeny' ? 'Jegy, részletek' : 'Honlap'}</a>` : ''}
     </div>
@@ -1377,24 +1388,11 @@ function uzen(t) {
   clearTimeout(uzenetIdo);
   uzenetIdo = setTimeout(() => { u.hidden = true; }, 2200);
 }
-const pillanat = p => ({ id: p.id, nev: p.nev, kat: p.kat, jel: p.jel, rovid: p.rovid, ker: p.ker, leiras: p.leiras, link: p.link, hely: p.hely });
+const pillanat = p => ({ id: p.id, nev: p.nev, kat: p.kat, tipus: p.tipus, ikon: p.ikon, rovid: p.rovid, ker: p.ker, leiras: p.leiras, link: p.link, hely: p.hely });
 
 function kedvencValt(id) {
   if (jelol.kedvenc[id]) { delete jelol.kedvenc[id]; uzen('Kikerült a kedvencek közül'); }
   else { jelol.kedvenc[id] = pillanat(keresId(id)); uzen('Kedvenc lett'); }
-  ment();
-}
-function voltValt(id, datum) {
-  if (jelol.voltunk[id] && !datum) { delete jelol.voltunk[id]; uzen('Jelölés törölve'); }
-  else {
-    const p = keresId(id);
-    const v = jelol.voltunk[id] || { ...pillanat(p), datumok: [] };
-    const nap = datum || ymd(new Date());
-    if (!v.datumok.includes(nap)) v.datumok.push(nap);
-    v.datumok.sort();
-    jelol.voltunk[id] = v;
-    uzen('Megjelölve: itt voltatok');
-  }
   ment();
 }
 function valaszt(id) {
@@ -1418,10 +1416,6 @@ async function kodMuvelet(m) {
   try {
     const u = dekodol(t.value);
     Object.assign(jelol.kedvenc, u.kedvenc || {});
-    for (const [id, v] of Object.entries(u.voltunk || {})) {
-      const r = jelol.voltunk[id];
-      jelol.voltunk[id] = r ? { ...v, datumok: [...new Set([...r.datumok, ...v.datumok])].sort() } : v;
-    }
     Object.assign(jelol.terv, u.terv || {});
     ment(); rajzol(); uzen('Mentőkód betöltve');
   } catch { uzen('Ez a kód nem jó, másold ki újra'); }
@@ -1441,13 +1435,9 @@ document.addEventListener('click', e => {
   else if (d.nyit) lapNyit(d.nyit);
   else if (d.bezar) lapZar();
   else if (d.kedv) { kedvencValt(d.kedv); rajzol(); }
-  else if (d.volt) { voltValt(d.volt); rajzol(); }
   else if (d.valaszt) { valaszt(d.valaszt); rajzol(); }
   else if (d.szuro) { A.szuro = d.szuro; rajzol(); }
-  else if (d.lista) { A.listaMod = d.lista; rajzol(); }
   else if (d.kod) kodMuvelet(d.kod);
-  else if (d.regiigen) { const t = jelol.terv[d.regiigen]; voltValt(t.id, d.regiigen); delete jelol.terv[d.regiigen]; ment(); rajzol(); }
-  else if (d.reginem) { delete jelol.terv[d.reginem]; ment(); rajzol(); }
 });
 document.addEventListener('input', e => {
   if (e.target.id === 'kereso') {
