@@ -1,0 +1,23 @@
+{
+  "name": "Kiruccanó",
+  "short_name": "Kiruccanó",
+  "lang": "hu",
+  "description": "Budapesti gyerekprogramok az időjáráshoz igazítva",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#e9efe8",
+  "theme_color": "#1c6547",
+  "icons": [
+    {
+      "src": "ikon.png",
+      "sizes": "180x180",
+      "type": "image/png"
+    },
+    {
+      "src": "ikon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}
