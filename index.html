@@ -42,6 +42,7 @@
   --j-bent-t: #1d549f;
   --j-esem: #f0e0f4;
   --j-esem-t: #7c2c8c;
+  --szabadnap: #f8e3dc;
   --j-lovas: #f6e7c6;
   --j-lovas-t: #775009;
   --j-hobbi: #d0f0ee;
@@ -76,6 +77,7 @@
     --j-bent-t: #a3c6ff;
     --j-esem: #40254a;
     --j-esem-t: #e6b2f2;
+    --szabadnap: #3a2422;
     --j-lovas: #46331a;
     --j-lovas-t: #f2d28f;
     --j-hobbi: #113f41;
@@ -107,6 +109,7 @@
   --j-bent-t: #a3c6ff;
   --j-esem: #40254a;
   --j-esem-t: #e6b2f2;
+  --szabadnap: #3a2422;
   --j-lovas: #46331a;
   --j-lovas-t: #f2d28f;
   --j-hobbi: #113f41;
@@ -151,16 +154,6 @@ svg { display: block; }
 .indok { margin: 0; font-size: 15px; opacity: .92; }
 .adatok { display: flex; flex-wrap: wrap; gap: 4px 14px; font-size: 14px; font-variant-numeric: tabular-nums; }
 .adatok b { font-weight: 650; }
-.kezi { display: flex; flex-wrap: wrap; gap: 8px; align-items: center; }
-.kezi button {
-  border: 1px solid rgba(255, 255, 255, .5);
-  border-radius: 99px;
-  padding: 6px 13px;
-  font-size: 14.5px;
-  font-weight: 600;
-  color: var(--sav-szoveg);
-}
-.kezi button[aria-pressed="true"] { background: var(--sav-szoveg); color: #15302a; }
 .halk-gomb {
   font-size: 13.5px;
   color: inherit;
@@ -186,7 +179,9 @@ svg { display: block; }
   min-width: 0;
 }
 .napgomb .nn { font-weight: 650; }
-.napgomb.hetvege .nn { color: var(--kek); }
+.napgomb.szabad { background: var(--szabadnap); }
+.napgomb.szabad .nn { color: var(--piros); }
+.napgomb.unnep .nn { background: var(--piros); color: var(--lap); border-radius: 6px; padding-inline: 5px; }
 .napgomb svg { width: 24px; height: 24px; }
 .napgomb .fok { color: var(--halk); }
 .napgomb[aria-pressed="true"] { background: var(--lap); border-color: var(--tinta); }
@@ -199,15 +194,14 @@ main { display: grid; gap: 26px; padding-top: 16px; }
 .masik { font-size: 14px; font-weight: 600; color: var(--kek); white-space: nowrap; min-height: 32px; }
 .lista { display: grid; gap: 10px; }
 
-.kartya { background: var(--lap); border: 1px solid var(--vonal); border-radius: 14px; overflow: hidden; }
-.kartya.valasztott { border-color: var(--kek); box-shadow: 0 0 0 1px var(--kek); }
+.kartya { display: grid; grid-template-columns: minmax(0, 1fr) 46px; align-items: start; background: var(--lap); border: 1px solid var(--vonal); border-radius: 14px; overflow: hidden; }
 .k-fo {
   display: grid;
   grid-template-columns: 84px minmax(0, 1fr);
   gap: 12px;
   width: 100%;
   text-align: left;
-  padding: 12px 12px 10px;
+  padding: 12px 12px 13px;
 }
 .jel { width: 42px; height: 42px; border-radius: 12px; display: grid; place-items: center; flex: none; }
 .jel svg { width: 26px; height: 26px; }
@@ -229,34 +223,11 @@ main { display: grid; gap: 26px; padding-top: 16px; }
 .cimke { font-weight: 650; }
 .cimke.ing { color: var(--zold); }
 .cimke.zart { color: var(--piros); }
-.k-gombok { display: flex; align-items: center; gap: 4px; padding: 0 8px 9px 108px; }
-.kartya.sorban { display: grid; grid-template-columns: minmax(0, 1fr) 46px; align-items: start; }
-.kartya.sorban .k-fo { padding-bottom: 13px; }
-.kartya.sorban .ikon { margin-top: 8px; }
-.valaszt {
-  margin-right: auto;
-  padding: 7px 13px;
-  border-radius: 9px;
-  background: var(--kek-halvany);
-  color: var(--kek);
-  font-size: 14.5px;
-  font-weight: 650;
-}
-.valaszt[aria-pressed="true"] { background: var(--kek); color: var(--lap); }
+.kartya .ikon { margin-top: 8px; }
 .ikon { width: 40px; height: 40px; display: grid; place-items: center; border-radius: 10px; color: var(--halk); }
 .ikon svg { width: 22px; height: 22px; }
 .ikon[aria-pressed="true"].sziv { color: var(--piros); }
 
-.terv {
-  background: var(--lap);
-  border: 1.5px solid var(--kek);
-  border-radius: 14px;
-  padding: 12px 13px;
-  display: grid;
-  gap: 8px;
-}
-.terv .cim { font-size: 13px; font-weight: 650; color: var(--kek); }
-.terv .nev { font: 700 18.5px/1.2 var(--disp); }
 .sor { display: flex; flex-wrap: wrap; gap: 8px; }
 .gomb {
   border-radius: 10px;
@@ -269,7 +240,6 @@ main { display: grid; gap: 26px; padding-top: 16px; }
   text-decoration: none;
   display: inline-block;
 }
-.gomb.fo { background: var(--kek); color: var(--lap); }
 
 .ures { color: var(--halk); font-size: 15px; margin: 0; }
 .musor { display: grid; gap: 1px; background: var(--vonal); border: 1px solid var(--vonal); border-radius: 14px; overflow: hidden; }
@@ -438,6 +408,12 @@ const WEBKEPEK = {"cyberjump":["https://welovebudapest.com/i/07/cyberjump_korosi
    kiall: a kiállítások között is jelenjen meg
    csakLista: csak az Összes fülön látszik, mert dátumhoz vagy egyeztetéshez kötött */
 const UNNEP = ['12-24', '12-25', '12-26', '12-31', '01-01'];
+
+/* Naptár. A húsvéthoz kötött ünnepeket az app számolja. Az áthelyezett napok évente
+   rendeletben jelennek meg: a 2026-osak a 10/2025. (IV. 30.) NGM rendeletből, a 2027-esek még hiányoznak. */
+const UNNEPNAP = { '01-01': 'Újév', '03-15': 'Nemzeti ünnep', '05-01': 'A munka ünnepe', '08-20': 'Államalapítás ünnepe', '10-23': 'Nemzeti ünnep', '11-01': 'Mindenszentek', '12-24': 'Szenteste', '12-25': 'Karácsony', '12-26': 'Karácsony' };
+const PIHENONAP = { '2026-01-02': 'Pihenőnap', '2026-08-21': 'Pihenőnap' };
+const MUNKANAP = ['2026-01-10', '2026-08-08', '2026-12-12'];
 
 const PROGRAMOK = [
   /* ---------- Túrák ---------- */
@@ -1169,6 +1145,20 @@ const rovDatum = s => { const d = dt(s); return `${HONAP[d.getMonth()].slice(0, 
 const hosszuDatum = s => { const d = dt(s); return `${HONAP[d.getMonth()]} ${d.getDate()}.`; };
 const hetNapja = s => NAPNEV[dt(s).getDay()];
 const hetvege = s => [0, 6].includes(dt(s).getDay());
+function husvetVasarnap(ev) {
+  const a = ev % 19, b = Math.floor(ev / 100), c = ev % 100, d = Math.floor(b / 4), e = b % 4;
+  const f = Math.floor((b + 8) / 25), g = Math.floor((b - f + 1) / 3), h = (19 * a + b - d - g + 15) % 30;
+  const i = Math.floor(c / 4), k = c % 4, l = (32 + 2 * e + 2 * i - h - k) % 7, m = Math.floor((a + 11 * h + 22 * l) / 451);
+  const x = h + l - 7 * m + 114;
+  return new Date(ev, Math.floor(x / 31) - 1, x % 31 + 1, 12);
+}
+const MOZGO_UNNEP = { '-2': 'Nagypéntek', 0: 'Húsvétvasárnap', 1: 'Húsvéthétfő', 49: 'Pünkösdvasárnap', 50: 'Pünkösdhétfő' };
+function unnepNev(s) {
+  if (PIHENONAP[s]) return PIHENONAP[s];
+  if (UNNEPNAP[s.slice(5)]) return UNNEPNAP[s.slice(5)];
+  return MOZGO_UNNEP[Math.round((dt(s) - husvetVasarnap(+s.slice(0, 4))) / 864e5)] || null;
+}
+const szabadNap = s => !MUNKANAP.includes(s) && (hetvege(s) || !!unnepNev(s));
 /* Eseménydátumok a hét napjával: „nov. 21. (szo)”, „november 21. szombat”. */
 const rovNap = s => `${rovDatum(s)} (${NAPROV[dt(s).getDay()].toLowerCase()})`;
 const hosszuNap = s => `${hosszuDatum(s)} ${hetNapja(s)}`;
@@ -1265,13 +1255,13 @@ function idoIkon(kod) {
 const KULCS = 'kiruccano.v1';
 function olvas(k, ures) { try { const v = localStorage.getItem(k); return v ? JSON.parse(v) : ures; } catch { return ures; } }
 function ir(k, v) { try { localStorage.setItem(k, JSON.stringify(v)); return true; } catch { return false; } }
-const jelol = Object.assign({ kedvenc: {}, terv: {} }, olvas(KULCS, {}));
+const jelol = Object.assign({ kedvenc: {} }, olvas(KULCS, {}));
 delete jelol.voltunk;
-for (const d of Object.keys(jelol.terv)) if (d < ymd(new Date())) delete jelol.terv[d];
+delete jelol.terv;
 const ment = () => ir(KULCS, jelol);
 
 /* ---------- Állapot ---------- */
-const A = { ful: 'ajanlat', nap: null, napok: [], idoHiba: false, idoTolt: true, kezi: {}, keziNyit: false, eltol: {}, szuro: 'mind', keres: '', esemenyek: [], frissitve: null, nyitott: null };
+const A = { ful: 'ajanlat', nap: null, napok: [], idoHiba: false, idoTolt: true, eltol: {}, szuro: 'mind', keres: '', esemenyek: [], frissitve: null, nyitott: null };
 
 function vazNapok() {
   const t = [];
@@ -1281,10 +1271,10 @@ function vazNapok() {
 A.napok = vazNapok();
 
 function alapNap(napok) {
-  const most = new Date(), w = most.getDay(), ma = ymd(most);
-  if (w === 6 || (w === 0 && most.getHours() < 15)) return ma;
-  const szo = napok.find(n => n.d > ma && dt(n.d).getDay() === 6);
-  return szo ? szo.d : ma;
+  const most = new Date(), ma = ymd(most), holnap = ymd(new Date(Date.now() + 864e5));
+  if (szabadNap(ma) && (szabadNap(holnap) || most.getHours() < 15)) return ma;
+  const kov = napok.find(n => n.d > ma && szabadNap(n.d));
+  return kov ? kov.d : ma;
 }
 A.nap = alapNap(A.napok);
 
@@ -1312,11 +1302,14 @@ function feldolgoz(j) {
 }
 
 /* A döntés 9 és 18 óra közötti órákból készül, így az éjszakai eső nem számít. */
-function nappali(n) {
+function nappaliOrak(n) {
   const ma = n.d === ymd(new Date());
   const tol = ma ? Math.max(9, new Date().getHours()) : 9;
   const o = n.orak.filter(x => x.h >= tol && x.h < 18);
-  const lista = o.length ? o : n.orak.filter(x => x.h >= 9 && x.h < 18);
+  return o.length ? o : n.orak.filter(x => x.h >= 9 && x.h < 18);
+}
+function nappali(n) {
+  const lista = nappaliOrak(n);
   return {
     mm: lista.reduce((s, x) => s + x.mm, 0),
     esos: lista.filter(x => x.mm >= 0.2).length,
@@ -1338,9 +1331,29 @@ function minosit(n) {
   return { all, ok, ...x };
 }
 
+/* A napválasztó ikonja ugyanabból az időszakból készül, mint a szöveg, különben
+   egy este esős nap esőt mutatna, miközben a szöveg szerint nem esik. */
+function napKod(n) {
+  const m = minosit(n);
+  if (!m) return n.kod;
+  const k = Math.max(...nappaliOrak(n).map(x => x.kod));
+  const legalabb = { eso: 61, kis: 61, ho: 71, vihar: 95 }[m.ok];
+  if (legalabb) return Math.max(k, legalabb);
+  return m.ok === 'szaraz' && k >= 51 ? 3 : k;
+}
+
+/* Ha napközben száraz, de reggel vagy este esik, azt a szöveg is kimondja. */
+function napszakonKivul(n) {
+  const most = n.d === ymd(new Date()) ? new Date().getHours() : 0;
+  const o = n.orak.filter(x => x.h >= most && (x.h < 9 || x.h >= 18) && x.mm > 0);
+  const mm = o.reduce((s, x) => s + x.mm, 0);
+  if (mm < 0.1) return '';
+  const r = o.some(x => x.h < 9), e = o.some(x => x.h >= 18);
+  return ` ${r && e ? 'Reggel és este' : r ? 'Reggel' : 'Este'} ${szam(mm, 1)} mm eső lehet.`;
+}
+
 function aktualisAllapot() {
   const n = A.napok.find(x => x.d === A.nap) || { d: A.nap };
-  if (A.kezi[A.nap]) return { all: A.kezi[A.nap], kezi: true, n };
   const m = minosit(n);
   return m ? { ...m, n } : { all: null, n };
 }
@@ -1353,7 +1366,6 @@ const ITELET = {
   szel: 'Erős szél lesz, az erdő most nem jó ötlet.',
   ho: 'Havazás várható, inkább bent.'
 };
-const KEZI_ITELET = { jo: 'Jó idő, mehettek a szabadba.', valtozo: 'Változékony idő, legyen B-terv.', rossz: 'Rossz idő, bent a helyetek.' };
 
 async function idoLekeres() {
   const tar = olvas(IDO_KULCS, null);
@@ -1437,7 +1449,7 @@ function esemenyekSzetosztva(d, fedett) {
   const o = { lovas: [], megye: [], kiall: [], hobbi: [], esem: [] };
   for (const e of aznapiak(d, fedett)) {
     if (e.tipus === 'lovas') o.lovas.push(e);
-    else if (e.megye && hetvege(d)) o.megye.push(e);
+    else if (e.megye && szabadNap(d)) o.megye.push(e);
     else if (e.tipus === 'kiallitas') o.kiall.push(e);
     else if (e.tipus === 'sport' || e.tipus === 'hobbi') o.hobbi.push(e);
     else o.esem.push(e);
@@ -1453,7 +1465,7 @@ function szakaszok(all, d) {
   const bol = { k: 'esem', cim: 'Aznap műsoron', lista: ev.esem, esem: true };
   const kiall = { k: 'kiall', cim: 'Kiállítás', darab: 2, lista: [...ev.kiall, ...PROGRAMOK.filter(p => p.kiall && !p.csakLista && !p.megye && szabad.includes(p.hely) && nyitva(p, d))] };
   const hobbi = { k: 'hobbi', cim: 'Próbáljatok ki valami újat', darab: 2, lista: [...ev.hobbi, ...helyek(['hobbi'], szabad, d)] };
-  const megye = { k: 'megye', cim: 'Kiruccanás Pest megyébe', darab: 2, lista: hetvege(d) ? [...ev.megye, ...PROGRAMOK.filter(p => p.megye && !p.csakLista && szabad.includes(p.hely) && nyitva(p, d))] : [] };
+  const megye = { k: 'megye', cim: 'Kiruccanás Pest megyébe', darab: 2, lista: szabadNap(d) ? [...ev.megye, ...PROGRAMOK.filter(p => p.megye && !p.csakLista && szabad.includes(p.hely) && nyitva(p, d))] : [] };
   const kintiek = () => helyek(['tura', 'park', 'jatszoter'], ['kint', 'vegyes'], d);
   const fedett = () => helyek(['jatek', 'muzeum'], ['bent'], d);
   if (all === 'jo') return [lovas,
@@ -1487,34 +1499,29 @@ function savRajz() {
   const a = aktualisAllapot(), n = a.n;
   const el = $('#sav');
   el.dataset.all = a.all || '';
-  const fejNap = nagy(napNeve(A.nap)) + ', ' + hosszuDatum(A.nap);
+  const napJel = MUNKANAP.includes(A.nap) ? 'Munkanap' : unnepNev(A.nap);
+  const fejNap = nagy(napNeve(A.nap)) + ', ' + hosszuDatum(A.nap) + (napJel ? ' · ' + napJel : '');
   let cim, indok = '', adat = '';
   if (A.idoTolt && !a.all) cim = 'Megnézem az időjárást…';
-  else if (a.kezi) cim = KEZI_ITELET[a.all];
   else if (a.all) cim = ITELET[a.ok];
   else cim = A.idoHiba ? 'Az időjárást most nem tudom megnézni.' : 'Erre a napra még nincs előrejelzés.';
 
-  if (a.all && !a.kezi) {
+  if (a.all) {
     indok = a.mm > 0 || a.val >= 20
       ? `9 és 18 óra között ${szam(a.mm, 1)} mm eső, legfeljebb ${a.val}% eséllyel.`
       : '9 és 18 óra között száraz idő várható.';
+    if (a.all === 'jo') indok += napszakonKivul(n);
     if (a.ok !== 'eso' && a.ok !== 'vihar' && (n.elozo || 0) >= 5) indok += ' Előző nap sok eső esett, sáros lehet az erdő.';
   }
   if (n.max != null) {
     adat = `<div class="adatok"><span><b>${Math.round(n.max)}°</b> / ${Math.round(n.min)}°</span><span>széllökés ${Math.round(n.szel)} km/h</span>${n.lemegy ? `<span>napnyugta ${n.lemegy}</span>` : ''}</div>`;
   }
-  const kellKezi = (!a.all && !A.idoTolt) || A.keziNyit || a.kezi;
-  const keziBtn = kellKezi ? `<div class="kezi" role="group" aria-label="Milyen idő lesz?">
-      ${[['jo', 'Jó idő'], ['valtozo', 'Változó'], ['rossz', 'Rossz idő']].map(([k, t]) => `<button data-kezi="${k}" aria-pressed="${A.kezi[A.nap] === k}">${t}</button>`).join('')}
-    </div>` : '';
-  const elonezet = window.claude && A.idoHiba ? '<p class="indok">Az előnézetben nincs élő időjárás, a GitHub Pages-en futó appban van. Itt válaszd ki kézzel.</p>' : '';
-  const kapcs = a.all && !a.kezi && !A.keziNyit
-    ? '<button class="halk-gomb" data-kezinyit="1">Nem így látom</button>'
-    : (a.kezi ? '<button class="halk-gomb" data-kezitorol="1">Vissza az előrejelzéshez</button>' : (A.idoHiba && !window.claude ? '<button class="halk-gomb" data-ujra="1">Próbáld újra</button>' : ''));
+  const elonezet = window.claude && A.idoHiba ? '<p class="indok">Az előnézetben nincs élő időjárás, a GitHub Pages-en futó appban van.</p>' : '';
+  const ujra = A.idoHiba && !window.claude ? '<button class="halk-gomb" data-ujra="1">Próbáld újra</button>' : '';
   el.innerHTML = `<div class="keret">
     <div class="fejlec"><span class="marka">Kiruccanó</span><span class="nap-cim">${esc(fejNap)}</span></div>
     <h1 class="itelet">${esc(cim)}</h1>
-    ${indok ? `<p class="indok">${esc(indok)}</p>` : ''}${elonezet}${adat}${keziBtn}${kapcs}
+    ${indok ? `<p class="indok">${esc(indok)}</p>` : ''}${elonezet}${adat}${ujra}
   </div>`;
 }
 
@@ -1523,8 +1530,10 @@ function napokRajz() {
   $('#napok').innerHTML = A.napok.map(n => {
     const d = dt(n.d), w = d.getDay();
     const nv = n.d === ma ? 'Ma' : NAPROV[w];
-    return `<button class="napgomb${w === 0 || w === 6 ? ' hetvege' : ''}" data-nap="${n.d}" aria-pressed="${n.d === A.nap}" aria-label="${esc(nagy(napNeve(n.d)))}, ${esc(hosszuDatum(n.d))}">
-      <span class="nn">${nv}</span>${n.kod != null ? idoIkon(n.kod) : '<svg viewBox="0 0 24 24"></svg>'}<span class="fok">${n.max != null ? Math.round(n.max) + '°' : d.getDate()}</span>
+    const unnep = !MUNKANAP.includes(n.d) && unnepNev(n.d);
+    const kod = n.kod != null ? napKod(n) : null;
+    return `<button class="napgomb${szabadNap(n.d) ? ' szabad' : ''}${unnep ? ' unnep' : ''}" data-nap="${n.d}" aria-pressed="${n.d === A.nap}" aria-label="${esc(nagy(napNeve(n.d)))}, ${esc(hosszuDatum(n.d))}${unnep ? ', ' + esc(unnep) : ''}">
+      <span class="nn">${nv}</span>${kod != null ? idoIkon(kod) : '<svg viewBox="0 0 24 24"></svg>'}<span class="fok">${n.max != null ? Math.round(n.max) + '°' : d.getDate()}</span>
     </button>`;
   }).join('');
   $('#napok').hidden = A.ful !== 'ajanlat';
@@ -1558,24 +1567,13 @@ function szivGomb(p) {
   return `<button class="ikon sziv" data-kedv="${esc(p.id)}" aria-pressed="${kedv}" aria-label="Kedvenc: ${esc(p.nev)}">${kedv ? IKON.szivTele : IKON.sziv}</button>`;
 }
 
-function gombok(p) {
-  const terv = jelol.terv[A.nap];
-  const ez = terv && terv.id === p.id;
-  return `<div class="k-gombok">
-    <button class="valaszt" data-valaszt="${esc(p.id)}" aria-pressed="${!!ez}">${ez ? 'Ezt választottátok' : 'Ezt választjuk'}</button>
-    ${szivGomb(p)}
-  </div>`;
-}
-
-function kartya(p, d, valaszthato = true) {
-  const terv = jelol.terv[A.nap];
-  const cl = (terv && terv.id === p.id && valaszthato ? ' valasztott' : '') + (valaszthato ? '' : ' sorban');
-  return `<article class="kartya${cl}">
+function kartya(p, d) {
+  return `<article class="kartya">
     <button class="k-fo" data-nyit="${esc(p.id)}">
       ${kepDoboz(p)}
       <span><span class="k-nev">${esc(p.nev)}</span><span class="k-rov">${esc(p.rovid)}</span><span class="k-meta">${metaSor(p, d)}</span></span>
     </button>
-    ${valaszthato ? gombok(p) : szivGomb(p)}
+    ${szivGomb(p)}
   </article>`;
 }
 
@@ -1608,16 +1606,6 @@ function keresId(id) {
   return PROGRAMOK.find(p => p.id === id) || jelol.kedvenc[id] || null;
 }
 
-function tervRajz() {
-  let h = '';
-  const t = jelol.terv[A.nap];
-  if (t) {
-    h += `<section class="terv"><div class="cim">${esc(nagy(napNeve(A.nap)))} ezt választottátok</div><div class="nev">${esc(t.nev)}</div>
-      <div class="sor"><button class="gomb" data-nyit="${esc(t.id)}">Részletek</button><button class="gomb" data-valaszt="${esc(t.id)}">Mégsem</button></div></section>`;
-  }
-  return h;
-}
-
 function musorRajz() {
   const mikor = A.frissitve ? `Az aktuális programok listája frissítve: ${esc(hosszuDatum(A.frissitve))}` : 'Az aktuális programok listája kedden és csütörtökön reggel frissül.';
   return `<section class="szakasz"><h2>Friss műsorok</h2>
@@ -1633,7 +1621,7 @@ function lovasRajz(mar) {
   if (!lista.length) return '';
   return `<section class="szakasz">
     <div class="szakasz-fej"><h2>Legközelebbi lovas események</h2><button class="masik" data-ugrik="lovas">Mind</button></div>
-    <div class="lista">${lista.map(p => kartya(p, null, false)).join('')}</div>
+    <div class="lista">${lista.map(p => kartya(p, null)).join('')}</div>
   </section>`;
 }
 
@@ -1641,7 +1629,7 @@ function ajanlatRajz() {
   const a = aktualisAllapot();
   const sz = szakaszok(a.all, A.nap);
   const mar = new Set(sz[0].lista.map(p => p.id));
-  $('#fo').innerHTML = tervRajz() + sz.map(s => szakaszRajz(s, A.nap)).join('') + lovasRajz(mar) + musorRajz();
+  $('#fo').innerHTML = sz.map(s => szakaszRajz(s, A.nap)).join('') + lovasRajz(mar) + musorRajz();
 }
 
 const SZUROK = [['mind', 'Mind'], ['esemeny', 'Aktuális'], ['kiallitas', 'Kiállítás'], ['lovas', 'Lovas'], ['hobbi', 'Hobbi, sport'], ['megye', 'Pest megye'], ['tura', 'Túra'], ['park', 'Park'], ['jatszoter', 'Játszótér'], ['jatek', 'Trambulin, játszóház'], ['muzeum', 'Múzeum']];
@@ -1673,7 +1661,7 @@ function osszesRajz() {
       <input id="kereso" class="kereso" type="search" placeholder="Keresés" aria-label="Keresés a programok között" value="${esc(A.keres)}">
       <div class="szurok">${SZUROK.map(([k, t]) => `<button class="szuro${KAT[k] ? '' : ' sima'}" data-szuro="${k}" aria-pressed="${A.szuro === k}">${KAT[k] ? jelSvg({ kat: k }) : ''}${esc(t)}</button>`).join('')}</div>
       <p class="apro">${lista.length} program${A.szuro === 'esemeny' ? ', dátum szerint' : SZURO_ESEMENY[A.szuro] && A.szuro !== 'mind' ? ', elöl a dátumosak' : ''}</p>
-      <div class="lista">${lista.map(p => kartya(p, null, false)).join('') || '<p class="ures">Nincs találat.</p>'}</div>
+      <div class="lista">${lista.map(p => kartya(p, null)).join('') || '<p class="ures">Nincs találat.</p>'}</div>
     </section>${musorRajz()}`;
   /* Újrarajzolás után is látsszon a kiválasztott szűrő. */
   const sor = $('.szurok'), akt = sor.querySelector('[aria-pressed="true"]');
@@ -1689,7 +1677,7 @@ function sajatRajz() {
   $('#fo').innerHTML = `
     <section class="szakasz">
       <h2 class="oldalcim">Kedvencek</h2>
-      <div class="lista">${lista.map(p => kartya(p, null, false)).join('') || `<p class="ures">${ures}</p>`}</div>
+      <div class="lista">${lista.map(p => kartya(p, null)).join('') || `<p class="ures">${ures}</p>`}</div>
     </section>
     <section class="mentes">
       <h3>Mentőkód</h3>
@@ -1740,12 +1728,9 @@ function lapRajz(id) {
   const p = keresId(id);
   if (!p) return;
   const kedv = !!jelol.kedvenc[id];
-  const terv = jelol.terv[A.nap];
-  const ez = terv && terv.id === id;
   const kep = kepAdat(p);
   const q = encodeURIComponent(p.cim && p.kat !== 'esemeny' ? p.cim : (p.terkep || p.nev));
   const zart = A.ful === 'ajanlat' && !nyitva(p, A.nap);
-  const valaszthato = A.ful === 'ajanlat' && (p.kat !== 'esemeny' || esemenyNapon(p, A.nap));
   const fajta = p.kat === 'esemeny' ? (TIPUS[p.tipus] || 'Program') : KAT[p.kat].nev;
   $('#lap').innerHTML = `<div class="lap-bel">
     <div class="lap-fej">${jelSvg(p)}<div><small>${esc(fajta)}${p.ag ? ', ' + esc(p.ag.toLowerCase()) : ''}</small><h2>${esc(p.nev)}</h2></div>
@@ -1757,7 +1742,6 @@ function lapRajz(id) {
     <dl class="tenyek">${tenyek(p)}</dl>
     ${p.tip ? `<p class="tipp">${esc(p.tip)}</p>` : ''}
     <div class="lap-gombok">
-      ${valaszthato ? `<button class="gomb fo teljes" data-valaszt="${esc(id)}">${ez ? 'Mégsem ezt választjuk' : 'Ezt választjuk'}</button>` : ''}
       <button class="gomb teljes" data-kedv="${esc(id)}" aria-pressed="${kedv}">${kedv ? 'Kedvenc' : 'Kedvencekhez'}</button>
       ${p.nincsTerkep ? '' : `<a class="gomb" href="https://www.google.com/maps/search/?api=1&query=${q}" target="_blank" rel="noopener">Térkép</a>`}
       ${p.link ? `<a class="gomb" href="${esc(p.link)}" target="_blank" rel="noopener">${p.kat === 'esemeny' ? 'Jegy, részletek' : 'Honlap'}</a>` : ''}
@@ -1790,13 +1774,6 @@ function kedvencValt(id) {
   else { jelol.kedvenc[id] = pillanat(keresId(id)); uzen('Kedvenc lett'); }
   ment();
 }
-function valaszt(id) {
-  const t = jelol.terv[A.nap];
-  if (t && t.id === id) { delete jelol.terv[A.nap]; uzen('Választás törölve'); }
-  else { jelol.terv[A.nap] = { id, nev: keresId(id).nev }; uzen('Ezt választottátok'); }
-  ment();
-}
-
 const kodol = o => btoa(unescape(encodeURIComponent(JSON.stringify(o))));
 const dekodol = s => JSON.parse(decodeURIComponent(escape(atob(s.trim()))));
 
@@ -1811,7 +1788,6 @@ async function kodMuvelet(m) {
   try {
     const u = dekodol(t.value);
     Object.assign(jelol.kedvenc, u.kedvenc || {});
-    Object.assign(jelol.terv, u.terv || {});
     ment(); rajzol(); uzen('Mentőkód betöltve');
   } catch { uzen('Ez a kód nem jó, másold ki újra'); }
 }
@@ -1821,17 +1797,13 @@ document.addEventListener('click', e => {
   if (!b) { if (e.target.id === 'lap') lapZar(); return; }
   const d = b.dataset;
   if (d.ful) { A.ful = d.ful; rajzol(); window.scrollTo(0, 0); }
-  else if (d.nap) { A.nap = d.nap; A.keziNyit = false; rajzol(); }
-  else if (d.kezi) { A.kezi[A.nap] = A.kezi[A.nap] === d.kezi ? undefined : d.kezi; rajzol(); }
-  else if (d.kezinyit) { A.keziNyit = true; rajzol(); }
-  else if (d.kezitorol) { delete A.kezi[A.nap]; A.keziNyit = false; rajzol(); }
+  else if (d.nap) { A.nap = d.nap; rajzol(); }
   else if (d.ujra) { A.idoTolt = true; rajzol(); idoLekeres(); }
   else if (d.masik) { A.eltol[d.masik] = (A.eltol[d.masik] || 0) + (+d.lep || DARAB); rajzol(); }
   else if (d.ugrik) { A.ful = 'osszes'; A.szuro = d.ugrik; A.keres = ''; rajzol(); window.scrollTo(0, 0); }
   else if (d.nyit) lapNyit(d.nyit);
   else if (d.bezar) lapZar();
   else if (d.kedv) { kedvencValt(d.kedv); rajzol(); }
-  else if (d.valaszt) { valaszt(d.valaszt); rajzol(); }
   else if (d.szuro) { A.szuro = d.szuro; rajzol(); }
   else if (d.kod) kodMuvelet(d.kod);
 });
