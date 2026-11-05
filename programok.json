@@ -1233,6 +1233,106 @@
         "2026-11-18 19:00"
       ],
       "link": "https://www.fradi.hu/esemenyek"
+    },
+    {
+      "id": "gruffalo-bfz",
+      "cim": "A Gruffaló: Fischer Iván gyerekoperája",
+      "tipus": "zene",
+      "ag": "Gyerekopera",
+      "hely": "BFZ Próbaterem",
+      "terkep": "Budapest, Selmeci utca 14–16.",
+      "rovid": "Fischer Iván gyerekoperája a Budapesti Fesztiválzenekar óbudai próbatermében.",
+      "idopontok": [
+        "2026-11-07 14:30",
+        "2026-11-07 16:30",
+        "2026-11-08 14:30",
+        "2026-11-08 16:30"
+      ],
+      "link": "https://www.programturizmus.hu/ajanlat-budapesti-fesztivalzenekar-koncertek.html"
+    },
+    {
+      "id": "koncert-termeszetert",
+      "cim": "Koncert a természetért: Iván mesél",
+      "tipus": "zene",
+      "ag": "Komolyzene",
+      "hely": "Müpa, Bartók Béla Nemzeti Hangversenyterem",
+      "terkep": "1095 Budapest, Komor Marcell utca 1.",
+      "rovid": "A Budapesti Fesztiválzenekar koncertje a Müpában, délután.",
+      "idopontok": [
+        "2026-11-14 15:30"
+      ],
+      "link": "https://www.programturizmus.hu/ajanlat-budapesti-fesztivalzenekar-koncertek.html"
+    },
+    {
+      "id": "kakaokoncert",
+      "cim": "Kakaókoncert",
+      "tipus": "zene",
+      "ag": "Komolyzene",
+      "hely": "BFZ Próbaterem",
+      "terkep": "Budapest, Selmeci utca 14–16.",
+      "rovid": "Interaktív családi koncert meséléssel, a végén forró kakaóval.",
+      "leiras": "Körülbelül egyórás koncert, ahol a gyerekek játékosan ismerkednek a zenekarral és a hangszerekkel. A jegy.hu szerint ezek az időpontok most elfogytak. A zenekar autizmusbarát változatot is tart, de az oldal nem jelöli, melyik alkalom ilyen.",
+      "ar": "A jegy.hu szerint most minden időpont elfogyott",
+      "idopontok": [
+        "2026-11-28 14:30",
+        "2026-11-28 16:30",
+        "2026-12-12 14:30",
+        "2026-12-12 16:30",
+        "2027-01-30 14:30",
+        "2027-01-30 16:30"
+      ],
+      "link": "https://www.jegy.hu/program/kakaokoncert-172172",
+      "kep": "https://pb2.programinfo.hu/imgs/system-4/program/000/172/172/kakaokoncert-474-279-257493.webp",
+      "kepForras": "jegy.hu"
+    },
+    {
+      "id": "barokk-utazas",
+      "cim": "Barokk utazás: családi koncert",
+      "tipus": "zene",
+      "ag": "Komolyzene",
+      "hely": "Bartók Béla Emlékház",
+      "terkep": "Budapest, Csalán út 29.",
+      "rovid": "A Bacchus Consort családi koncertje korabeli hangszereken.",
+      "idopontok": [
+        "2026-11-21 11:00"
+      ],
+      "link": "https://www.programturizmus.hu/ajanlat-bartok-bela-emlekhaz-koncertek.html",
+      "kep": "https://cdn.programturizmus.hu/media/image/show/ajanlat/kulturalis-program/koncert-zene/komolyzene/2/561-bartok-bela-emlekhaz-koncertek.jpg",
+      "kepForras": "programturizmus.hu"
+    },
+    {
+      "id": "zeneakademia-bejaras",
+      "cim": "Zeneakadémia épületlátogatás",
+      "tipus": "zene",
+      "ag": "Épületbejárás",
+      "hely": "Zeneakadémia",
+      "terkep": "1061 Budapest, Liszt Ferenc tér 8.",
+      "rovid": "Ötvenperces séta az épületben, a végén hallgatói minikoncerttel.",
+      "leiras": "Az időpontokat a Zeneakadémia honlapja pontosítja. Hatéves kortól külön családi túra is van, Zenelabirintus néven.",
+      "ar": "1 720–7 770 Ft, diákoknak 50% kedvezmény",
+      "idopontok": [
+        "2026-11-06",
+        "2026-11-21",
+        "2026-11-27"
+      ],
+      "link": "https://www.programturizmus.hu/ajanlat-zeneakademia-epuletlatogatas.html",
+      "kep": "https://pb2.jegy.hu/imgs/system-4/program/000/050/596/zeneakademia-epuletlatogatas-magyar-nyelven-original-171423.jpg",
+      "kepForras": "jegy.hu"
+    },
+    {
+      "id": "aprok-tanca",
+      "cim": "Aprók tánca: gyerektáncház",
+      "tipus": "zene",
+      "ag": "Táncház",
+      "hely": "Hagyományok Háza",
+      "terkep": "Hagyományok Háza, Budapest",
+      "rovid": "Gyerektáncház, utána kézműves foglalkozással.",
+      "kor": "2 éves kortól",
+      "ar": "1 940 Ft",
+      "idopontok": [
+        "2026-11-06"
+      ],
+      "link": "https://www.programturizmus.hu/kategoria-tanchaz.html"
     }
   ]
 }
