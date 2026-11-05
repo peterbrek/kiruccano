@@ -1607,7 +1607,7 @@ function keresId(id) {
 }
 
 function musorRajz() {
-  const mikor = A.frissitve ? `Az aktuális programok listája frissítve: ${esc(hosszuDatum(A.frissitve))}` : 'Az aktuális programok listája kedden és csütörtökön reggel frissül.';
+  const mikor = A.frissitve ? `Az aktuális programok listája frissítve: ${esc(hosszuDatum(A.frissitve))}` : 'Az aktuális programok listája csütörtök reggelente frissül.';
   return `<section class="szakasz"><h2>Friss műsorok</h2>
     <div class="musor">${MUSOROK.map(m => `<a href="${esc(m.link)}" target="_blank" rel="noopener">${esc(m.nev)}<span aria-hidden="true">↗</span></a>`).join('')}</div>
     <div class="frissites">
