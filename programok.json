@@ -12,7 +12,9 @@
       "tol": "2026-11-07",
       "ig": "2027-01-10",
       "megj": "Nem minden nap van előadás, az időpontokat a jegy.hu mutatja.",
-      "link": "https://www.jegy.hu/program/gombtanc-globe-dance-195114"
+      "link": "https://www.jegy.hu/program/gombtanc-globe-dance-195114",
+      "kep": "https://pb2.programinfo.hu/imgs/system-4/program/000/195/114/gombtanc-globe-dance-474-279-293731.webp",
+      "kepForras": "jegy.hu"
     },
     {
       "id": "kristaly",
@@ -25,7 +27,9 @@
       "tol": "2026-12-04",
       "ig": "2026-12-31",
       "megj": "11, 13, 15, 17 vagy 19 órakor, naptól függően.",
-      "link": "https://www.jegy.hu/program/recirquel-kristaly-a-millenarison-teli-ujcirkusz-mese-140660"
+      "link": "https://www.jegy.hu/program/recirquel-kristaly-a-millenarison-teli-ujcirkusz-mese-140660",
+      "kep": "https://pb2.programinfo.hu/imgs/system-4/program/000/140/660/recirquel-kristaly-a-millenarison-teli-ujcirkusz-mese-474-279-297007.webp",
+      "kepForras": "jegy.hu"
     },
     {
       "id": "janos-vitez",
@@ -43,7 +47,9 @@
         "2027-02-27 15:00",
         "2027-02-28 11:00"
       ],
-      "link": "https://mupa.hu/program/csaladi-es-ifjusagi-programok/janos-vitez-zenes-szinjatek-2026-11-07_11-00-fesztivalszinhaz"
+      "link": "https://mupa.hu/program/csaladi-es-ifjusagi-programok/janos-vitez-zenes-szinjatek-2026-11-07_11-00-fesztivalszinhaz",
+      "kep": "https://mupa.hu/storage/media/111517/conversions/janos_vitez_2026_01-full-width-hero.webp",
+      "kepForras": "Müpa"
     },
     {
       "id": "zenebona",
@@ -185,7 +191,9 @@
         "2026-12-12 15:00",
         "2026-12-20 15:00"
       ],
-      "link": "https://www.jegy.hu/program/magikus-allatok-iskolaja-76062"
+      "link": "https://www.jegy.hu/program/magikus-allatok-iskolaja-76062",
+      "kep": "https://pb2.programinfo.hu/imgs/system-4/program/000/076/062/magikus-allatok-iskolaja-474-279-129386.webp",
+      "kepForras": "jegy.hu"
     },
     {
       "id": "kolibri-kisertet",
@@ -200,7 +208,9 @@
         "2026-11-28 15:00",
         "2026-12-19 15:00"
       ],
-      "link": "https://www.jegy.hu/program/magikus-allatok-iskolaja-a-kisertetfolyoso-165667"
+      "link": "https://www.jegy.hu/program/magikus-allatok-iskolaja-a-kisertetfolyoso-165667",
+      "kep": "https://pb2.programinfo.hu/imgs/system-4/program/000/165/667/magikus-allatok-iskolaja-a-kisertetfolyoso-474-279-280445.webp",
+      "kepForras": "jegy.hu"
     },
     {
       "id": "kolibri-80nap",
@@ -217,7 +227,9 @@
         "2026-12-06 10:00",
         "2026-12-06 15:00"
       ],
-      "link": "https://www.jegy.hu/program/80-nap-alatt-a-fold-korul-193734"
+      "link": "https://www.jegy.hu/program/80-nap-alatt-a-fold-korul-193734",
+      "kep": "https://pb2.programinfo.hu/imgs/system-4/program/000/193/734/80-nap-alatt-a-fold-korul-474-279-289692.webp",
+      "kepForras": "jegy.hu"
     },
     {
       "id": "kolibri-micimacko",
@@ -233,7 +245,9 @@
         "2026-12-29 10:00",
         "2026-12-29 15:00"
       ],
-      "link": "https://www.jegy.hu/program/micimacko-avagy-mi-lesz-a-szazholdas-pagonnyal-181855"
+      "link": "https://www.jegy.hu/program/micimacko-avagy-mi-lesz-a-szazholdas-pagonnyal-181855",
+      "kep": "https://pb2.programinfo.hu/imgs/system-4/program/000/181/855/micimacko-avagy-mi-lesz-a-szazholdas-pagonnyal-474-279-286583.webp",
+      "kepForras": "jegy.hu"
     },
     {
       "id": "bab-hamupipoke",
@@ -249,7 +263,9 @@
         "2026-12-20 15:00",
         "2026-12-29 10:30"
       ],
-      "link": "https://budapestbabszinhaz.hu/en/shows/13-cinderella"
+      "link": "https://budapestbabszinhaz.hu/en/shows/13-cinderella",
+      "kep": "https://budapestbabszinhaz.hu/uploads/shows/78baaa4d5724c7e53f94c1bdf349bd41",
+      "kepForras": "Budapest Bábszínház"
     },
     {
       "id": "bab-berzsian",
@@ -265,7 +281,9 @@
         "2026-12-21 10:30",
         "2026-12-22 10:30"
       ],
-      "link": "https://budapestbabszinhaz.hu/en/shows/87-berzsian-es-dideki"
+      "link": "https://budapestbabszinhaz.hu/en/shows/87-berzsian-es-dideki",
+      "kep": "https://budapestbabszinhaz.hu/uploads/shows/f5c407ba1ba7408ccb8c40ee54c5c2e2",
+      "kepForras": "Budapest Bábszínház"
     },
     {
       "id": "bab-gengszter",
@@ -282,7 +300,9 @@
         "2026-12-04 15:00",
         "2026-12-29 18:00"
       ],
-      "link": "https://babszinhaz.jegy.hu/program/gengszter-nagyi-72243"
+      "link": "https://babszinhaz.jegy.hu/program/gengszter-nagyi-72243",
+      "kep": "https://budapestbabszinhaz.hu/uploads/shows/de8bbbe5e4abcf40e8448b73b50ffc07",
+      "kepForras": "Budapest Bábszínház"
     },
     {
       "id": "kerekutca",
@@ -309,7 +329,9 @@
         "2026-11-21 11:00",
         "2026-11-21 12:30"
       ],
-      "link": "https://mupa.hu/en/program/family-and-youth-events/eszter-biro-advent-adventures-2026-11-21_11-00-glass-hall"
+      "link": "https://mupa.hu/en/program/family-and-youth-events/eszter-biro-advent-adventures-2026-11-21_11-00-glass-hall",
+      "kep": "https://mupa.hu/storage/media/110271/conversions/27196_adventi_kalandok_221203_01-full-width-hero.webp",
+      "kepForras": "Müpa"
     },
     {
       "id": "elvarazsolt",
@@ -393,7 +415,9 @@
       "idopontok": [
         "2026-12-12 11:00"
       ],
-      "link": "https://mupa.hu/en/program/family-and-youth-events/kazuka-children-s-songs-secret-little-island-holiday-edition-2026-12-12_11-00-glass-hall"
+      "link": "https://mupa.hu/en/program/family-and-youth-events/kazuka-children-s-songs-secret-little-island-holiday-edition-2026-12-12_11-00-glass-hall",
+      "kep": "https://mupa.hu/storage/media/110273/conversions/32484_minimatine_kazuka_gyerekdalok_titkos_kis_sziget_261212_01-full-width-hero.webp",
+      "kepForras": "Müpa"
     },
     {
       "id": "hokiralyno",
@@ -405,7 +429,9 @@
       "idopontok": [
         "2026-12-19 10:30"
       ],
-      "link": "https://www.jegy.hu/program/hokiralyno-191116"
+      "link": "https://www.jegy.hu/program/hokiralyno-191116",
+      "kep": "https://pb2.programinfo.hu/imgs/system-4/program/000/191/116/hokiralyno-474-279-284274.webp",
+      "kepForras": "jegy.hu"
     },
     {
       "id": "csodavaro",
@@ -424,7 +450,9 @@
         "2026-12-22 11:00",
         "2026-12-23 11:00"
       ],
-      "link": "https://www.jegy.hu/program/magyar-allami-nepi-egyuttes-csodavaro-betlehemes-106640"
+      "link": "https://www.jegy.hu/program/magyar-allami-nepi-egyuttes-csodavaro-betlehemes-106640",
+      "kep": "https://pb2.programinfo.hu/imgs/system-4/program/000/106/640/magyar-allami-nepi-egyuttes-csodavaro-betlehemes-474-279-259143.webp",
+      "kepForras": "jegy.hu"
     },
     {
       "id": "csillagfenyben",
@@ -467,7 +495,9 @@
         "2026-12-05 10:00",
         "2026-12-05 15:00"
       ],
-      "link": "https://www.jegy.hu/program/bors-neni-72262"
+      "link": "https://www.jegy.hu/program/bors-neni-72262",
+      "kep": "https://pb2.programinfo.hu/imgs/system-4/program/000/072/262/bors-neni-474-279-286554.webp",
+      "kepForras": "jegy.hu"
     },
     {
       "id": "kolibri-macska",
@@ -481,7 +511,9 @@
         "2026-11-29 15:00",
         "2026-12-13 15:00"
       ],
-      "link": "https://www.jegy.hu/program/macska-voltam-londonban-72265"
+      "link": "https://www.jegy.hu/program/macska-voltam-londonban-72265",
+      "kep": "https://pb2.programinfo.hu/imgs/system-4/program/000/072/265/macska-voltam-londonban-474-279-296228.webp",
+      "kepForras": "jegy.hu"
     },
     {
       "id": "kolibri-vilag",
@@ -495,7 +527,9 @@
         "2026-11-15 15:00",
         "2026-12-28 15:00"
       ],
-      "link": "https://www.jegy.hu/program/a-vilag-szuletese-193733"
+      "link": "https://www.jegy.hu/program/a-vilag-szuletese-193733",
+      "kep": "https://pb2.programinfo.hu/imgs/system-4/program/000/193/733/a-vilag-szuletese-474-279-288497.webp",
+      "kepForras": "jegy.hu"
     },
     {
       "id": "bab-troll",
@@ -506,9 +540,13 @@
       "rovid": "Bábelőadás egy Kalle nevű trollról a fjordok vidékén. 55 perc, szünet nélkül.",
       "kor": "6 éves kortól",
       "idopontok": [
-        "2026-12-11 14:00"
+        "2026-11-22 14:00",
+        "2026-12-11 14:00",
+        "2026-12-30 14:00"
       ],
-      "link": "https://budapestbabszinhaz.hu/en/shows/72-the-thirsty-troll"
+      "link": "https://budapestbabszinhaz.hu/en/shows/72-the-thirsty-troll",
+      "kep": "https://budapestbabszinhaz.hu/uploads/shows/810c1ecfb12f9b244dcadce6653c53f1",
+      "kepForras": "Budapest Bábszínház"
     },
     {
       "id": "bab-sarkanyfuto",
@@ -522,7 +560,9 @@
         "2026-12-10 15:00",
         "2026-12-12 10:30"
       ],
-      "link": "https://budapestbabszinhaz.hu/en/shows/85-the-curse-of-the-dragon-bishop"
+      "link": "https://budapestbabszinhaz.hu/en/shows/85-the-curse-of-the-dragon-bishop",
+      "kep": "https://budapestbabszinhaz.hu/uploads/shows/d838aa4c5eec99e36d71ea22d791e5d2",
+      "kepForras": "Budapest Bábszínház"
     },
     {
       "id": "bab-ejszaka",
@@ -535,7 +575,9 @@
       "idopontok": [
         "2026-12-29 17:00"
       ],
-      "link": "https://budapestbabszinhaz.hu/en/shows/51-night-in-the-puppet-theatre"
+      "link": "https://budapestbabszinhaz.hu/en/shows/51-night-in-the-puppet-theatre",
+      "kep": "https://budapestbabszinhaz.hu/uploads/shows/6cb636d0da2db3b9e1804d8a7fb04f75",
+      "kepForras": "Budapest Bábszínház"
     },
     {
       "id": "hetedhet",
@@ -550,7 +592,9 @@
         "2026-11-22 12:00",
         "2026-12-20 12:00"
       ],
-      "link": "https://mupa.hu/programok/csaladi-es-ifjusagi-programok/programtipusok/hetedhet-tanchaz"
+      "link": "https://mupa.hu/programok/csaladi-es-ifjusagi-programok/programtipusok/hetedhet-tanchaz",
+      "kep": "https://mupa.hu/storage/media/111307/conversions/hetedhet_tanchaz_13-program_calendar_list.webp",
+      "kepForras": "Müpa"
     },
     {
       "id": "mus-e",
@@ -862,7 +906,7 @@
       "idopontok": [
         "2026-11-21"
       ],
-      "link": "https://kiralyikastely.hu/jegyar.html"
+      "link": "https://kiralyikastely.hu/erzsebet-nap.html"
     },
     {
       "id": "godollo-szoszmotolo",
@@ -875,7 +919,9 @@
       "rovid": "Téli múzeumi foglalkozás a kastélyban.",
       "tol": "2026-12-21",
       "ig": "2026-12-22",
-      "link": "https://kiralyikastely.hu/jegyar.html"
+      "link": "https://kiralyikastely.hu/muzeumi-szoszmotolo-a-kastelyban-teli-szunet.html",
+      "kep": "https://kiralyikastely.hu/upload/userupload/12/images/m%C3%BAzeumi%20sz%C3%B6szm%C3%B6t%C3%B6l%C5%91_2026t%C3%A9l.jpg",
+      "kepForras": "Gödöllői Királyi Kastély"
     },
     {
       "id": "godollo-mesedelutan",
@@ -886,9 +932,9 @@
       "megye": true,
       "rovid": "Téli mesedélután a Gödöllői Királyi Kastélyban.",
       "idopontok": [
-        "2026-12-28"
+        "2026-12-28 14:00"
       ],
-      "link": "https://kiralyikastely.hu/jegyar.html"
+      "link": "https://kiralyikastely.hu/mesedelutan-a-kastelyban.html"
     },
     {
       "id": "skanzen-setajegy",
@@ -917,6 +963,276 @@
       "megj": "9 és 18 óra között.",
       "link": "https://skanzen.hu/hu/jo-tudni/altalanos-informaciok/nyitva-tartas",
       "kint": true
+    },
+    {
+      "id": "bab-heraklesz",
+      "cim": "Helló, Héraklész!",
+      "tipus": "szinhaz",
+      "hely": "Budapest Bábszínház",
+      "terkep": "1062 Budapest, Andrássy út 69.",
+      "rovid": "Bábelőadás 10 éves kortól a Budapest Bábszínházban.",
+      "kor": "10 éves kortól",
+      "idopontok": [
+        "2026-11-22 10:30"
+      ],
+      "link": "https://budapestbabszinhaz.hu/eloadasok/10-hello-heraklesz!",
+      "kep": "https://budapestbabszinhaz.hu/uploads/shows/1864b2678e9d66f9f5d58ecc1837ac0b",
+      "kepForras": "Budapest Bábszínház"
+    },
+    {
+      "id": "bab-csaturanga",
+      "cim": "A Csaturanga-csel",
+      "tipus": "szinhaz",
+      "hely": "Budapest Bábszínház",
+      "terkep": "1062 Budapest, Andrássy út 69.",
+      "rovid": "Bábelőadás 10 éves kortól a Budapest Bábszínházban.",
+      "kor": "10 éves kortól",
+      "idopontok": [
+        "2026-12-19 15:00"
+      ],
+      "link": "https://budapestbabszinhaz.hu/eloadasok/93-a-csaturanga-csel",
+      "kep": "https://budapestbabszinhaz.hu/uploads/shows/5cf32a10fe41f8b1e0de8a26dcb3f5a4",
+      "kepForras": "Budapest Bábszínház"
+    },
+    {
+      "id": "godollo-kerek-erdo",
+      "cim": "A Négyszögletű Kerek Erdő",
+      "tipus": "szinhaz",
+      "megye": true,
+      "hely": "Gödöllői Királyi Kastély, Barokk színház",
+      "terkep": "2100 Gödöllő, Grassalkovich-kastély",
+      "rovid": "Lázár Ervin meséje mesejátékként, A Scene Műhely előadásában.",
+      "kor": "4 éves kortól",
+      "ar": "3 500–4 200 Ft",
+      "idopontok": [
+        "2026-12-13 15:00"
+      ],
+      "link": "https://kiralyikastely.hu/lazar-ervin-negyszogletu-kerek-erdo-2026-2.html",
+      "kep": "https://kiralyikastely.hu/kep/1200x800/34381.jpg?1793851505",
+      "kepForras": "Gödöllői Királyi Kastély"
+    },
+    {
+      "id": "godollo-advent",
+      "cim": "Advent a Kastélyban",
+      "tipus": "unnep",
+      "megye": true,
+      "hely": "Gödöllői Királyi Kastély",
+      "terkep": "2100 Gödöllő, Grassalkovich-kastély",
+      "rovid": "Adventi hétvége a kastélyban ingyenes bábelőadásokkal és gyerekkoncertekkel.",
+      "leiras": "December 12.: 11 órakor Diótörő mesekoncert, 14 órakor Karácsonyi történet bábelőadás. December 13.: 11 órakor A Mozart család karácsonya gyerekkoncert, 14 órakor Télkirály bábelőadás. Ezek ingyenesek, a Királyi Karácsonyok családi vezetés belépőjegyes.",
+      "idopontok": [
+        "2026-12-12 11:00",
+        "2026-12-13 11:00"
+      ],
+      "link": "https://kiralyikastely.hu/advent-a-kastelyban-2026.html"
+    },
+    {
+      "id": "varazskert",
+      "cim": "Varázskert: interaktív kiállítás gyerekeknek",
+      "tipus": "kiallitas",
+      "hely": "Vajdahunyadvár, Magyar Mezőgazdasági Múzeum",
+      "terkep": "1146 Budapest, Vajdahunyadvár",
+      "rovid": "800 négyzetméteres mesés interaktív kiállítás és kalandjáték az Alakváltó Mester történetével.",
+      "kor": "4 éves kortól, 7 év alatt szülői segítséggel",
+      "ar": "Gyerek 2 900 Ft, felnőtt 3 200 Ft, családi jegy 10 950 Ft",
+      "tol": "2026-09-19",
+      "ig": "2026-11-29",
+      "zarva": [
+        1
+      ],
+      "megj": "Keddtől vasárnapig 10–17 óráig, a bejárás kb. 1 óra.",
+      "link": "https://www.programturizmus.hu/ajanlat-interaktiv-muzeum-gyerekeknek.html",
+      "kep": "https://cdn.programturizmus.hu/media/image/show/ajanlat/202609/20452-interaktiv-muzeum-gyerekeknek-143151.jpg",
+      "kepForras": "programturizmus.hu"
+    },
+    {
+      "id": "vasutmodell-angyalfold",
+      "cim": "Vasútmodell-kiállítás és játszóház",
+      "tipus": "kiallitas",
+      "hely": "Angyalföldi József Attila Művelődési Központ",
+      "terkep": "1131 Budapest, József Attila tér 4.",
+      "rovid": "Mozdonyok, élethű tájak és működő miniatűr vasúthálózatok rajongóknak és családoknak.",
+      "ar": "1 170–5 900 Ft",
+      "tol": "2026-11-13",
+      "ig": "2026-11-15",
+      "megj": "A pontos nyitvatartást nézd meg a program oldalán.",
+      "link": "https://www.programturizmus.hu/ajanlat-vasutmodell-kiallitas.html",
+      "kep": "https://cdn.programturizmus.hu/media/image/show/ajanlat/202609/25317-vasutmodell-kiallitas-092510.jpg",
+      "kepForras": "programturizmus.hu"
+    },
+    {
+      "id": "elhivatottak-mng",
+      "cim": "Elhivatottak: magyar képzőművésznők a 20. század első felében",
+      "tipus": "kiallitas",
+      "hely": "Magyar Nemzeti Galéria",
+      "terkep": "1014 Budapest, Szent György tér 2.",
+      "rovid": "60 női alkotó több mint 130 műve a Nemzeti Galéria időszaki kiállításán.",
+      "tol": "2026-10-21",
+      "ig": "2027-02-14",
+      "megj": "A nyitvatartást nézd meg a múzeum oldalán.",
+      "link": "https://www.programturizmus.hu/ajanlat-magyar-nemzeti-galeria-idoszaki-kiallitasok-budapest.html"
+    },
+    {
+      "id": "dinoszauruszok-ttm",
+      "cim": "A dinoszauruszok kora Magyarországon",
+      "tipus": "kiallitas",
+      "hely": "Magyar Természettudományi Múzeum",
+      "terkep": "1083 Budapest, Ludovika tér 2–6.",
+      "rovid": "Magyar dinoszauruszleletek, teljes csontvázak és rekonstrukciók, interaktív technikával.",
+      "tol": "2026-01-01",
+      "ig": "2026-12-31",
+      "megj": "Állandó kiállítás.",
+      "link": "https://www.programturizmus.hu/ajanlat-dinoszauruszok-kiallitas.html",
+      "kep": "https://cdn.programturizmus.hu/media/image/show/ajanlat/1085-dinoszauruszok-kiallitas.jpg",
+      "kepForras": "programturizmus.hu"
+    },
+    {
+      "id": "testunk-a-csoda",
+      "cim": "Testünk a csoda: utazó interaktív kiállítás",
+      "tipus": "kiallitas",
+      "hely": "Corvin Művelődési Ház, Erzsébetligeti Színház",
+      "terkep": "1161 Budapest, János utca 141-153.",
+      "rovid": "Interaktív kiállítás, ahol a gyerekek játékos eszközökkel fedezhetik fel az emberi testet.",
+      "leiras": "A nagyközönség november 14-én, szombaton 10 és 16 óra között látogathatja.",
+      "idopontok": [
+        "2026-11-14 10:00"
+      ],
+      "link": "https://port.jegy.hu/program/testunk-a-csoda-utazo-interaktiv-kiallitas-195111",
+      "kep": "https://pb2.programinfo.hu/imgs/system-4/program/000/195/111/testunk-a-csoda-utazo-interaktiv-kiallitas-474-279-294308.webp",
+      "kepForras": "jegy.hu"
+    },
+    {
+      "id": "szinezd-ujra-mng",
+      "cim": "Színezd újra! Múzeumi műhely gyerekeknek",
+      "tipus": "hobbi",
+      "ag": "Képzőművészet",
+      "hely": "Magyar Nemzeti Galéria",
+      "terkep": "1014 Budapest, Szent György tér 2.",
+      "rovid": "Másfél órás műhely kiállítótéri sétával és alkotással, 6–12 éveseknek, kísérő nélkül.",
+      "kor": "6–12 év",
+      "ar": "2 500 Ft",
+      "idopontok": [
+        "2026-11-11 16:00",
+        "2026-11-18 16:00",
+        "2026-11-25 16:00"
+      ],
+      "link": "https://www.programturizmus.hu/ajanlat-kreativ-szakkor-budapest.html",
+      "kep": "https://mng.hu/app/uploads/2024/12/SZU_1920-x-770.jpg",
+      "kepForras": "Magyar Nemzeti Galéria"
+    },
+    {
+      "id": "csaladi-nap-mng",
+      "cim": "Családi nap: Munkácsy Mihály nyomában",
+      "tipus": "hobbi",
+      "ag": "Képzőművészet",
+      "hely": "Magyar Nemzeti Galéria",
+      "terkep": "1014 Budapest, Szent György tér 2.",
+      "rovid": "Családi nap a Magyar Nemzeti Galériában.",
+      "idopontok": [
+        "2026-11-21"
+      ],
+      "link": "https://www.programturizmus.hu/ajanlat-magyar-nemzeti-galeria-programok.html"
+    },
+    {
+      "id": "kastelylurkok",
+      "cim": "Kastélylurkók Klubja",
+      "tipus": "hobbi",
+      "ag": "Történelem",
+      "megye": true,
+      "hely": "Gödöllői Királyi Kastély",
+      "terkep": "2100 Gödöllő, Grassalkovich-kastély",
+      "rovid": "Havi szombati klub alsósoknak a kastélyban, előzetes regisztrációval.",
+      "kor": "1–4. osztály",
+      "ar": "5 000 Ft/fő",
+      "idopontok": [
+        "2026-11-14 10:15",
+        "2026-12-13 10:15"
+      ],
+      "link": "https://kiralyikastely.hu/kastelylurkok-klubja1.html",
+      "kep": "https://kiralyikastely.hu/upload/userupload/12/images/Kast%C3%A9lylurk%C3%B3%20koll%C3%A1zs.jpg",
+      "kepForras": "Gödöllői Királyi Kastély"
+    },
+    {
+      "id": "svabhegy-bemutato",
+      "cim": "Csillagászati bemutató a Svábhegyen",
+      "tipus": "hobbi",
+      "ag": "Csillagászat",
+      "hely": "Svábhegyi Csillagvizsgáló",
+      "terkep": "1121 Budapest, Konkoly Thege Miklós út 15-17.",
+      "rovid": "Távcsöves bemutatók, novemberben főleg a Szaturnusz gyűrűjével és a Hold krátereivel.",
+      "idopontok": [
+        "2026-11-05",
+        "2026-11-06",
+        "2026-11-07",
+        "2026-11-08",
+        "2026-11-12",
+        "2026-11-13",
+        "2026-11-14",
+        "2026-11-15",
+        "2026-11-19",
+        "2026-11-20",
+        "2026-11-21",
+        "2026-11-22",
+        "2026-11-26",
+        "2026-11-27",
+        "2026-11-28",
+        "2026-11-29",
+        "2026-11-30"
+      ],
+      "link": "https://programturizmus.hu/ajanlat-budapesti-obszervatorium.html",
+      "kep": "https://cdn.programturizmus.hu/media/image/show/ajanlat/szabadido/termeszet-programok/csillagok/13/3557-svabhegyi-csillagvizsgalo-interaktiv-csillagaszati-elmenykozpont.jpg",
+      "kepForras": "programturizmus.hu"
+    },
+    {
+      "id": "ftc-jegkorong",
+      "cim": "FTC-Telekom hazai jégkorongmeccsek",
+      "tipus": "sport",
+      "ag": "Jégkorong",
+      "hely": "Tüskecsarnok",
+      "terkep": "Tüskecsarnok, Budapest",
+      "rovid": "Az FTC-Telekom hazai ICEHL-mérkőzései a Tüskecsarnokban.",
+      "leiras": "Ellenfelek: november 13. Fehérvár, november 18. VSV, november 20. Bolzano, november 25. Linz, december 18. Pustertal, december 20. VSV, december 30. Graz.",
+      "idopontok": [
+        "2026-11-13 18:30",
+        "2026-11-18 18:30",
+        "2026-11-20 18:30",
+        "2026-11-25 18:30",
+        "2026-12-18 18:30",
+        "2026-12-20 15:30",
+        "2026-12-30 18:30"
+      ],
+      "link": "https://www.fradi.hu/esemenyek"
+    },
+    {
+      "id": "ftc-kezilabda",
+      "cim": "FTC hazai kézilabdameccsek",
+      "tipus": "sport",
+      "ag": "Kézilabda",
+      "hely": "Elek Gyula Aréna",
+      "terkep": "Elek Gyula Aréna, Budapest",
+      "rovid": "Az FTC női és férfi csapatának hazai bajnoki mérkőzései.",
+      "leiras": "November 11.: FTC-Toyota Kovács – Alba Fehérvár KC (női). November 21.: Ferencvárosi TC – Balatonfüredi KSE (férfi).",
+      "idopontok": [
+        "2026-11-11 18:00",
+        "2026-11-21 18:00"
+      ],
+      "link": "https://www.fradi.hu/esemenyek"
+    },
+    {
+      "id": "ftc-vizilabda",
+      "cim": "FTC hazai vízilabdameccsek",
+      "tipus": "sport",
+      "ag": "Vízilabda",
+      "hely": "FTC-MVM Népligeti Sportközpont",
+      "terkep": "FTC-MVM Népligeti Sportközpont, Budapest",
+      "rovid": "Az FTC-Telekom Waterpolo hazai mérkőzései.",
+      "leiras": "November 14.: 13 órakor Kaposvár (férfi OB I), 18 órakor Sabadell (női Bajnokok Ligája). November 18.: UVSE (női OB I).",
+      "idopontok": [
+        "2026-11-14 13:00",
+        "2026-11-14 18:00",
+        "2026-11-18 19:00"
+      ],
+      "link": "https://www.fradi.hu/esemenyek"
     }
   ]
 }
