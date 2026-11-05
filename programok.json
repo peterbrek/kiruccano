@@ -1,5 +1,5 @@
 {
-  "frissitve": "2026-11-04",
+  "frissitve": "2026-11-05",
   "esemenyek": [
     {
       "id": "gombtanc",
@@ -614,14 +614,15 @@
       "ag": "Ügető, agár",
       "hely": "Kincsem Park",
       "terkep": "1101 Budapest, Albertirsai út 2-4.",
-      "rovid": "Nemzetközi ügetőnap agárfutamokkal a Kincsem Parkban.",
+      "rovid": "Nemzetközi ügetőnap agárversenyekkel és gyerekprogramokkal a Kincsem Parkban.",
       "idopontok": [
         "2026-11-07"
       ],
-      "link": "https://kincsempark.hu/versenynaptar/",
-      "kep": "https://cdn.programturizmus.hu/media/image/show/ajanlat/19007-kincsem-park-program-jegy.jpg",
-      "kepForras": "programturizmus.hu",
-      "kint": true
+      "link": "https://kincsempark.hu/2026/10/30/szerb-magyar-ugetotalalkozo-3/",
+      "kep": "https://kincsempark.hu/wp-content/uploads/2026/09/magyar_szerb_2026_online_1920x1080-copy-4.jpg",
+      "kepForras": "Kincsem Park",
+      "kint": true,
+      "ing": true
     },
     {
       "id": "kincsem-galopp",
@@ -689,9 +690,9 @@
       "idopontok": [
         "2026-12-31"
       ],
-      "link": "https://www.programturizmus.hu/ajanlat-ugetoszilveszter-kincsem-park-budapesten.html",
-      "kep": "https://cdn.programturizmus.hu/media/image/show/ajanlat/19007-kincsem-park-program-jegy.jpg",
-      "kepForras": "programturizmus.hu",
+      "link": "https://kincsempark.hu/tippmix-ugetoszilveszter-2026/",
+      "kep": "https://kincsempark.hu/wp-content/uploads/2026/10/USZ_26_ONLINE.jpg",
+      "kepForras": "Kincsem Park",
       "kint": true
     },
     {
@@ -730,13 +731,31 @@
       "tipus": "lovas",
       "ag": "Fogathajtás",
       "hely": "Tápiószentmárton",
-      "terkep": "Tápiószentmárton",
+      "terkep": "2711 Tápiószentmárton",
       "megye": true,
       "rovid": "Kétnapos fogathajtó verseny fedett pályán, Pest megyében.",
       "tol": "2026-11-07",
       "ig": "2026-11-08",
       "megj": "A pontos helyszínt nézd meg a szervezőknél.",
-      "link": "https://www.programturizmus.hu/ajanlat-fogathajto-versenyek.html"
+      "link": "https://www.programturizmus.hu/ajanlat-fogathajto-versenyek.html",
+      "kep": "https://cdn.programturizmus.hu/media/image/plakat/ajanlat/202609/1176-fogathajto-versenyek-161809.png",
+      "kepForras": "programturizmus.hu"
+    },
+    {
+      "id": "visegrad-lovagi-torna",
+      "cim": "Lovagi torna Visegrádon",
+      "tipus": "lovas",
+      "ag": "Lovagi torna",
+      "hely": "Visegrád",
+      "terkep": "Visegrád",
+      "megye": true,
+      "rovid": "Középkori lovagi torna, a program leírása szerint minden héten szombaton.",
+      "idopontok": [
+        "2026-11-07"
+      ],
+      "link": "https://www.programturizmus.hu/ajanlat-lovagi-torna.html",
+      "kep": "https://cdn.programturizmus.hu/media/image/list/ajanlat/4660-lovagi-torna.jpg",
+      "kepForras": "programturizmus.hu"
     },
     {
       "id": "garden-of-lights",
