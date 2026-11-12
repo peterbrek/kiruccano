@@ -81,7 +81,9 @@
         "2026-12-13 10:00",
         "2026-12-20 10:00"
       ],
-      "link": "https://www.programturizmus.hu/ajanlat-cifra-palota-csaladi-programok-budapest.html"
+      "link": "https://www.programturizmus.hu/ajanlat-cifra-palota-csaladi-programok-budapest.html",
+      "kep": "https://cdn.programturizmus.hu/media/image/show/ajanlat/csalad-gyerek/fedett-csaladi-programok/13/3422-muveszetek-palotaja-cifra-palota.png",
+      "kepForras": "programturizmus.hu"
     },
     {
       "id": "mano-koncert",
@@ -300,12 +302,15 @@
       "tipus": "zene",
       "hely": "Müpa, Bartók Béla Nemzeti Hangversenyterem",
       "terkep": "1095 Budapest, Komor Marcell utca 1.",
-      "rovid": "Müpa-matiné a hangversenyteremben.",
+      "rovid": "Mesekoncert: a Nemzeti Énekkar és a Danubia Zenekar mesél egy szegény ember három fiáról.",
       "ar": "3 000–5 000 Ft",
       "idopontok": [
         "2026-11-22 11:00"
       ],
-      "link": "https://www.jegy.hu/program/az-elvarazsolt-menyasszony-mupa-matine-192120"
+      "link": "https://mupa.hu/en/program/family-and-youth-events/the-enchanted-bride-2026-11-22_11-00-bela-bartok-national-concert-hall",
+      "kor": "6–12 év",
+      "kep": "https://mupa.hu/storage/media/110841/conversions/32458_mupa_matine_az_elvarazsolt_menyasszony_261122_02-full-width-hero.webp",
+      "kepForras": "Müpa"
     },
     {
       "id": "orgona",
@@ -319,7 +324,11 @@
         "2026-11-22 16:00",
         "2026-11-22 17:00"
       ],
-      "link": "https://mupa.hu/programok/csaladi-es-ifjusagi-programok/aktualis-programok"
+      "link": "https://www.jegy.hu/program/csaladi-orgonaexpedicio-172680",
+      "kor": "5–10 év",
+      "leiras": "A 16 órás alkalomra a jegy.hu szerint elfogytak a jegyek.",
+      "kep": "https://pb2.programinfo.hu/imgs/system-4/program/000/172/680/csaladi-orgonaexpedicio-474-279-255052.webp",
+      "kepForras": "jegy.hu"
     },
     {
       "id": "toldi",
@@ -335,7 +344,9 @@
         "2026-11-28 15:00",
         "2027-01-23 11:00"
       ],
-      "link": "https://www.jegy.hu/program/budapest-tancszinhaz-toldi-182963"
+      "link": "https://www.jegy.hu/program/budapest-tancszinhaz-toldi-182963",
+      "kep": "https://pb2.programinfo.hu/imgs/system-4/program/000/182/963/budapest-tancszinhaz-toldi-474-279-275981.webp",
+      "kepForras": "jegy.hu"
     },
     {
       "id": "liszt-beavato",
@@ -1206,6 +1217,67 @@
       "link": "https://www.programturizmus.hu/ajanlat-zeneakademia-epuletlatogatas.html",
       "kep": "https://pb2.jegy.hu/imgs/system-4/program/000/050/596/zeneakademia-epuletlatogatas-magyar-nyelven-original-171423.jpg",
       "kepForras": "jegy.hu"
+    },
+    {
+      "id": "zenehaza-danubia-hangfestett",
+      "cim": "Danubia Zenekar: Hangfestett történetek Lackfi Jánossal",
+      "tipus": "zene",
+      "ag": "Komolyzene",
+      "hely": "Magyar Zene Háza, koncertterem",
+      "terkep": "Magyar Zene Háza, Budapest",
+      "rovid": "A közönség a szimfonikus zenekarral együtt rögtönöz zenét Lackfi János meséire.",
+      "ar": "3 700 Ft",
+      "idopontok": [
+        "2026-11-28 10:30"
+      ],
+      "link": "https://zenehaza.hu/en/occasion/danubia-orchestra-soundpainted-stories-with-janos-lackfi",
+      "kep": "https://zenehaza.hu/storage/38771/Danubia_Hangfestett-t%C3%B6rt%C3%A9netek_November_cover_1920x1005_V1.jpg",
+      "kepForras": "Magyar Zene Háza"
+    },
+    {
+      "id": "zenehaza-muzsikalo-karacsony",
+      "cim": "Muzsikáló Természet Zenekar: Karácsony keletről nyugatra",
+      "tipus": "zene",
+      "hely": "Magyar Zene Háza, koncertterem",
+      "terkep": "Magyar Zene Háza, Budapest",
+      "rovid": "Interaktív adventi koncert sok nép karácsonyi dalaival és zenés játékokkal.",
+      "ar": "3 700 Ft",
+      "idopontok": [
+        "2026-12-05 10:30"
+      ],
+      "link": "https://www.zenehaza.hu/en/occasion/musical-nature-orchestra-christmas-from-east-to-west",
+      "kep": "https://zenehaza.hu/storage/37737/Zene-H%C3%A1za-Muzsik%C3%A1l%C3%B3-Term%C3%A9szet-Zenekar-Utaz%C3%A1sok-%C3%A9gen-f%C3%B6ld%C3%B6n-%283%29.jpg",
+      "kepForras": "Magyar Zene Háza"
+    },
+    {
+      "id": "advent-szentendre",
+      "cim": "Advent Szentendrén",
+      "tipus": "unnep",
+      "hely": "Szentendre, belváros",
+      "terkep": "Szentendre, Dumtsa Jenő utca",
+      "megye": true,
+      "rovid": "Adventi vásár a Dumtsa Jenő utcában, kulturális és közösségi programokkal.",
+      "tol": "2026-11-28",
+      "ig": "2027-01-07",
+      "megj": "Több helyszínen, a programokat a szervezők oldalán nézd meg.",
+      "link": "https://www.programturizmus.hu/ajanlat-advent-szentendre.html",
+      "kep": "https://cdn.programturizmus.hu/media/image/show/ajanlat/unnepek/advent/adventi-napok/2/664-advent-szentendre.jpg",
+      "kepForras": "programturizmus.hu",
+      "kint": true
+    },
+    {
+      "id": "kidexpo-2026",
+      "cim": "KidExpo Budapest",
+      "tipus": "kiallitas",
+      "hely": "Papp László Budapest Sportaréna",
+      "terkep": "Papp László Budapest Sportaréna, Budapest",
+      "rovid": "Kétnapos családi kiállítás játékújdonságokkal, tanulós és ünnepi programokkal.",
+      "tol": "2026-11-21",
+      "ig": "2026-11-22",
+      "megj": "Nyitvatartás és jegyárak a szervezőnél.",
+      "link": "https://www.programturizmus.hu/ajanlat-kidexpo-budapest.html",
+      "kep": "https://cdn.programturizmus.hu/media/image/list/ajanlat/9325-kidexpo-budapest.jpg",
+      "kepForras": "programturizmus.hu"
     }
   ]
 }
