@@ -61,7 +61,9 @@
         "2026-12-05 11:00",
         "2027-01-16"
       ],
-      "link": "https://mupa.hu/en/program/family-and-youth-events/playtime-don-t-just-listen-2026-11-07_11-00-stairway-hall"
+      "link": "https://mupa.hu/en/program/family-and-youth-events/playtime-don-t-just-listen-2026-11-21_11-00-stairway-hall",
+      "kep": "https://mupa.hu/storage/media/110209/conversions/zenebona_2026_02-full-width-hero.webp",
+      "kepForras": "Müpa"
     },
     {
       "id": "cifra-palota",
@@ -990,15 +992,17 @@
       "hely": "Tüskecsarnok",
       "terkep": "Tüskecsarnok, Budapest",
       "rovid": "Az FTC-Telekom hazai ICEHL-mérkőzései a Tüskecsarnokban.",
-      "leiras": "Ellenfelek: november 13. Fehérvár, november 18. VSV, november 20. Bolzano, november 25. Linz, december 18. Pustertal, december 20. VSV, december 30. Graz.",
+      "leiras": "Ellenfelek: november 20. HCB Südtirol, november 25. Linz, november 29. Innsbruck, december 6. Milano, december 18. Pustertal, december 20. VSV. Mind ICEHL alapszakasz-mérkőzés.",
       "idopontok": [
         "2026-11-20 18:30",
         "2026-11-25 18:30",
+        "2026-11-29 17:30",
+        "2026-12-06 15:30",
         "2026-12-18 18:30",
         "2026-12-20 15:30",
         "2026-12-30 18:30"
       ],
-      "link": "https://www.fradi.hu/esemenyek"
+      "link": "https://www.fradi.hu/en/ice-hockey"
     },
     {
       "id": "ftc-kezilabda",
@@ -1164,6 +1168,154 @@
       "link": "https://www.programturizmus.hu/ajanlat-lovas-mikulas.html",
       "kep": "https://cdn.programturizmus.hu/media/image/show/ajanlat/202611/22373-lovas-mikulas-175812.jfif",
       "kepForras": "programturizmus.hu"
+    },
+    {
+      "id": "advent-visegrad",
+      "cim": "Advent Visegrádon",
+      "tipus": "unnep",
+      "hely": "Visegrád, Egészségház előtti tér",
+      "terkep": "Visegrád, Egészségház",
+      "megye": true,
+      "kint": true,
+      "rovid": "Adventi programok és kézműves vásár szombatonként a visegrádi rendezvénytéren, november 28-án első adventi gyertyagyújtással.",
+      "idopontok": [
+        "2026-11-28"
+      ],
+      "link": "https://www.programturizmus.hu/ajanlat-advent-visegrad.html",
+      "kep": "https://cdn.programturizmus.hu/media/image/plakat/ajanlat/202610/19213-advent-visegrad-055020.jpg",
+      "kepForras": "programturizmus.hu"
+    },
+    {
+      "id": "tropicarium-etetes",
+      "cim": "Látványetetések a Tropicariumban",
+      "tipus": "kiallitas",
+      "hely": "Tropicarium",
+      "terkep": "Tropicarium, Budapest XXII. kerület",
+      "rovid": "Cápa- és rájaetetés csütörtökönként, kígyóetetés hétfőnként, varánuszetetés szerdánként.",
+      "idopontok": [
+        "2026-11-19 14:30",
+        "2026-11-23 14:00",
+        "2026-11-25 14:00"
+      ],
+      "megj": "A programajánló szerint hetente ismétlődnek.",
+      "link": "https://www.programturizmus.hu/ajanlat-capa-latvanyetetes-tropicarium.html",
+      "kep": "https://cdn.programturizmus.hu/media/image/list/ajanlat/csalad-gyerek/fedett-csaladi-programok/18/4783-capaetetes-budapest.jpg",
+      "kepForras": "programturizmus.hu"
+    },
+    {
+      "id": "csepel-jegpark",
+      "cim": "Csepeli Jégpark",
+      "tipus": "sport",
+      "ag": "Korcsolyázás",
+      "hely": "Csepeli Jégpark",
+      "terkep": "Csepeli Jégpark, Budapest XXI. kerület",
+      "rovid": "Korcsolyapálya Csepelen a téli szezonban.",
+      "tol": "2026-11-20",
+      "ig": "2027-02-28",
+      "megj": "Nyitvatartás és árak a pálya oldalán.",
+      "link": "https://www.programturizmus.hu/ajanlat-csepel-jegpalya.html",
+      "kep": "https://cdn.programturizmus.hu/media/image/list/ajanlat/25400-csepel-jegpalya.jpg",
+      "kepForras": "programturizmus.hu"
+    },
+    {
+      "id": "minipolisz",
+      "cim": "MiniPolisz",
+      "tipus": "kiallitas",
+      "hely": "MiniPolisz Budapest",
+      "terkep": "MiniPolisz, Király utca, Budapest",
+      "rovid": "Interaktív kiállítás gyerekeknek és családoknak a Király utcában, a Deák tér közelében.",
+      "ar": "3 700–17 450 Ft",
+      "tol": "2026-11-19",
+      "ig": "2026-12-31",
+      "megj": "Folyamatosan látogatható.",
+      "link": "https://www.programturizmus.hu/ajanlat-minipolisz-budapest.html",
+      "kep": "https://cdn.programturizmus.hu/media/image/list/ajanlat/program/gyerekprogramok/kiallitas-gyerekeknek/77/19859-minipolisz-budapest.jpg",
+      "kepForras": "programturizmus.hu"
+    },
+    {
+      "id": "mng-muzeumi-advent",
+      "cim": "Kaland a Galériában: a Mikulás nyomában",
+      "tipus": "unnep",
+      "hely": "Magyar Nemzeti Galéria",
+      "terkep": "1014 Budapest, Szent György tér 2.",
+      "rovid": "Ünnepváró családi program a Magyar Nemzeti Galériában, a Múzeumi Advent része.",
+      "idopontok": [
+        "2026-12-06"
+      ],
+      "link": "https://www.programturizmus.hu/ajanlat-muzeumi-advent.html"
+    },
+    {
+      "id": "tintanyul-karacsony",
+      "cim": "Ünnep, hogyha érzem: Farkasházi Réka és a Tintanyúl",
+      "tipus": "zene",
+      "ag": "Gyerekkoncert",
+      "hely": "MOM Kulturális Központ",
+      "terkep": "1124 Budapest, Csörsz u. 18.",
+      "rovid": "Karácsonyi koncert a 20 éves Farkasházi Réka és a Tintanyúl zenekarral.",
+      "idopontok": [
+        "2026-12-13 11:00"
+      ],
+      "link": "https://programturizmus.jegy.hu/program/unnep-hogyha-erzem-karacsonyi-koncert-farkashazi-reka-es-a-tintanyul-193538/1456639"
+    },
+    {
+      "id": "diotoro-nektar",
+      "cim": "Diótörő balett-mese",
+      "tipus": "zene",
+      "ag": "Balett",
+      "hely": "Óbudai Kulturális Központ",
+      "terkep": "Óbudai Kulturális Központ, Budapest",
+      "rovid": "A Nektár Színház 65 perces délelőtti Diótörő-előadása óvodásoknak és kisiskolásoknak.",
+      "kor": "Óvodásoknak és kisiskolásoknak",
+      "idopontok": [
+        "2026-12-13"
+      ],
+      "megj": "Délelőtti előadás.",
+      "link": "https://operainfo.hu/65_perces_delelotti_eloadaskent_erkezik_a_diotoro_gyerekeknek_2144",
+      "kep": "https://www.operainfo.hu/keptar_cikkek/1515.jpg",
+      "kepForras": "Operainfo"
+    },
+    {
+      "id": "opera-hadmuvelet",
+      "cim": "Az opera hadművelet",
+      "tipus": "zene",
+      "ag": "Opera",
+      "hely": "Danubia Szalon",
+      "terkep": "Danubia Szalon, Budapest",
+      "rovid": "Interaktív operás program, ahol a közönség döntheti el a főhős sorsát.",
+      "idopontok": [
+        "2026-11-29 10:00"
+      ],
+      "link": "https://utazenehez.hu/koncertek/az-opera-hadmuvelet-2026-11-29-100000"
+    },
+    {
+      "id": "erzsebetliget-mikulasvaro",
+      "cim": "Mikulásváró",
+      "tipus": "unnep",
+      "hely": "Erzsébetligeti Színház",
+      "terkep": "Erzsébetligeti Színház, Budapest XVI. kerület",
+      "rovid": "Mikulásváró program az Erzsébetligeti Színház színháztermében.",
+      "idopontok": [
+        "2026-12-05"
+      ],
+      "link": "https://kulturliget.hu/esemenyek/mikulasvaro/",
+      "kep": "https://kulturliget.hu/wp-content/uploads/2026/09/1600x1066-mikulasvaro-768x512.png",
+      "kepForras": "Kulturliget"
+    },
+    {
+      "id": "erzsebetliget-kek-madar",
+      "cim": "A kék madár",
+      "tipus": "szinhaz",
+      "hely": "Erzsébetligeti Színház",
+      "terkep": "Erzsébetligeti Színház, Budapest XVI. kerület",
+      "rovid": "Mesemusical Maurice Maeterlinck leghíresebb darabjából, 65 perc szünet nélkül.",
+      "idopontok": [
+        "2026-12-06 11:00"
+      ],
+      "link": "https://kulturliget.hu/esemenyek/a-kek-madar/",
+      "kep": "https://kulturliget.hu/wp-content/uploads/2026/09/1600x1066-kekmadar.jpg",
+      "kepForras": "Kulturliget",
+      "ar": "3 400–4 400 Ft",
+      "kor": "6 éves kortól"
     }
   ]
 }
