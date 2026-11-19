@@ -1,5 +1,5 @@
 {
-  "frissitve": "2026-11-12",
+  "frissitve": "2026-11-19",
   "esemenyek": [
     {
       "id": "gombtanc",
@@ -74,7 +74,6 @@
       "ar": "Ingyenes",
       "ing": true,
       "idopontok": [
-        "2026-11-15 10:00",
         "2026-11-22 10:00",
         "2026-11-29 10:00",
         "2026-12-06 10:00",
@@ -114,32 +113,6 @@
         "2027-01-03"
       ],
       "link": "https://www.nhmus.hu/araink/"
-    },
-    {
-      "id": "marton-marczi",
-      "cim": "Márton-napi kézműves felvonulás",
-      "tipus": "unnep",
-      "hely": "Marczibányi Téri Művelődési Központ",
-      "terkep": "1022 Budapest, Marczibányi tér 5/A",
-      "rovid": "Lámpáskészítés, majd élőzenés felvonulás.",
-      "ar": "3 700 Ft",
-      "idopontok": [
-        "2026-11-14"
-      ],
-      "link": "https://programturizmus.jegy.hu/program/marton-napi-kezmuves-es-elozenes-felvonulas-198567"
-    },
-    {
-      "id": "marton-sashegy",
-      "cim": "Sas-hegyi Márton-napi lampionos felvonulás",
-      "tipus": "unnep",
-      "hely": "Sas-hegy",
-      "kint": true,
-      "terkep": "Sas-hegy, Budapest",
-      "rovid": "Lampionos felvonulás Újbudán.",
-      "idopontok": [
-        "2026-11-15"
-      ],
-      "link": "https://www.programturizmus.hu/ajanlat-marton-nap-sas-hegy.html"
     },
     {
       "id": "kolibri-magikus",
@@ -222,7 +195,6 @@
       "rovid": "Bábelőadás a mese alapján.",
       "kor": "6 éves kortól",
       "idopontok": [
-        "2026-11-12 15:00",
         "2026-12-20 10:30",
         "2026-12-20 15:00",
         "2026-12-29 10:30"
@@ -240,7 +212,6 @@
       "rovid": "Bábelőadás 6 éves kortól.",
       "kor": "6 éves kortól",
       "idopontok": [
-        "2026-11-17 14:00",
         "2026-12-01 14:00",
         "2026-12-21 10:30",
         "2026-12-22 10:30"
@@ -462,8 +433,6 @@
       "rovid": "Meglepetéseket készítenek Bors néninek Lackóval, Titillával, Vízimolnárral és a Játékmesterrel. Kb. 100 perc, szünet nélkül.",
       "kor": "4–8 év",
       "idopontok": [
-        "2026-11-14 10:00",
-        "2026-11-14 15:00",
         "2026-12-05 10:00",
         "2026-12-05 15:00"
       ],
@@ -496,7 +465,6 @@
       "rovid": "Fény, hang, mozgás és vetítés idézi meg a kezdetek kezdetét. 60 perc.",
       "kor": "9 éves kortól",
       "idopontok": [
-        "2026-11-15 15:00",
         "2026-12-28 15:00"
       ],
       "link": "https://www.jegy.hu/program/a-vilag-szuletese-193733",
@@ -577,7 +545,6 @@
       "rovid": "Interaktív művészeti foglalkozás gyerekeknek.",
       "ar": "2 500 Ft",
       "idopontok": [
-        "2026-11-14 11:00",
         "2026-11-28 11:00",
         "2026-12-19 11:00"
       ],
@@ -632,7 +599,6 @@
       "terkep": "1101 Budapest, Albertirsai út 2-4.",
       "rovid": "Versenynap galoppfutamokkal.",
       "idopontok": [
-        "2026-11-15",
         "2026-11-22"
       ],
       "link": "https://kincsempark.hu/versenynaptar/",
@@ -649,7 +615,6 @@
       "terkep": "1101 Budapest, Albertirsai út 2-4.",
       "rovid": "Versenynap ügetőfutamokkal.",
       "idopontok": [
-        "2026-11-14 11:30",
         "2026-12-05",
         "2026-12-12",
         "2026-12-19"
@@ -682,9 +647,9 @@
       "ag": "Ügető",
       "hely": "Kincsem Park",
       "terkep": "1101 Budapest, Albertirsai út 2-4.",
-      "rovid": "Egész délutános szilveszter ügetőfutamokkal, pónikkal és tűzijátékkal.",
-      "leiras": "A 2025-ös programban 13 órakor volt a kapunyitás, 14 és 17:30 között ügetőfutamok, emellett póni, díjlovaglás, agárfutam, Kincsem Kalandösvény kincskereséssel, 21 órakor tűzijáték. A 2026-os részleteket nézd meg a honlapon.",
-      "ar": "2025-ben 8–9 ezer Ft, 14 év alatt ingyenes volt",
+      "rovid": "Az év utolsó napja a Kincsem Parkban ügető-, agár- és pónigalopp-futamokkal, tűzijátékkal.",
+      "leiras": "A program része a Lovaregyleti Díj és az Év Lovainak köszöntése, a nap tűzijátékkal zárul. Jegyek a cooltix.hu-n.",
+      "ar": "Felnőtt 8 900 Ft, diák 4 900 Ft, páros 12 900 Ft, 18 év alatt ingyenes",
       "idopontok": [
         "2026-12-31"
       ],
@@ -692,21 +657,6 @@
       "kep": "https://kincsempark.hu/wp-content/uploads/2026/10/USZ_26_ONLINE.jpg",
       "kepForras": "Kincsem Park",
       "kint": true
-    },
-    {
-      "id": "nl-dijugrato-nov1",
-      "cim": "Fedettpályás Nemzeti Díjugrató Verseny",
-      "tipus": "lovas",
-      "ag": "Díjugratás",
-      "hely": "Nemzeti Lovarda",
-      "terkep": "1087 Budapest, Kerepesi út 7.",
-      "rovid": "Háromnapos díjugrató verseny fedett pályán, a város közepén.",
-      "tol": "2026-11-13",
-      "ig": "2026-11-15",
-      "megj": "A nézői belépésről az esemény oldalán tájékozódj.",
-      "link": "https://nemzetilovarda.hu/esemenyek/fedettpalyas-nemzeti-dijugrato-verseny/",
-      "kep": "https://nemzetilovarda.hu/wp-content/uploads/2021/11/dijszalagok900-2.jpg",
-      "kepForras": "Nemzeti Lovarda"
     },
     {
       "id": "nl-dijugrato-nov2",
@@ -722,22 +672,6 @@
       "link": "https://nemzetilovarda.hu/esemenyek/fedettpalyas-nemzeti-dijugrato-verseny-2/",
       "kep": "https://nemzetilovarda.hu/wp-content/uploads/2022/02/NL-akadlay-illusztracio-og.jpg",
       "kepForras": "Nemzeti Lovarda"
-    },
-    {
-      "id": "visegrad-lovagi-torna",
-      "cim": "Lovagi torna Visegrádon",
-      "tipus": "lovas",
-      "ag": "Lovagi torna",
-      "hely": "Visegrád",
-      "terkep": "Visegrád",
-      "megye": true,
-      "rovid": "Középkori lovagi torna, a program leírása szerint minden héten szombaton.",
-      "idopontok": [
-        "2026-11-14"
-      ],
-      "link": "https://www.programturizmus.hu/ajanlat-lovagi-torna.html",
-      "kep": "https://cdn.programturizmus.hu/media/image/list/ajanlat/4660-lovagi-torna.jpg",
-      "kepForras": "programturizmus.hu"
     },
     {
       "id": "garden-of-lights",
@@ -821,8 +755,6 @@
       "terkep": "Polaris Csillagvizsgáló, Budapest",
       "rovid": "Távcsöves bemutató egy óbudai csillagvizsgálóban.",
       "idopontok": [
-        "2026-11-12",
-        "2026-11-17",
         "2026-11-19",
         "2026-11-24",
         "2026-11-26"
@@ -871,20 +803,6 @@
         "2026-12-28 14:00"
       ],
       "link": "https://kiralyikastely.hu/mesedelutan-a-kastelyban.html"
-    },
-    {
-      "id": "skanzen-marton",
-      "cim": "Szent Márton-napi borünnep és Libator",
-      "tipus": "unnep",
-      "hely": "Szentendrei Skanzen",
-      "terkep": "2000 Szentendre, Sztaravodai út 75.",
-      "megye": true,
-      "rovid": "Márton-napi hétvége a Skanzenben, libaételekkel.",
-      "tol": "2026-11-14",
-      "ig": "2026-11-15",
-      "megj": "9 és 18 óra között.",
-      "link": "https://skanzen.hu/hu/jo-tudni/altalanos-informaciok/nyitva-tartas",
-      "kint": true
     },
     {
       "id": "bab-heraklesz",
@@ -968,21 +886,6 @@
       "kepForras": "programturizmus.hu"
     },
     {
-      "id": "vasutmodell-angyalfold",
-      "cim": "Vasútmodell-kiállítás és játszóház",
-      "tipus": "kiallitas",
-      "hely": "Angyalföldi József Attila Művelődési Központ",
-      "terkep": "1131 Budapest, József Attila tér 4.",
-      "rovid": "Mozdonyok, élethű tájak és működő miniatűr vasúthálózatok rajongóknak és családoknak.",
-      "ar": "1 170–5 900 Ft",
-      "tol": "2026-11-13",
-      "ig": "2026-11-15",
-      "megj": "A pontos nyitvatartást nézd meg a program oldalán.",
-      "link": "https://www.programturizmus.hu/ajanlat-vasutmodell-kiallitas.html",
-      "kep": "https://cdn.programturizmus.hu/media/image/show/ajanlat/202609/25317-vasutmodell-kiallitas-092510.jpg",
-      "kepForras": "programturizmus.hu"
-    },
-    {
       "id": "elhivatottak-mng",
       "cim": "Elhivatottak: magyar képzőművésznők a 20. század első felében",
       "tipus": "kiallitas",
@@ -1009,21 +912,6 @@
       "kepForras": "programturizmus.hu"
     },
     {
-      "id": "testunk-a-csoda",
-      "cim": "Testünk a csoda: utazó interaktív kiállítás",
-      "tipus": "kiallitas",
-      "hely": "Corvin Művelődési Ház, Erzsébetligeti Színház",
-      "terkep": "1161 Budapest, János utca 141-153.",
-      "rovid": "Interaktív kiállítás, ahol a gyerekek játékos eszközökkel fedezhetik fel az emberi testet.",
-      "leiras": "A nagyközönség november 14-én, szombaton 10 és 16 óra között látogathatja.",
-      "idopontok": [
-        "2026-11-14 10:00"
-      ],
-      "link": "https://port.jegy.hu/program/testunk-a-csoda-utazo-interaktiv-kiallitas-195111",
-      "kep": "https://pb2.programinfo.hu/imgs/system-4/program/000/195/111/testunk-a-csoda-utazo-interaktiv-kiallitas-474-279-294308.webp",
-      "kepForras": "jegy.hu"
-    },
-    {
       "id": "szinezd-ujra-mng",
       "cim": "Színezd újra! Múzeumi műhely gyerekeknek",
       "tipus": "hobbi",
@@ -1034,7 +922,6 @@
       "kor": "6–12 év",
       "ar": "2 500 Ft",
       "idopontok": [
-        "2026-11-18 16:00",
         "2026-11-25 16:00"
       ],
       "link": "https://www.programturizmus.hu/ajanlat-kreativ-szakkor-budapest.html",
@@ -1066,7 +953,6 @@
       "kor": "1–4. osztály",
       "ar": "5 000 Ft/fő",
       "idopontok": [
-        "2026-11-14 10:15",
         "2026-12-13 10:15"
       ],
       "link": "https://kiralyikastely.hu/kastelylurkok-klubja1.html",
@@ -1082,10 +968,6 @@
       "terkep": "1121 Budapest, Konkoly Thege Miklós út 15-17.",
       "rovid": "Távcsöves bemutatók, novemberben főleg a Szaturnusz gyűrűjével és a Hold krátereivel.",
       "idopontok": [
-        "2026-11-12",
-        "2026-11-13",
-        "2026-11-14",
-        "2026-11-15",
         "2026-11-19",
         "2026-11-20",
         "2026-11-21",
@@ -1110,8 +992,6 @@
       "rovid": "Az FTC-Telekom hazai ICEHL-mérkőzései a Tüskecsarnokban.",
       "leiras": "Ellenfelek: november 13. Fehérvár, november 18. VSV, november 20. Bolzano, november 25. Linz, december 18. Pustertal, december 20. VSV, december 30. Graz.",
       "idopontok": [
-        "2026-11-13 18:30",
-        "2026-11-18 18:30",
         "2026-11-20 18:30",
         "2026-11-25 18:30",
         "2026-12-18 18:30",
@@ -1133,35 +1013,6 @@
         "2026-11-21 18:00"
       ],
       "link": "https://www.fradi.hu/esemenyek"
-    },
-    {
-      "id": "ftc-vizilabda",
-      "cim": "FTC hazai vízilabdameccsek",
-      "tipus": "sport",
-      "ag": "Vízilabda",
-      "hely": "FTC-MVM Népligeti Sportközpont",
-      "terkep": "FTC-MVM Népligeti Sportközpont, Budapest",
-      "rovid": "Az FTC-Telekom Waterpolo hazai mérkőzései.",
-      "leiras": "November 14.: 13 órakor Kaposvár (férfi OB I), 18 órakor Sabadell (női Bajnokok Ligája). November 18.: UVSE (női OB I).",
-      "idopontok": [
-        "2026-11-14 13:00",
-        "2026-11-14 18:00",
-        "2026-11-18 19:00"
-      ],
-      "link": "https://www.fradi.hu/esemenyek"
-    },
-    {
-      "id": "koncert-termeszetert",
-      "cim": "Koncert a természetért: Iván mesél",
-      "tipus": "zene",
-      "ag": "Komolyzene",
-      "hely": "Müpa, Bartók Béla Nemzeti Hangversenyterem",
-      "terkep": "1095 Budapest, Komor Marcell utca 1.",
-      "rovid": "A Budapesti Fesztiválzenekar koncertje a Müpában, délután.",
-      "idopontok": [
-        "2026-11-14 15:30"
-      ],
-      "link": "https://www.programturizmus.hu/ajanlat-budapesti-fesztivalzenekar-koncertek.html"
     },
     {
       "id": "kakaokoncert",
@@ -1277,6 +1128,41 @@
       "megj": "Nyitvatartás és jegyárak a szervezőnél.",
       "link": "https://www.programturizmus.hu/ajanlat-kidexpo-budapest.html",
       "kep": "https://cdn.programturizmus.hu/media/image/list/ajanlat/9325-kidexpo-budapest.jpg",
+      "kepForras": "programturizmus.hu"
+    },
+    {
+      "id": "visegrad-lovagi-torna",
+      "cim": "Lovagi torna Visegrádon",
+      "tipus": "lovas",
+      "ag": "Lovagi torna",
+      "hely": "Visegrád",
+      "terkep": "Visegrád",
+      "megye": true,
+      "rovid": "Középkori lovagi torna Visegrádon, a programajánló szerint szombatonként.",
+      "idopontok": [
+        "2026-11-21"
+      ],
+      "link": "https://www.programturizmus.hu/ajanlat-lovagi-torna.html",
+      "kep": "https://cdn.programturizmus.hu/media/image/list/ajanlat/4660-lovagi-torna.jpg",
+      "kepForras": "programturizmus.hu"
+    },
+    {
+      "id": "lovas-mikulas-erd",
+      "cim": "Lovas Mikulás Simonpusztán",
+      "tipus": "lovas",
+      "ag": "Lovasbemutató",
+      "hely": "Simonpuszta, Érd",
+      "terkep": "2035 Érd, Simonpuszta",
+      "megye": true,
+      "kint": true,
+      "rovid": "Mikulásváró lovas nap pónishow-val, lovasbemutatóval, és a Mikulás lovasszánon érkezik.",
+      "leiras": "11:00–13:30 ingyenes családi kalandok, 11:00–12:30 sétakocsikázás, 13:30 pónishow, 14:30 Shane bűvész, 15:00 Manók a nyeregben lovasbemutató, 15:30 Disney-dalok, 16:15 a Mikulás érkezése lovasszánon.",
+      "ar": "A családi programok ingyenesek, sétalovaglás 1 000 Ft, sétakocsikázás 500 Ft",
+      "idopontok": [
+        "2026-12-05 11:00"
+      ],
+      "link": "https://www.programturizmus.hu/ajanlat-lovas-mikulas.html",
+      "kep": "https://cdn.programturizmus.hu/media/image/show/ajanlat/202611/22373-lovas-mikulas-175812.jfif",
       "kepForras": "programturizmus.hu"
     }
   ]
