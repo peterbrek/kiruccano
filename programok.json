@@ -1182,6 +1182,363 @@
       "link": "https://www.programturizmus.hu/ajanlat-kocka-es-tarsasjatek-klub-ocsa.html",
       "kep": "https://cdn.programturizmus.hu/media/image/list/ajanlat/202609/40006-kocka-es-tarsasjatek-klub-ocsa-090220.jpg",
       "kepForras": "programturizmus.hu"
+    },
+    {
+      "id": "fenyflotta-2026",
+      "cim": "Indul a BKV fényflottája",
+      "tipus": "unnep",
+      "unnep": "advent",
+      "ikon": "snowflake",
+      "hely": "Hungária kocsiszín, 1-es villamos",
+      "terkep": "Budapest, Brüll Alfréd utca 1.",
+      "rovid": "Kivilágított villamosok, a Mikulásbusz, a fényfogaskerekű és a fényhajó indul útnak, a menet az 1-es villamos vonalán halad.",
+      "leiras": "A részletes menetrend a BKK oldalán és a BudapestGO appban jelenik meg, ott hópehely jelöli a fényjáratokat. A klasszikus fényvillamos általában a 2-es vonalon jár.",
+      "idopontok": [
+        "2026-11-27 18:00"
+      ],
+      "link": "https://welovebudapest.com/cikk/2026/11/23/fenyvillamos-fenyflotta-budapest-2026/",
+      "kep": "https://kep.cdn.index.hu/1/0/7265/72657/726573/72657385_5353151_98cab4528e93c4711315e65d86d4d329_wm.jpg",
+      "kepForras": "We Love Budapest",
+      "kint": true
+    },
+    {
+      "id": "advent-bazilika",
+      "cim": "Advent Bazilika",
+      "tipus": "unnep",
+      "unnep": "advent",
+      "ikon": "christmas-tree",
+      "hely": "Szent István tér",
+      "terkep": "1051 Budapest, Szent István tér",
+      "rovid": "Kézműves vásár, adventi gyertyagyújtás és esti fényfestés a bazilika homlokzatán.",
+      "tol": "2026-11-13",
+      "ig": "2027-01-01",
+      "megj": "A homlokzati fényfestés 17:30-tól félóránként indul.",
+      "link": "https://www.timeout.com/hu/budapest/hirek/kiderult-mikor-nyit-a-ket-legnagyobb-karacsonyi-vasar-110426",
+      "kep": "https://media.timeout.com/images/106461122/image.jpg",
+      "kepForras": "Time Out",
+      "kint": true
+    },
+    {
+      "id": "vorosmarty-xmas",
+      "cim": "Vörösmarty Classic Xmas",
+      "tipus": "unnep",
+      "unnep": "advent",
+      "ikon": "christmas-tree",
+      "hely": "Vörösmarty tér",
+      "terkep": "1051 Budapest, Vörösmarty tér",
+      "rovid": "Karácsonyi vásár élő zenével és ingyenes kisvasúttal a gyerekeknek.",
+      "tol": "2026-11-13",
+      "ig": "2027-01-01",
+      "megj": "A kisvasút és a kézműves standok december 28-ig vannak.",
+      "link": "https://www.timeout.com/hu/budapest/hirek/kiderult-mikor-nyit-a-ket-legnagyobb-karacsonyi-vasar-110426",
+      "kep": "https://kep.cdn.index.hu/1/0/7258/72583/725839/72583951_5348215_c74acb3c7f4518a7515748a44b7a99a5_wm.jpg",
+      "kepForras": "We Love Budapest",
+      "kint": true
+    },
+    {
+      "id": "advent-buda",
+      "cim": "Advent Buda a Várban",
+      "tipus": "unnep",
+      "unnep": "advent",
+      "ikon": "christmas-tree",
+      "hely": "Szentháromság tér",
+      "terkep": "Budapest, Szentháromság tér",
+      "rovid": "Adventi vásár a Budai Várban, hétvégén koncertekkel, vasárnap gyertyagyújtással.",
+      "tol": "2026-11-29",
+      "ig": "2026-12-24",
+      "megj": "Koncertek hétvégén, gyertyagyújtás vasárnaponként.",
+      "link": "https://www.timeout.com/hu/budapest/hirek/kiderult-mikor-nyit-a-ket-legnagyobb-karacsonyi-vasar-110426",
+      "kint": true
+    },
+    {
+      "id": "varoshaza-telipark",
+      "cim": "Városháza Téli Élménypark",
+      "tipus": "sport",
+      "ag": "Korcsolya",
+      "unnep": "advent",
+      "ikon": "ice-skating",
+      "hely": "Városháza park",
+      "terkep": "Városháza park, Budapest",
+      "rovid": "Téli park korcsolyapályával a belvárosban, korcsolyabérléssel.",
+      "tol": "2026-11-21",
+      "ig": "2027-01-31",
+      "megj": "Naponta nyitva.",
+      "link": "https://welovebudapest.com/toplista/korcsolyapalyak-budapest-2026-nyitvatartas-jegyarak/",
+      "kint": true
+    },
+    {
+      "id": "mikulasgyar-2026",
+      "cim": "MikulásGyár",
+      "tipus": "unnep",
+      "unnep": "mikulas",
+      "ikon": "gift",
+      "hely": "Nagyszeben tér, XI. kerület",
+      "terkep": "Nagyszeben tér, Budapest XI. kerület",
+      "rovid": "Jótékonysági adománygyűjtés sok ingyenes gyerekműsorral, december 1-jén a finn Mikulás nyitja meg.",
+      "leiras": "A műsorok nagyjából 10 és 20 óra között vannak, például bábszínház, mesezenekar és robotbemutató. A napi programot nézd meg a forrásoldalon.",
+      "tol": "2026-12-01",
+      "ig": "2026-12-20",
+      "megj": "Minden program ingyenes.",
+      "ing": true,
+      "link": "https://www.programturizmus.hu/ajanlat-mikulasgyar.html",
+      "kep": "https://cdn.programturizmus.hu/media/image/plakat/ajanlat/202610/656-mikulasgyar-061526.jpg",
+      "kepForras": "programturizmus.hu"
+    },
+    {
+      "id": "mikulasvonat-gyermekvasut",
+      "cim": "Mikulásvonat a Gyermekvasúton",
+      "tipus": "unnep",
+      "unnep": "mikulas",
+      "ikon": "train",
+      "hely": "Gyermekvasút, Hűvösvölgy",
+      "terkep": "Hűvösvölgy állomás, Budapest",
+      "rovid": "A Mikulás a vonaton köszönti a gyerekeket és ajándékot ad nekik.",
+      "leiras": "2025-ben Hűvösvölgyből óránként indultak a vonatok 8:20 és 17:20 között, a jegy csak előre, oda-vissza volt kapható, az állomáson kézműveskedés és arcfestés is volt. A 2026-os részleteket nézd meg a Gyermekvasút oldalán.",
+      "idopontok": [
+        "2026-12-05",
+        "2026-12-06"
+      ],
+      "link": "https://gyermekvasut.hu/en/events",
+      "kep": "https://gyermekvasut.hu/wp-content/uploads/2020/01/mikulas-min.jpg",
+      "kepForras": "Gyermekvasút"
+    },
+    {
+      "id": "csopa-mikulas",
+      "cim": "Mikulás-hétvége a Csodák Palotájában",
+      "tipus": "unnep",
+      "unnep": "mikulas",
+      "ikon": "gift",
+      "hely": "Csodák Palotája",
+      "terkep": "1039 Budapest, Mátyás király út 24.",
+      "rovid": "A gyerekek találkoznak a Mikulással és ajándékcsomagot kapnak, mellette tudományos show-k.",
+      "idopontok": [
+        "2026-12-05",
+        "2026-12-06"
+      ],
+      "link": "https://www.programturizmus.hu/ajanlat-mikulas-hetvege-program-budapest.html",
+      "kep": "https://cdn.programturizmus.hu/media/image/list/ajanlat/202611/16208-mikulas-hetvege-program-budapest-174941.jpg",
+      "kepForras": "programturizmus.hu"
+    },
+    {
+      "id": "aeropark-mikulas",
+      "cim": "Mikulás az Aeroparkban",
+      "tipus": "unnep",
+      "unnep": "mikulas",
+      "ikon": "plane",
+      "hely": "Aeropark",
+      "terkep": "1185 Budapest, BUD Terminál 2B mellett",
+      "rovid": "A Mikulás egy repülőgép fedélzetén fogadja a családokat és ajándékot ad.",
+      "leiras": "Előre kell idősávot foglalni.",
+      "idopontok": [
+        "2026-12-05",
+        "2026-12-06"
+      ],
+      "link": "https://www.programturizmus.hu/ajanlat-aeropark-mikulas.html",
+      "kep": "https://cdn.programturizmus.hu/media/image/list/ajanlat/202611/31314-aeropark-mikulas-185314.jpg",
+      "kepForras": "programturizmus.hu"
+    },
+    {
+      "id": "mikulashajo",
+      "cim": "Mikuláshajó",
+      "tipus": "unnep",
+      "unnep": "mikulas",
+      "ikon": "gift",
+      "hely": "Mahart „Budapest” hajó",
+      "terkep": "Budapest V. kerület, Duna-part",
+      "rovid": "Hajókirándulás a Mikulással és manóival, kézműveskedéssel, manóshow-val és közös énekléssel.",
+      "leiras": "A forrás nem írja meg, honnan indul a hajó, ezt a jegyvásárláskor nézd meg.",
+      "idopontok": [
+        "2026-12-05",
+        "2026-12-06"
+      ],
+      "link": "https://www.programturizmus.hu/ajanlat-mikulashajo.html",
+      "kep": "https://cdn.programturizmus.hu/media/image/list/ajanlat/202611/22309-mikulashajo-100516.jpg",
+      "kepForras": "programturizmus.hu"
+    },
+    {
+      "id": "vasuttortenet-mikulas",
+      "cim": "Mikulás Expressz a Vasúttörténeti Parkban",
+      "tipus": "unnep",
+      "unnep": "mikulas",
+      "ikon": "train",
+      "hely": "Magyar Vasúttörténeti Park",
+      "terkep": "1142 Budapest, Tatai út 95.",
+      "rovid": "Mikulás-program a Magyar Vasúttörténeti Parkban.",
+      "idopontok": [
+        "2026-12-06"
+      ],
+      "link": "https://www.programturizmus.hu/ajanlat-mikulas-program-budapest.html"
+    },
+    {
+      "id": "kaszasdulo-mikulas",
+      "cim": "Az igazi Mikulás",
+      "tipus": "szinhaz",
+      "unnep": "mikulas",
+      "ikon": "gift",
+      "hely": "Kaszásdűlői Kulturális Központ (3K)",
+      "terkep": "1033 Budapest, Pethe Ferenc tér 2.",
+      "rovid": "Mikulás-bábelőadás Óbudán.",
+      "idopontok": [
+        "2026-12-05 16:00"
+      ],
+      "link": "https://www.programturizmus.hu/ajanlat-mikulas-babszinhaz.html"
+    },
+    {
+      "id": "vaci-advent",
+      "cim": "Váci Advent",
+      "tipus": "unnep",
+      "unnep": "advent",
+      "ikon": "christmas-tree",
+      "megye": true,
+      "hely": "Vác, Főtér",
+      "terkep": "2600 Vác, Főtér",
+      "rovid": "Adventi vásár a Főtéren, szombatonként mesekuckóval, hétvégén esti fényfestéssel.",
+      "tol": "2026-11-27",
+      "ig": "2027-01-03",
+      "megj": "Gyertyagyújtás advent vasárnapjain 17 órakor, fényfestés hétvégén 17 és 21 óra között.",
+      "link": "https://www.programturizmus.hu/ajanlat-vaci-adventi-vasar-programok.html",
+      "kep": "https://cdn.programturizmus.hu/media/image/plakat/ajanlat/202611/18823-vaci-adventi-vasar-programok-091237.png",
+      "kepForras": "programturizmus.hu",
+      "kint": true
+    },
+    {
+      "id": "vac-mikulas",
+      "cim": "Mikulásfutás és Mikulás-bevonulás Vácon",
+      "tipus": "unnep",
+      "unnep": "mikulas",
+      "ikon": "gift",
+      "megye": true,
+      "hely": "Vác, Főtér",
+      "terkep": "2600 Vác, Főtér",
+      "rovid": "Reggel Mikulásfutás, este Mikulás-bevonulás a Főtéren.",
+      "idopontok": [
+        "2026-12-06 09:00",
+        "2026-12-06 17:30"
+      ],
+      "link": "https://www.programturizmus.hu/ajanlat-vaci-adventi-vasar-programok.html",
+      "kep": "https://cdn.programturizmus.hu/media/image/plakat/ajanlat/202611/18823-vaci-adventi-vasar-programok-091237.png",
+      "kepForras": "programturizmus.hu",
+      "kint": true
+    },
+    {
+      "id": "vac-luca",
+      "cim": "Luca-szék-faragás Vácon",
+      "tipus": "hobbi",
+      "ag": "Kézművesség",
+      "unnep": "advent",
+      "ikon": "candle",
+      "megye": true,
+      "hely": "Elefántos ház, Vác",
+      "terkep": "Elefántos ház, Vác",
+      "rovid": "Luca-napi kézműves délután a Váci Advent programjában.",
+      "idopontok": [
+        "2026-12-12 14:00"
+      ],
+      "link": "https://www.programturizmus.hu/ajanlat-vaci-adventi-vasar-programok.html"
+    },
+    {
+      "id": "budaors-advent",
+      "cim": "Budaörsi Advent",
+      "tipus": "unnep",
+      "unnep": "advent",
+      "ikon": "candle",
+      "megye": true,
+      "hely": "Budaörs, Templom tér",
+      "terkep": "Budaörs, Templom tér",
+      "rovid": "Adventi programsorozat koncertekkel, vásárral és szombati gyertyagyújtással.",
+      "tol": "2026-11-28",
+      "ig": "2026-12-21",
+      "megj": "Gyertyagyújtás november 28-án, december 5-én, 12-én és 19-én 18 órakor a Templom téren. Minden program ingyenes.",
+      "ing": true,
+      "link": "https://www.programturizmus.hu/ajanlat-budaorsi-advent.html",
+      "kep": "https://cdn.programturizmus.hu/media/image/show/ajanlat/202611/13342-budaorsi-advent-155100.jpg",
+      "kepForras": "programturizmus.hu",
+      "kint": true
+    },
+    {
+      "id": "budaors-csaladi",
+      "cim": "Családi napok a Budaörsi Adventen",
+      "tipus": "unnep",
+      "unnep": "advent",
+      "ikon": "gift",
+      "megye": true,
+      "hely": "Budaörs",
+      "terkep": "Budaörs",
+      "rovid": "December 6-án mesekoncert, bábelőadás, mézeskalácssütés, állatsimogató és pónilovaglás, 13-án egész napos Budaörs Karácsonya.",
+      "idopontok": [
+        "2026-12-06",
+        "2026-12-13 11:00"
+      ],
+      "ing": true,
+      "link": "https://www.programturizmus.hu/ajanlat-budaorsi-advent.html",
+      "kep": "https://cdn.programturizmus.hu/media/image/show/ajanlat/202611/13342-budaorsi-advent-155100.jpg",
+      "kepForras": "programturizmus.hu"
+    },
+    {
+      "id": "biatorbagy-angyalfia",
+      "cim": "Angyalfia vásár Biatorbágyon",
+      "tipus": "unnep",
+      "unnep": "advent",
+      "ikon": "christmas-tree",
+      "megye": true,
+      "hely": "Biatorbágy, Faluház és Baross utca",
+      "terkep": "Biatorbágy, Baross Gábor utca",
+      "rovid": "Adventi vásár körhintával és workshopokkal, vasárnap 16:30-kor gyertyagyújtással.",
+      "idopontok": [
+        "2026-12-12 10:00",
+        "2026-12-13 10:00"
+      ],
+      "link": "https://www.programturizmus.hu/ajanlat-advent-biatorbagy.html",
+      "kint": true
+    },
+    {
+      "id": "medveotthon-advent",
+      "cim": "Adventi vasárnapok a Medveotthonban",
+      "tipus": "unnep",
+      "unnep": "advent",
+      "ikon": "paw",
+      "megye": true,
+      "hely": "Veresegyházi Medveotthon",
+      "terkep": "Veresegyházi Medveotthon",
+      "rovid": "Adventi programok a Veresegyházi Medveotthonban.",
+      "idopontok": [
+        "2026-11-29",
+        "2026-12-06",
+        "2026-12-13"
+      ],
+      "link": "https://www.programturizmus.hu/ajanlat-adventi-program-veresegyhazi-medveotthon.html",
+      "kint": true
+    },
+    {
+      "id": "veresegyhaz-mikulas",
+      "cim": "Mikulás a kisvonaton, Veresegyház",
+      "tipus": "unnep",
+      "unnep": "mikulas",
+      "ikon": "train",
+      "megye": true,
+      "hely": "Veresegyház",
+      "terkep": "Veresegyház",
+      "rovid": "Mikulásos kisvonatozás Veresegyházon.",
+      "idopontok": [
+        "2026-12-05 16:00"
+      ],
+      "link": "https://www.programturizmus.hu/ajanlat-veresegyhaz-mikulas.html",
+      "kint": true
+    },
+    {
+      "id": "godollo-mikulas",
+      "cim": "Mikulás Gödöllőn",
+      "tipus": "unnep",
+      "unnep": "mikulas",
+      "ikon": "gift",
+      "megye": true,
+      "hely": "Gödöllő",
+      "terkep": "Gödöllői Királyi Kastély",
+      "rovid": "Mikulás-nap Gödöllőn, kora estétől a kastélypark fényeivel.",
+      "idopontok": [
+        "2026-12-06"
+      ],
+      "link": "https://www.programturizmus.hu/ajanlat-mikulas-godollo.html"
     }
   ]
 }
