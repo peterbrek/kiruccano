@@ -1,5 +1,5 @@
 {
-  "frissitve": "2026-11-19",
+  "frissitve": "2026-11-26",
   "esemenyek": [
     {
       "id": "gombtanc",
@@ -57,7 +57,6 @@
       "kor": "5–9 év",
       "ar": "2 500 Ft",
       "idopontok": [
-        "2026-11-21 11:00",
         "2026-12-05 11:00",
         "2027-01-16"
       ],
@@ -76,7 +75,6 @@
       "ar": "Ingyenes",
       "ing": true,
       "idopontok": [
-        "2026-11-22 10:00",
         "2026-11-29 10:00",
         "2026-12-06 10:00",
         "2026-12-13 10:00",
@@ -126,8 +124,6 @@
       "kor": "7–10 év",
       "ar": "4 300–5 000 Ft",
       "idopontok": [
-        "2026-11-22 10:00",
-        "2026-11-22 15:00",
         "2026-12-12 10:00",
         "2026-12-12 15:00",
         "2026-12-20 15:00"
@@ -179,8 +175,6 @@
       "rovid": "Zenés mesejáték.",
       "ar": "4 300–5 000 Ft",
       "idopontok": [
-        "2026-11-21 10:00",
-        "2026-11-21 15:00",
         "2026-12-29 10:00",
         "2026-12-29 15:00"
       ],
@@ -231,7 +225,6 @@
       "rovid": "David Walliams regénye bábokkal: Ben rájön, hogy a nagyijának titkai vannak. 120 perc, egy szünettel.",
       "kor": "10 éves kortól",
       "idopontok": [
-        "2026-11-19 15:00",
         "2026-12-03 15:00",
         "2026-12-04 15:00",
         "2026-12-29 18:00"
@@ -239,69 +232,6 @@
       "link": "https://babszinhaz.jegy.hu/program/gengszter-nagyi-72243",
       "kep": "https://budapestbabszinhaz.hu/uploads/shows/de8bbbe5e4abcf40e8448b73b50ffc07",
       "kepForras": "Budapest Bábszínház"
-    },
-    {
-      "id": "kerekutca",
-      "cim": "Kerekutca",
-      "tipus": "szinhaz",
-      "hely": "Hagyományok Háza",
-      "terkep": "1011 Budapest, Corvin tér 8.",
-      "rovid": "Mesejáték Paár Julcsi és a Fitos Dezső Társulat előadásában.",
-      "idopontok": [
-        "2026-11-22 11:00"
-      ],
-      "link": "https://szelforgo.jegy.hu/program/paar-julcsi-es-a-fitos-dezso-tarsulat-kerekutca-mesejatek-144276/1503334"
-    },
-    {
-      "id": "biro-eszter",
-      "cim": "Bíró Eszter: Adventi kalandok",
-      "tipus": "zene",
-      "hely": "Müpa, Üvegterem",
-      "terkep": "1095 Budapest, Komor Marcell utca 1.",
-      "rovid": "Interaktív családi műsor téli szokásokról, dalokkal és játékkal.",
-      "kor": "3–8 év",
-      "ar": "2 900 Ft",
-      "idopontok": [
-        "2026-11-21 11:00",
-        "2026-11-21 12:30"
-      ],
-      "link": "https://mupa.hu/en/program/family-and-youth-events/eszter-biro-advent-adventures-2026-11-21_11-00-glass-hall",
-      "kep": "https://mupa.hu/storage/media/110271/conversions/27196_adventi_kalandok_221203_01-full-width-hero.webp",
-      "kepForras": "Müpa"
-    },
-    {
-      "id": "elvarazsolt",
-      "cim": "Az elvarázsolt menyasszony",
-      "tipus": "zene",
-      "hely": "Müpa, Bartók Béla Nemzeti Hangversenyterem",
-      "terkep": "1095 Budapest, Komor Marcell utca 1.",
-      "rovid": "Mesekoncert: a Nemzeti Énekkar és a Danubia Zenekar mesél egy szegény ember három fiáról.",
-      "ar": "3 000–5 000 Ft",
-      "idopontok": [
-        "2026-11-22 11:00"
-      ],
-      "link": "https://mupa.hu/en/program/family-and-youth-events/the-enchanted-bride-2026-11-22_11-00-bela-bartok-national-concert-hall",
-      "kor": "6–12 év",
-      "kep": "https://mupa.hu/storage/media/110841/conversions/32458_mupa_matine_az_elvarazsolt_menyasszony_261122_02-full-width-hero.webp",
-      "kepForras": "Müpa"
-    },
-    {
-      "id": "orgona",
-      "cim": "Családi OrgonaExpedíció",
-      "tipus": "zene",
-      "hely": "Müpa, Bartók Béla Nemzeti Hangversenyterem",
-      "terkep": "1095 Budapest, Komor Marcell utca 1.",
-      "rovid": "Barangolás a sípok birodalmában, a Müpa nagy orgonájánál.",
-      "ar": "2 000 Ft",
-      "idopontok": [
-        "2026-11-22 16:00",
-        "2026-11-22 17:00"
-      ],
-      "link": "https://www.jegy.hu/program/csaladi-orgonaexpedicio-172680",
-      "kor": "5–10 év",
-      "leiras": "A 16 órás alkalomra a jegy.hu szerint elfogytak a jegyek.",
-      "kep": "https://pb2.programinfo.hu/imgs/system-4/program/000/172/680/csaladi-orgonaexpedicio-474-279-255052.webp",
-      "kepForras": "jegy.hu"
     },
     {
       "id": "toldi",
@@ -482,7 +412,6 @@
       "rovid": "Bábelőadás egy Kalle nevű trollról a fjordok vidékén. 55 perc, szünet nélkül.",
       "kor": "6 éves kortól",
       "idopontok": [
-        "2026-11-22 14:00",
         "2026-12-11 14:00",
         "2026-12-30 14:00"
       ],
@@ -531,7 +460,6 @@
       "ar": "Ingyenes",
       "ing": true,
       "idopontok": [
-        "2026-11-22 12:00",
         "2026-12-20 12:00"
       ],
       "link": "https://mupa.hu/programok/csaladi-es-ifjusagi-programok/programtipusok/hetedhet-tanchaz",
@@ -593,22 +521,6 @@
       "link": "https://azilluziomesterei.hu/budapest-2026/"
     },
     {
-      "id": "kincsem-galopp",
-      "cim": "Galoppverseny a Kincsem Parkban",
-      "tipus": "lovas",
-      "ag": "Galopp",
-      "hely": "Kincsem Park",
-      "terkep": "1101 Budapest, Albertirsai út 2-4.",
-      "rovid": "Versenynap galoppfutamokkal.",
-      "idopontok": [
-        "2026-11-22"
-      ],
-      "link": "https://kincsempark.hu/versenynaptar/",
-      "kep": "https://cdn.programturizmus.hu/media/image/show/ajanlat/19007-kincsem-park-program-jegy.jpg",
-      "kepForras": "programturizmus.hu",
-      "kint": true
-    },
-    {
       "id": "kincsem-ugeto",
       "cim": "Ügetőverseny a Kincsem Parkban",
       "tipus": "lovas",
@@ -620,22 +532,6 @@
         "2026-12-05",
         "2026-12-12",
         "2026-12-19"
-      ],
-      "link": "https://kincsempark.hu/versenynaptar/",
-      "kep": "https://cdn.programturizmus.hu/media/image/show/ajanlat/19007-kincsem-park-program-jegy.jpg",
-      "kepForras": "programturizmus.hu",
-      "kint": true
-    },
-    {
-      "id": "kincsem-agar-ugeto",
-      "cim": "Agár- és ügetőverseny",
-      "tipus": "lovas",
-      "ag": "Ügető, agár",
-      "hely": "Kincsem Park",
-      "terkep": "1101 Budapest, Albertirsai út 2-4.",
-      "rovid": "Egy napon agárfutamok és ügetőversenyek.",
-      "idopontok": [
-        "2026-11-21"
       ],
       "link": "https://kincsempark.hu/versenynaptar/",
       "kep": "https://cdn.programturizmus.hu/media/image/show/ajanlat/19007-kincsem-park-program-jegy.jpg",
@@ -731,23 +627,6 @@
       "link": "https://www.jegy.hu/program/katonadolog-a-sorkatonasag-emlekezete-195511"
     },
     {
-      "id": "kockafeszt",
-      "cim": "KockaFeszt",
-      "tipus": "kiallitas",
-      "ikon": "lego",
-      "hely": "Békásmegyeri Közösségi Ház",
-      "terkep": "1039 Budapest, Csobánka tér 5.",
-      "rovid": "LEGO-kiállítás, több százezer kockával szabad építéshez.",
-      "ar": "2 050–5 900 Ft",
-      "idopontok": [
-        "2026-11-21",
-        "2026-11-22"
-      ],
-      "link": "https://www.programturizmus.hu/ajanlat-kockafeszt.html",
-      "kep": "https://cdn.programturizmus.hu/media/image/show/ajanlat/21701-kockafeszt.png",
-      "kepForras": "programturizmus.hu"
-    },
-    {
       "id": "polaris-bemutato",
       "cim": "Csillagászati bemutató a Polarisban",
       "tipus": "hobbi",
@@ -757,26 +636,11 @@
       "terkep": "Polaris Csillagvizsgáló, Budapest",
       "rovid": "Távcsöves bemutató egy óbudai csillagvizsgálóban.",
       "idopontok": [
-        "2026-11-19",
-        "2026-11-24",
         "2026-11-26"
       ],
       "link": "https://www.programturizmus.hu/partner-polaris-csillagvizsgalo.html",
       "kep": "https://cdn.programturizmus.hu/media/image/show/partner/latnivalo/csillagda/28/7192-polaris-csillagvizsgalo.jpg",
       "kepForras": "programturizmus.hu"
-    },
-    {
-      "id": "godollo-erzsebet-nap",
-      "cim": "Erzsébet-nap a Gödöllői Királyi Kastélyban",
-      "tipus": "unnep",
-      "hely": "Gödöllői Királyi Kastély",
-      "terkep": "Gödöllői Királyi Kastély",
-      "megye": true,
-      "rovid": "Sisi névnapi ünnepe a kastélyban.",
-      "idopontok": [
-        "2026-11-21"
-      ],
-      "link": "https://kiralyikastely.hu/erzsebet-nap.html"
     },
     {
       "id": "godollo-szoszmotolo",
@@ -805,21 +669,6 @@
         "2026-12-28 14:00"
       ],
       "link": "https://kiralyikastely.hu/mesedelutan-a-kastelyban.html"
-    },
-    {
-      "id": "bab-heraklesz",
-      "cim": "Helló, Héraklész!",
-      "tipus": "szinhaz",
-      "hely": "Budapest Bábszínház",
-      "terkep": "1062 Budapest, Andrássy út 69.",
-      "rovid": "Bábelőadás 10 éves kortól a Budapest Bábszínházban.",
-      "kor": "10 éves kortól",
-      "idopontok": [
-        "2026-11-22 10:30"
-      ],
-      "link": "https://budapestbabszinhaz.hu/eloadasok/10-hello-heraklesz!",
-      "kep": "https://budapestbabszinhaz.hu/uploads/shows/1864b2678e9d66f9f5d58ecc1837ac0b",
-      "kepForras": "Budapest Bábszínház"
     },
     {
       "id": "bab-csaturanga",
@@ -914,36 +763,6 @@
       "kepForras": "programturizmus.hu"
     },
     {
-      "id": "szinezd-ujra-mng",
-      "cim": "Színezd újra! Múzeumi műhely gyerekeknek",
-      "tipus": "hobbi",
-      "ag": "Képzőművészet",
-      "hely": "Magyar Nemzeti Galéria",
-      "terkep": "1014 Budapest, Szent György tér 2.",
-      "rovid": "Másfél órás műhely kiállítótéri sétával és alkotással, 6–12 éveseknek, kísérő nélkül.",
-      "kor": "6–12 év",
-      "ar": "2 500 Ft",
-      "idopontok": [
-        "2026-11-25 16:00"
-      ],
-      "link": "https://www.programturizmus.hu/ajanlat-kreativ-szakkor-budapest.html",
-      "kep": "https://mng.hu/app/uploads/2024/12/SZU_1920-x-770.jpg",
-      "kepForras": "Magyar Nemzeti Galéria"
-    },
-    {
-      "id": "csaladi-nap-mng",
-      "cim": "Családi nap: Munkácsy Mihály nyomában",
-      "tipus": "hobbi",
-      "ag": "Képzőművészet",
-      "hely": "Magyar Nemzeti Galéria",
-      "terkep": "1014 Budapest, Szent György tér 2.",
-      "rovid": "Családi nap a Magyar Nemzeti Galériában.",
-      "idopontok": [
-        "2026-11-21"
-      ],
-      "link": "https://www.programturizmus.hu/ajanlat-magyar-nemzeti-galeria-programok.html"
-    },
-    {
       "id": "kastelylurkok",
       "cim": "Kastélylurkók Klubja",
       "tipus": "hobbi",
@@ -970,10 +789,6 @@
       "terkep": "1121 Budapest, Konkoly Thege Miklós út 15-17.",
       "rovid": "Távcsöves bemutatók, novemberben főleg a Szaturnusz gyűrűjével és a Hold krátereivel.",
       "idopontok": [
-        "2026-11-19",
-        "2026-11-20",
-        "2026-11-21",
-        "2026-11-22",
         "2026-11-26",
         "2026-11-27",
         "2026-11-28",
@@ -994,8 +809,6 @@
       "rovid": "Az FTC-Telekom hazai ICEHL-mérkőzései a Tüskecsarnokban.",
       "leiras": "Ellenfelek: november 20. HCB Südtirol, november 25. Linz, november 29. Innsbruck, december 6. Milano, december 18. Pustertal, december 20. VSV. Mind ICEHL alapszakasz-mérkőzés.",
       "idopontok": [
-        "2026-11-20 18:30",
-        "2026-11-25 18:30",
         "2026-11-29 17:30",
         "2026-12-06 15:30",
         "2026-12-18 18:30",
@@ -1003,20 +816,6 @@
         "2026-12-30 18:30"
       ],
       "link": "https://www.fradi.hu/en/ice-hockey"
-    },
-    {
-      "id": "ftc-kezilabda",
-      "cim": "FTC hazai kézilabdameccsek",
-      "tipus": "sport",
-      "ag": "Kézilabda",
-      "hely": "Elek Gyula Aréna",
-      "terkep": "Elek Gyula Aréna, Budapest",
-      "rovid": "Az FTC női és férfi csapatának hazai bajnoki mérkőzései.",
-      "leiras": "November 11.: FTC-Toyota Kovács – Alba Fehérvár KC (női). November 21.: Ferencvárosi TC – Balatonfüredi KSE (férfi).",
-      "idopontok": [
-        "2026-11-21 18:00"
-      ],
-      "link": "https://www.fradi.hu/esemenyek"
     },
     {
       "id": "kakaokoncert",
@@ -1041,21 +840,6 @@
       "kepForras": "jegy.hu"
     },
     {
-      "id": "barokk-utazas",
-      "cim": "Barokk utazás: családi koncert",
-      "tipus": "zene",
-      "ag": "Komolyzene",
-      "hely": "Bartók Béla Emlékház",
-      "terkep": "Budapest, Csalán út 29.",
-      "rovid": "A Bacchus Consort családi koncertje korabeli hangszereken.",
-      "idopontok": [
-        "2026-11-21 11:00"
-      ],
-      "link": "https://www.programturizmus.hu/ajanlat-bartok-bela-emlekhaz-koncertek.html",
-      "kep": "https://cdn.programturizmus.hu/media/image/show/ajanlat/kulturalis-program/koncert-zene/komolyzene/2/561-bartok-bela-emlekhaz-koncertek.jpg",
-      "kepForras": "programturizmus.hu"
-    },
-    {
       "id": "zeneakademia-bejaras",
       "cim": "Zeneakadémia épületlátogatás",
       "tipus": "zene",
@@ -1066,7 +850,6 @@
       "leiras": "Az időpontokat a Zeneakadémia honlapja pontosítja. Hatéves kortól külön családi túra is van, Zenelabirintus néven.",
       "ar": "1 720–7 770 Ft, diákoknak 50% kedvezmény",
       "idopontok": [
-        "2026-11-21",
         "2026-11-27"
       ],
       "link": "https://www.programturizmus.hu/ajanlat-zeneakademia-epuletlatogatas.html",
@@ -1121,36 +904,6 @@
       "kint": true
     },
     {
-      "id": "kidexpo-2026",
-      "cim": "KidExpo Budapest",
-      "tipus": "kiallitas",
-      "hely": "Papp László Budapest Sportaréna",
-      "terkep": "Papp László Budapest Sportaréna, Budapest",
-      "rovid": "Kétnapos családi kiállítás játékújdonságokkal, tanulós és ünnepi programokkal.",
-      "tol": "2026-11-21",
-      "ig": "2026-11-22",
-      "megj": "Nyitvatartás és jegyárak a szervezőnél.",
-      "link": "https://www.programturizmus.hu/ajanlat-kidexpo-budapest.html",
-      "kep": "https://cdn.programturizmus.hu/media/image/list/ajanlat/9325-kidexpo-budapest.jpg",
-      "kepForras": "programturizmus.hu"
-    },
-    {
-      "id": "visegrad-lovagi-torna",
-      "cim": "Lovagi torna Visegrádon",
-      "tipus": "lovas",
-      "ag": "Lovagi torna",
-      "hely": "Visegrád",
-      "terkep": "Visegrád",
-      "megye": true,
-      "rovid": "Középkori lovagi torna Visegrádon, a programajánló szerint szombatonként.",
-      "idopontok": [
-        "2026-11-21"
-      ],
-      "link": "https://www.programturizmus.hu/ajanlat-lovagi-torna.html",
-      "kep": "https://cdn.programturizmus.hu/media/image/list/ajanlat/4660-lovagi-torna.jpg",
-      "kepForras": "programturizmus.hu"
-    },
-    {
       "id": "lovas-mikulas-erd",
       "cim": "Lovas Mikulás Simonpusztán",
       "tipus": "lovas",
@@ -1183,23 +936,6 @@
       ],
       "link": "https://www.programturizmus.hu/ajanlat-advent-visegrad.html",
       "kep": "https://cdn.programturizmus.hu/media/image/plakat/ajanlat/202610/19213-advent-visegrad-055020.jpg",
-      "kepForras": "programturizmus.hu"
-    },
-    {
-      "id": "tropicarium-etetes",
-      "cim": "Látványetetések a Tropicariumban",
-      "tipus": "kiallitas",
-      "hely": "Tropicarium",
-      "terkep": "Tropicarium, Budapest XXII. kerület",
-      "rovid": "Cápa- és rájaetetés csütörtökönként, kígyóetetés hétfőnként, varánuszetetés szerdánként.",
-      "idopontok": [
-        "2026-11-19 14:30",
-        "2026-11-23 14:00",
-        "2026-11-25 14:00"
-      ],
-      "megj": "A programajánló szerint hetente ismétlődnek.",
-      "link": "https://www.programturizmus.hu/ajanlat-capa-latvanyetetes-tropicarium.html",
-      "kep": "https://cdn.programturizmus.hu/media/image/list/ajanlat/csalad-gyerek/fedett-csaladi-programok/18/4783-capaetetes-budapest.jpg",
       "kepForras": "programturizmus.hu"
     },
     {
@@ -1316,6 +1052,28 @@
       "kepForras": "Kulturliget",
       "ar": "3 400–4 400 Ft",
       "kor": "6 éves kortól"
+    },
+    {
+      "id": "visegrad-lovagi-torna",
+      "cim": "Lovagi torna Visegrádon",
+      "tipus": "lovas",
+      "ag": "Lovagi torna",
+      "hely": "Salamon-torony, Visegrád",
+      "terkep": "Salamon-torony, Visegrád",
+      "megye": true,
+      "kint": true,
+      "rovid": "Élő középkori lovagi torna a visegrádi Salamon-toronynál, utána királyi lakoma a Renaissance Étteremben.",
+      "leiras": "12:00 találkozó a Salamon-torony bejáratánál és toronylátogatás, 12:30 lovagi torna a szabadtéri színpadon, 13:30 királyi lakoma. Foglalni a Renaissance Étteremben lehet.",
+      "ar": "Felnőtt 14 500 Ft, gyermek (3–14 év) 7 250 Ft",
+      "idopontok": [
+        "2026-11-28 12:00",
+        "2026-12-05 12:00",
+        "2026-12-12 12:00",
+        "2026-12-19 12:00"
+      ],
+      "link": "https://www.programturizmus.hu/ajanlat-lovagi-torna.html",
+      "kep": "https://cdn.programturizmus.hu/media/image/show/ajanlat/4660-lovagi-torna.jpg",
+      "kepForras": "programturizmus.hu"
     }
   ]
 }
