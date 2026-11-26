@@ -277,7 +277,9 @@
         "2026-12-06 09:30",
         "2026-12-06 12:00"
       ],
-      "link": "https://www.jegy.hu/program/notas-mikulas-gryllus-vilmos-koncertje-171235"
+      "link": "https://www.jegy.hu/program/notas-mikulas-gryllus-vilmos-koncertje-171235",
+      "kep": "https://pb2.jegy.hu/imgs/system-4/program/000/016/896/gryllus-vilmos-notas-mikulas-original-142445.jpg",
+      "kepForras": "jegy.hu"
     },
     {
       "id": "kazuka",
@@ -478,7 +480,11 @@
         "2026-11-28 11:00",
         "2026-12-19 11:00"
       ],
-      "link": "https://mupa.hu/programok/csaladi-es-ifjusagi-programok/programtipusok/mus-e"
+      "link": "https://mupa.hu/en/program/family-and-youth-events/mus-e-music-from-here-and-beyond-2026-12-19_11-00-stairway-hall",
+      "kor": "6–10 éves korig",
+      "kep": "https://mupa.hu/storage/media/110344/conversions/muse_2026_04-full-width-hero.webp",
+      "kepForras": "Müpa",
+      "leiras": "A december 19-i alkalom címe: Adventi hangolódás – zenés-táncos drámafoglalkozás."
     },
     {
       "id": "mikulas-ajandeka",
@@ -624,7 +630,9 @@
       "rovid": "Milyen volt katonának lenni? Kiállítás a sorkatonaság emlékeiből.",
       "tol": "2026-09-30",
       "ig": "2027-08-29",
-      "link": "https://www.jegy.hu/program/katonadolog-a-sorkatonasag-emlekezete-195511"
+      "link": "https://www.jegy.hu/program/katonadolog-a-sorkatonasag-emlekezete-195511",
+      "kep": "https://kep.cdn.index.hu/1/0/7191/71913/719135/71913591_5301105_4e3a280cb40a063b7877a8b62847ea12_wm.jpg",
+      "kepForras": "We Love Budapest"
     },
     {
       "id": "polaris-bemutato",
@@ -989,9 +997,13 @@
       "terkep": "1124 Budapest, Csörsz u. 18.",
       "rovid": "Karácsonyi koncert a 20 éves Farkasházi Réka és a Tintanyúl zenekarral.",
       "idopontok": [
-        "2026-12-13 11:00"
+        "2026-12-13 11:00",
+        "2026-12-13 14:30"
       ],
-      "link": "https://programturizmus.jegy.hu/program/unnep-hogyha-erzem-karacsonyi-koncert-farkashazi-reka-es-a-tintanyul-193538/1456639"
+      "link": "https://programturizmus.jegy.hu/program/unnep-hogyha-erzem-karacsonyi-koncert-farkashazi-reka-es-a-tintanyul-193538/1456639",
+      "ar": "4 580–9 200 Ft",
+      "kep": "https://pb2.jegy.hu/imgs/system-4/program/000/193/538/unnep-hogyha-erzem-karacsonyi-koncert-farkashazi-reka-es-a-tintanyul-original-288031.jpg",
+      "kepForras": "jegy.hu"
     },
     {
       "id": "diotoro-nektar",
@@ -1073,6 +1085,102 @@
       ],
       "link": "https://www.programturizmus.hu/ajanlat-lovagi-torna.html",
       "kep": "https://cdn.programturizmus.hu/media/image/show/ajanlat/4660-lovagi-torna.jpg",
+      "kepForras": "programturizmus.hu"
+    },
+    {
+      "id": "kockaland-lego",
+      "cim": "KocKaland LEGO-élmény",
+      "tipus": "kiallitas",
+      "hely": "KocKaland",
+      "terkep": "1136 Budapest, Hegedűs Gyula utca 17.",
+      "rovid": "Fedett családi játszóház és kiállítás eredeti LEGO-kockákból, több mint félmillió elemmel.",
+      "leiras": "Nyitva szerdától péntekig 16–20 óráig, szombaton és vasárnap 10–20 óráig. Hétfőn és kedden egyéni látogatóknak zárva.",
+      "kor": "3 éves kortól, 14 év alatt felnőtt kísérettel",
+      "ar": "Kombinált jegy (kiállítás és játszóház, 2 óra) 3 490 Ft-tól",
+      "tol": "2026-06-04",
+      "ig": "2026-12-31",
+      "zarva": [
+        1,
+        2
+      ],
+      "megj": "Szerda–péntek 16–20, hétvégén 10–20 óra.",
+      "link": "https://budappest.com/budapest-events/kockaland-lego-experience-in-budapest-interactive-playhouse-and-exhibition/",
+      "kep": "https://budappest.com/wp-content/uploads/2026/06/kockaland-budapest.png",
+      "kepForras": "BudAppest"
+    },
+    {
+      "id": "kockabaratok-lego-borze",
+      "cim": "Kockabarátok LEGO- és játékbörze",
+      "tipus": "hobbi",
+      "ag": "LEGO",
+      "hely": "Klauzál téri Vásárcsarnok",
+      "terkep": "1072 Budapest, Klauzál tér 11.",
+      "rovid": "LEGO- és játékbörze a Klauzál téri Vásárcsarnokban.",
+      "idopontok": [
+        "2026-12-12"
+      ],
+      "link": "https://www.programturizmus.hu/ajanlat-lego-vasar.html",
+      "kep": "https://cdn.programturizmus.hu/media/image/show/ajanlat/202611/36242-lego-vasar-083356.png",
+      "kepForras": "programturizmus.hu"
+    },
+    {
+      "id": "kockabaratok-angyalfold",
+      "cim": "Kockabarátok LEGO-vásár Angyalföldön",
+      "tipus": "hobbi",
+      "ag": "LEGO",
+      "hely": "Angyalföldi Gyermek- és Ifjúsági Ház",
+      "terkep": "1138 Budapest, Dagály utca 15/a",
+      "rovid": "Kockabarátok LEGO-vásár az Angyalföldi Gyermek- és Ifjúsági Házban.",
+      "idopontok": [
+        "2026-11-28",
+        "2026-11-29"
+      ],
+      "link": "https://www.programturizmus.hu/ajanlat-lego-vasar.html",
+      "kep": "https://cdn.programturizmus.hu/media/image/show/ajanlat/202611/36242-lego-vasar-083356.png",
+      "kepForras": "programturizmus.hu"
+    },
+    {
+      "id": "zenehaza-kakics-betlehem",
+      "cim": "Kákics zenekar: Nagyapám betleheme",
+      "tipus": "zene",
+      "ag": "Népzene",
+      "hely": "Magyar Zene Háza, koncertterem",
+      "terkep": "Magyar Zene Háza, Budapest",
+      "rovid": "Adventi családi koncert, amelyben a Kákics zenekar a falusi betlehemezés szokásait idézi meg különböző tájegységek dalaival.",
+      "ar": "3 700 Ft",
+      "idopontok": [
+        "2026-12-19 10:30"
+      ],
+      "link": "https://zenehaza.hu/en/occasion/kakics-band-my-grandfathers-christmas",
+      "kep": "https://zenehaza.hu/storage/38078/K%C3%A1kics-zenekar-%281%29.jpg",
+      "kepForras": "Magyar Zene Háza"
+    },
+    {
+      "id": "bab-pettson",
+      "cim": "Pettson és Findusz",
+      "tipus": "szinhaz",
+      "hely": "Budapest Bábszínház",
+      "terkep": "1062 Budapest, Andrássy út 69.",
+      "rovid": "Gyerekelőadás a Budapest Bábszínházban karácsony délelőttjén.",
+      "idopontok": [
+        "2026-12-24 11:00"
+      ],
+      "link": "https://budapestbabszinhaz.hu/en/shows/113-pettson-es-findusz"
+    },
+    {
+      "id": "ocsa-kocka-tarsasjatek",
+      "cim": "Kocka és Társasjáték Klub",
+      "tipus": "hobbi",
+      "ag": "Társasjáték",
+      "hely": "Ócsa",
+      "terkep": "Ócsa",
+      "megye": true,
+      "rovid": "Kocka- és társasjátékklub Ócsán.",
+      "idopontok": [
+        "2026-12-12"
+      ],
+      "link": "https://www.programturizmus.hu/ajanlat-kocka-es-tarsasjatek-klub-ocsa.html",
+      "kep": "https://cdn.programturizmus.hu/media/image/list/ajanlat/202609/40006-kocka-es-tarsasjatek-klub-ocsa-090220.jpg",
       "kepForras": "programturizmus.hu"
     }
   ]
